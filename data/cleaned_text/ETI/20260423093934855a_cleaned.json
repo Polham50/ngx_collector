@@ -12,7 +12,7 @@
       "chairman_statement": 2734,
       "ceo_review": 4213,
       "operating_review": 2750,
-      "outlook": 542,
+      "outlook": 1171,
       "governance": 0,
       "extraction_status": 2
     }
@@ -47,14 +47,34 @@
       "compression": 2.2
     },
     "outlook": {
-      "text": "Outlook for 2025 In 2025, Ecobank will continue to strengthen its risk management ecosystem through strategic investments in predictive analytics, early warning systems and dynamic risk modelling. As the operating environment remains shaped by persistent inflation, currency volatility and shifting regulatory expectations, we will deepen scenario-based planning and stress testing to ensure robust capital and liquidity management. Seamless connectivity across the Group's digital platforms will remain central to enhancing real-time",
-      "quality": "poor",
-      "char_count": 534,
-      "original_len": 542,
-      "compression": 1.5
+      "text": "Outlook for 2025 In 2025, Ecobank will continue to strengthen its risk management ecosystem through strategic investments in predictive analytics, early warning systems and dynamic risk modelling. As the operating environment remains shaped by persistent inflation, currency volatility and shifting regulatory expectations, we will deepen scenario-based planning and stress testing to ensure robust capital and liquidity management. Seamless connectivity across the Group's digital platforms will remain central to enhancing real-time risk intelligence and reporting. We will expand our cybersecurity capabilities in line with emerging threats, further automate operational risk controls, and reinforce compliance infrastructure across high-risk jurisdictions. Building on our diversified footprint and integrated control framework, Ecobank is well-positioned to manage emerging risks while supporting sustainable business growth. Our focus in the year ahead will be on embedding agility into risk governance, ensuring we respond proactively to change while preserving value for all stakeholders.\n\nSection 5 Business and Financial Review Section 6",
+      "quality": "good",
+      "char_count": 1147,
+      "original_len": 1171,
+      "compression": 2.0
     }
   },
   "passages": [
+    {
+      "passage_id": "ETI_Unknown_outlook_0_0",
+      "ticker": "ETI",
+      "company": "ETI",
+      "sector": "Banking",
+      "year": "Unknown",
+      "doc_type": "manual_pdf",
+      "section": "outlook",
+      "text": "Outlook for 2025 In 2025, Ecobank will continue to strengthen its risk management ecosystem through strategic investments in predictive analytics, early warning systems and dynamic risk modelling. As the operating environment remains shaped by persistent inflation, currency volatility and shifting regulatory expectations, we will deepen scenario-based planning and stress testing to ensure robust capital and liquidity management. Seamless connectivity across the Group's digital platforms will remain central to enhancing real-time risk intelligence and reporting. We will expand our cybersecurity capabilities in line with emerging threats, further automate operational risk controls, and reinforce compliance infrastructure across high-risk jurisdictions. Building on our diversified footprint and integrated control framework, Ecobank is well-positioned to manage emerging risks while supporting sustainable business growth. Our focus in the year ahead will be on embedding agility into risk governance, ensuring we respond proactively to change while preserving value for all stakeholders.",
+      "word_count": 144,
+      "quality": "good",
+      "sentiment_label": null,
+      "sentiment_intensity": null,
+      "has_guidance": null,
+      "guidance_type": null,
+      "guidance_span": null,
+      "annotator": null,
+      "annotation_notes": null,
+      "annotation_status": "pending"
+    },
     {
       "passage_id": "ETI_Unknown_chairman_statement_1_0",
       "ticker": "ETI",
@@ -176,7 +196,7 @@
       "annotation_status": "pending"
     }
   ],
-  "passage_count": 6,
-  "good_passages": 4,
-  "processed_at": "2026-06-18T22:22:05.258557"
+  "passage_count": 7,
+  "good_passages": 5,
+  "processed_at": "2026-06-18T22:29:19.505891"
 }

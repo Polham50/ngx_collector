@@ -318,8 +318,8 @@ def extract_section(text: str, start_markers: list, end_markers: list,
 
     for marker in start_markers:
         # Allow marker at the very beginning or preceded by newline
-        # Ensure it's a header line (relatively short, ends with newline)
-        pattern = re.compile(r'(?:^|\n)\s*' + re.escape(marker.lower()) + r'[^\n]{0,60}(?:\n|$)')
+        # Ensure it's a header line: relatively short, ends with newline, and does NOT contain a period after the marker
+        pattern = re.compile(r'(?:^|\n)\s*' + re.escape(marker.lower()) + r'[^\n\.]{0,60}(?:\n|$)')
         match = pattern.search(text_lower)
         if match:
             # We want to capture starting from the actual text, not the newline preceding it.
@@ -334,7 +334,8 @@ def extract_section(text: str, start_markers: list, end_markers: list,
     search_from = start_pos + 50  # skip the header itself
 
     for marker in end_markers:
-        pattern = re.compile(r'\n\s*' + re.escape(marker.lower()))
+        # Same rule for end markers: must be a standalone header line without a period
+        pattern = re.compile(r'\n\s*' + re.escape(marker.lower()) + r'[^\n\.]{0,60}(?:\n|$)')
         match = pattern.search(text_lower, search_from)
         if match and match.start() < end_pos:
             end_pos = match.start()

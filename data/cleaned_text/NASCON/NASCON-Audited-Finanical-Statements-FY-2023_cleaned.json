@@ -12,7 +12,7 @@
       "chairman_statement": 1445,
       "ceo_review": 20716,
       "operating_review": 0,
-      "outlook": 1180,
+      "outlook": 0,
       "governance": 0,
       "extraction_status": 2
     }
@@ -45,34 +45,12 @@
       "char_count": 0
     },
     "outlook": {
-      "text": "prospects. Key highlights include: • General Requirements: The policy covers the disclosure of sustainability and climate-related risks affecting Zenith's prospects, to be included in financial reports and aligned with the Bank's reporting cycle. It covers scope of application, reporting entity, location of disclosures, timing of reporting, frequency of reporting and events after reporting date. Comparative information is required in the second year of aligning with the standards and the bank is required to make a statement of compliance with IFRS standards. • Presentation and Disclosure: Material information on sustainability risks and opportunities is required and materiality assessment is guided by the IFRS and SASB standards. The policy contains guidance on identifying material information, annual materiality re-assessments, aggregation and disaggregation of information, interaction with law and regulations, treating commercially sensitive information, achieving fair representation, presentation of connected information and cross referencing. • Climate-Related Disclosures: Zenith recognises exposure to both physical and transition climate",
-      "quality": "good",
-      "char_count": 1160,
-      "original_len": 1180,
-      "compression": 1.7
+      "text": "",
+      "quality": "empty",
+      "char_count": 0
     }
   },
   "passages": [
-    {
-      "passage_id": "NASCON_Unknown_outlook_0_0",
-      "ticker": "NASCON",
-      "company": "NASCON",
-      "sector": "Consumer Goods",
-      "year": "Unknown",
-      "doc_type": "manual_pdf",
-      "section": "outlook",
-      "text": "prospects. Key highlights include: • General Requirements: The policy covers the disclosure of sustainability and climate-related risks affecting Zenith's prospects, to be included in financial reports and aligned with the Bank's reporting cycle. It covers scope of application, reporting entity, location of disclosures, timing of reporting, frequency of reporting and events after reporting date. Comparative information is required in the second year of aligning with the standards and the bank is required to make a statement of compliance with IFRS standards. • Presentation and Disclosure: Material information on sustainability risks and opportunities is required and materiality assessment is guided by the IFRS and SASB standards. The policy contains guidance on identifying material information, annual materiality re-assessments, aggregation and disaggregation of information, interaction with law and regulations, treating commercially sensitive information, achieving fair representation, presentation of connected information and cross referencing. • Climate-Related Disclosures: Zenith recognises exposure to both physical and transition climate",
-      "word_count": 152,
-      "quality": "good",
-      "sentiment_label": null,
-      "sentiment_intensity": null,
-      "has_guidance": null,
-      "guidance_type": null,
-      "guidance_span": null,
-      "annotator": null,
-      "annotation_notes": null,
-      "annotation_status": "pending"
-    },
     {
       "passage_id": "NASCON_Unknown_chairman_statement_0_0",
       "ticker": "NASCON",
@@ -374,7 +352,7 @@
       "annotation_status": "pending"
     }
   ],
-  "passage_count": 16,
-  "good_passages": 7,
-  "processed_at": "2026-06-18T22:22:36.474300"
+  "passage_count": 15,
+  "good_passages": 6,
+  "processed_at": "2026-06-18T22:29:49.920201"
 }

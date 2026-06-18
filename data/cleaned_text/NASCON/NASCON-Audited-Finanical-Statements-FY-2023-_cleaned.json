@@ -12,7 +12,7 @@
       "chairman_statement": 25000,
       "ceo_review": 25000,
       "operating_review": 0,
-      "outlook": 3209,
+      "outlook": 0,
       "governance": 0,
       "extraction_status": 2
     }
@@ -45,54 +45,12 @@
       "char_count": 0
     },
     "outlook": {
-      "text": "outlook for 2025 is cautiously optimistic. APPRECIATION The year 2024 was a challenging but successful year for us as a Bank. Our outstanding performance in the year was possible because of the collective efforts of all our stakeholders. I am particularly grateful to our customers for the unwavering loyalty, our staff and Management for the continued dedication and commitment, and our Board for consistently guiding the Bank along the path of sustained growth and prosperity. I welcome you to the 2025 financial year with the firm assurance of continuous excellent performance by our Bank. Thank you. JIM OVIA, CFR Founder and Chairman Zenith Bank Plc Annual Report - 31 December 2024\n\nI am pleased to welcome our highly distinguished shareholders to the 2024 Annual General Meeting, The past financial year was marked by significant global disruptions, driven largely by escalating geopolitical tensions that reshaped trade dynamics, dampened investment, and strained international relations. These challenges disrupted supply chains, heightened inflationary pressure, and constrained economic growth - particularly in advanced markets - while exacerbating debt burdens in frontier and emerging economies. Specifically, China's economic slowdown, persistent Russia-Ukraine conflict, prolonged US-China trade disputes, instability in the Middle East, security concerns in the Sahel region and environmental issues that increased natural disasters and affected food security collectively shaped the global economic trajectory. According to the International Monetary Fund (IMF), global economic growth was estimated at 3.2 per cent in 2024, reflecting a marginal decline from 3.3 per cent in 2023. In 2024, the Nigerian economy faced multiple headwinds, notably the unprecedented hike in Premium Motor Spirit (PMS) price and the 62.75 per cent depreciation in exchange rate to N1,549/$1 in 2024 from N951.79/$1 in December 2023, which impacted business operational costs and strained consumer purchasing power. The Nigerian government continued with the implementation of some significant reforms in a bid to stabilize the economy. Interventions were considered necessary to avert a fiscal crisis and place the country on a stronger development trajectory. Interestingly, certain positive results were beginning to show at the macroeconomic level. For instance, growth remained modest overall as oil sector output stabilized and activity in some services sector had been robust. The country's economy experienced an upward trajectory through 2024, higher than the 2023 growth. The National Bureau of Statistics (NBS) reports that the Gross Domestic Product (GDP) grew by 3.4 per cent in 2024, an increase from the 2.71 per cent growth recorded in 2023. This performance was driven mainly by sustained non-oil sector. DAME DR. ADAORA UMEOJI, OON Group Managing Director/Chief Executive Officer Zenith Bank Plc Annual Report - 31 December 2024 GMD/CEO's Review\n\nThe country's fiscal position also improved, with the Federal Government's fiscal deficit narrowing to slightly above 4 per cent from 6.2 per cent in 2023, helping to mitigate debt-related",
-      "quality": "good",
-      "char_count": 3150,
-      "original_len": 3209,
-      "compression": 1.8
+      "text": "",
+      "quality": "empty",
+      "char_count": 0
     }
   },
   "passages": [
-    {
-      "passage_id": "NASCON_Unknown_outlook_0_0",
-      "ticker": "NASCON",
-      "company": "NASCON",
-      "sector": "Consumer Goods",
-      "year": "Unknown",
-      "doc_type": "manual_pdf",
-      "section": "outlook",
-      "text": "outlook for 2025 is cautiously optimistic. APPRECIATION The year 2024 was a challenging but successful year for us as a Bank. Our outstanding performance in the year was possible because of the collective efforts of all our stakeholders. I am particularly grateful to our customers for the unwavering loyalty, our staff and Management for the continued dedication and commitment, and our Board for consistently guiding the Bank along the path of sustained growth and prosperity. I welcome you to the 2025 financial year with the firm assurance of continuous excellent performance by our Bank. Thank you. JIM OVIA, CFR Founder and Chairman Zenith Bank Plc Annual Report - 31 December 2024",
-      "word_count": 111,
-      "quality": "good",
-      "sentiment_label": null,
-      "sentiment_intensity": null,
-      "has_guidance": null,
-      "guidance_type": null,
-      "guidance_span": null,
-      "annotator": null,
-      "annotation_notes": null,
-      "annotation_status": "pending"
-    },
-    {
-      "passage_id": "NASCON_Unknown_outlook_1_0",
-      "ticker": "NASCON",
-      "company": "NASCON",
-      "sector": "Consumer Goods",
-      "year": "Unknown",
-      "doc_type": "manual_pdf",
-      "section": "outlook",
-      "text": "I am pleased to welcome our highly distinguished shareholders to the 2024 Annual General Meeting, The past financial year was marked by significant global disruptions, driven largely by escalating geopolitical tensions that reshaped trade dynamics, dampened investment, and strained international relations. These challenges disrupted supply chains, heightened inflationary pressure, and constrained economic growth - particularly in advanced markets - while exacerbating debt burdens in frontier and emerging economies. Specifically, China's economic slowdown, persistent Russia-Ukraine conflict, prolonged US-China trade disputes, instability in the Middle East, security concerns in the Sahel region and environmental issues that increased natural disasters and affected food security collectively shaped the global economic trajectory. According to the International Monetary Fund (IMF), global economic growth was estimated at 3.2 per cent in 2024, reflecting a marginal decline from 3.3 per cent in 2023. In 2024, the Nigerian economy faced multiple headwinds, notably the unprecedented hike in Premium Motor Spirit (PMS) price and the 62.75 per cent depreciation in exchange rate to N1,549/$1 in 2024 from N951.79/$1 in December 2023, which impacted business operational costs and strained consumer purchasing power. The Nigerian government continued with the implementation of some significant reforms in a bid to stabilize the economy. Interventions were considered necessary to avert a fiscal crisis and place the country on a stronger development trajectory. Interestingly, certain positive results were beginning to show at the macroeconomic level. For instance, growth remained modest overall as oil sector output stabilized and activity in some services sector had been robust. The country's economy experienced an upward trajectory through 2024, higher than the 2023 growth. The National Bureau of Statistics (NBS) reports that the Gross Domestic Product (GDP) grew by 3.4 per cent in 2024, an increase from the 2.71 per cent growth recorded in 2023. This performance was driven mainly by sustained non-oil sector. DAME DR. ADAORA UMEOJI, OON Group Managing Director/Chief Executive Officer Zenith Bank Plc Annual Report - 31 December 2024 GMD/CEO's Review",
-      "word_count": 324,
-      "quality": "good",
-      "sentiment_label": null,
-      "sentiment_intensity": null,
-      "has_guidance": null,
-      "guidance_type": null,
-      "guidance_span": null,
-      "annotator": null,
-      "annotation_notes": null,
-      "annotation_status": "pending"
-    },
     {
       "passage_id": "NASCON_Unknown_chairman_statement_0_0",
       "ticker": "NASCON",
@@ -894,7 +852,7 @@
       "annotation_status": "pending"
     }
   ],
-  "passage_count": 42,
-  "good_passages": 22,
-  "processed_at": "2026-06-18T22:22:34.991729"
+  "passage_count": 40,
+  "good_passages": 20,
+  "processed_at": "2026-06-18T22:29:48.172679"
 }

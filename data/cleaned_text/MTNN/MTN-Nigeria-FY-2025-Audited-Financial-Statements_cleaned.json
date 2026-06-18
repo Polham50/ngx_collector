@@ -12,7 +12,7 @@
       "chairman_statement": 1612,
       "ceo_review": 1656,
       "operating_review": 1369,
-      "outlook": 915,
+      "outlook": 0,
       "governance": 0,
       "extraction_status": 2
     }
@@ -47,11 +47,9 @@
       "compression": 6.3
     },
     "outlook": {
-      "text": "going forward. Grant date Dividend yield 13 December 2025 1.90% 13 December 2024 5.29% Cost per employee share option The table below shows the option price (gross and net of assumed forfeitures), as well as the option price as a percentage of the share price for the new share options granted: Grant date Vesting date share price N Gross option price N Gross Option price as a % of share price Net option price N Net option price as a % of share price 13 December 2027 162.12 92.11% 139.37 79.19% 13 December 2024 13 December 2028 157.75 89.63% 128.81 73.19% 13 December 2029 153.49 87.21% 119.07 67.65% 13 December 2028 531.7 502.24 94.46% 431.68 81.19% 13 December 2025 13 December 2029 531.7 492.79 92.68% 402.39 75.68% 13 December 2030 531.7 483.51 90.94% 375.09 70.55%\n\nAudited consolidated and separate financial statements for the year ended 31 December 2025",
-      "quality": "acceptable",
-      "char_count": 866,
-      "original_len": 915,
-      "compression": 5.4
+      "text": "",
+      "quality": "empty",
+      "char_count": 0
     }
   },
   "passages": [
@@ -98,5 +96,5 @@
   ],
   "passage_count": 2,
   "good_passages": 0,
-  "processed_at": "2026-06-18T22:22:31.619393"
+  "processed_at": "2026-06-18T22:29:45.193149"
 }

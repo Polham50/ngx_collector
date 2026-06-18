@@ -12,7 +12,7 @@
       "chairman_statement": 753,
       "ceo_review": 854,
       "operating_review": 0,
-      "outlook": 499,
+      "outlook": 791,
       "governance": 0,
       "extraction_status": 2
     }
@@ -45,14 +45,34 @@
       "char_count": 0
     },
     "outlook": {
-      "text": "Outlook and Board Priorities for 2026 Looking ahead, the Board's focus remains on disciplined execution of our expansion programme while safeguarding the integrity of our capital allocation framework to ensure every investment made is transparent, disciplined, and aligned with our long-term vision. We will build on the progress achieved in the bulk distribution of cement and the export of both cement and clinker, ensuring that these initiatives strengthen earnings resilience, diversify",
-      "quality": "poor",
-      "char_count": 490,
-      "original_len": 499,
-      "compression": 1.8
+      "text": "Outlook and Board Priorities for 2026 Looking ahead, the Board's focus remains on disciplined execution of our expansion programme while safeguarding the integrity of our capital allocation framework to ensure every investment made is transparent, disciplined, and aligned with our long-term vision. We will build on the progress achieved in the bulk distribution of cement and the export of both cement and clinker, ensuring that these initiatives strengthen earnings resilience, diversify risk, and reinforce market positioning. Business process review, coupled with process improvements will continue to receive close oversight, particularly where they support margin stability and sustainability performance. At the same time, we remain committed to advancing sustainability",
+      "quality": "good",
+      "char_count": 778,
+      "original_len": 791,
+      "compression": 1.6
     }
   },
   "passages": [
+    {
+      "passage_id": "BUACEMENT_Unknown_outlook_0_0",
+      "ticker": "BUACEMENT",
+      "company": "BUACEMENT",
+      "sector": "Industrial",
+      "year": "Unknown",
+      "doc_type": "manual_pdf",
+      "section": "outlook",
+      "text": "Outlook and Board Priorities for 2026 Looking ahead, the Board's focus remains on disciplined execution of our expansion programme while safeguarding the integrity of our capital allocation framework to ensure every investment made is transparent, disciplined, and aligned with our long-term vision. We will build on the progress achieved in the bulk distribution of cement and the export of both cement and clinker, ensuring that these initiatives strengthen earnings resilience, diversify risk, and reinforce market positioning. Business process review, coupled with process improvements will continue to receive close oversight, particularly where they support margin stability and sustainability performance. At the same time, we remain committed to advancing sustainability",
+      "word_count": 108,
+      "quality": "good",
+      "sentiment_label": null,
+      "sentiment_intensity": null,
+      "has_guidance": null,
+      "guidance_type": null,
+      "guidance_span": null,
+      "annotator": null,
+      "annotation_notes": null,
+      "annotation_status": "pending"
+    },
     {
       "passage_id": "BUACEMENT_Unknown_chairman_statement_0_0",
       "ticker": "BUACEMENT",
@@ -94,7 +114,7 @@
       "annotation_status": "pending"
     }
   ],
-  "passage_count": 2,
-  "good_passages": 2,
-  "processed_at": "2026-06-18T22:21:57.668989"
+  "passage_count": 3,
+  "good_passages": 3,
+  "processed_at": "2026-06-18T22:29:12.806674"
 }

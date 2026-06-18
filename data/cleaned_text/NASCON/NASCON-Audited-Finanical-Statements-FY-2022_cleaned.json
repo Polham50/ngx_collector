@@ -10,7 +10,7 @@
     "char_counts": {
       "full_text": 500993,
       "chairman_statement": 1357,
-      "ceo_review": 689,
+      "ceo_review": 0,
       "operating_review": 0,
       "outlook": 0,
       "governance": 0,
@@ -33,11 +33,9 @@
       "compression": 5.2
     },
     "ceo_review": {
-      "text": "Managing Director/Chief Executive as its Chairman. 6. Responsibilities of the Board The Board is responsible for the following amongst others: a) reviewing and approving the Bank's strategic plans for implementation by management; b) review and approving the Bank's financial statements; c) reviewing and approving the Bank's financial objectives, business plans and budgets, including capital allocations and expenditures; d) monitoring corporate performance against the strategic plans and business, operating and capital budgets; e) implementing the Bank's succession planning; 12 Zenith Bank Plc Interim Report - 30 June 2022",
-      "quality": "poor",
-      "char_count": 629,
-      "original_len": 689,
-      "compression": 8.7
+      "text": "",
+      "quality": "empty",
+      "char_count": 0
     },
     "operating_review": {
       "text": "",
@@ -53,5 +51,5 @@
   "passages": [],
   "passage_count": 0,
   "good_passages": 0,
-  "processed_at": "2026-06-18T22:22:32.819935"
+  "processed_at": "2026-06-18T22:29:46.402643"
 }
