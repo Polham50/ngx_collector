@@ -1,0 +1,10 @@
+2026-06-12 09:19:52,051 [INFO] 
+============================================================
+2026-06-12 09:19:52,052 [INFO] NGX-FND Return-Sentiment Analysis
+2026-06-12 09:19:52,052 [INFO] Dependent variable: CAR[0,+3]
+2026-06-12 09:19:52,052 [INFO] ============================================================
+2026-06-12 09:19:52,057 [INFO] Loaded 120 events with valid CAR[0,+3]
+2026-06-12 09:19:52,104 [INFO] 
+📄 LaTeX tables saved: /home/claude/ngx_collector/data/returns_analysis/paper_tables.tex
+2026-06-12 09:19:52,104 [INFO] 
+✅ Analysis complete. Results in: /home/claude/ngx_collector/data/returns_analysis

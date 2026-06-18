@@ -1,0 +1,12 @@
+2026-06-14 21:22:32,100 [INFO] === DISCOVERY PHASE: 1 companies ===
+2026-06-14 21:22:32,101 [INFO] Discovering: MTNN — MTN Nigeria Communications Plc
+2026-06-14 21:22:32,143 [WARNING] [IR Page] MTNN failed: HTTPSConnectionPool(host='www.mtnnigeria.net', port=443): Max retries exceeded with url: /investors/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001E158B23760>: Failed to resolve 'www.mtnnigeria.net' ([Errno 11001] getaddrinfo failed)"))
+2026-06-14 21:22:36,069 [WARNING] [Proshare] MTNN search failed: HTTPSConnectionPool(host='www.proshareng.com', port=443): Max retries exceeded with url: /news/search/?q=MTNN+annual+report (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:997)')))
+2026-06-14 21:22:53,708 [WARNING] [NGX Portal] MTNN search failed: HTTPSConnectionPool(host='ngxgroup.com', port=443): Read timed out. (read timeout=15)
+2026-06-14 21:22:55,785 [INFO] Discovery complete. {'total_discovered': 0, 'total_downloaded': 0, 'total_extracted': 0, 'total_failed': 0}
+2026-06-14 21:22:55,786 [INFO] === DOWNLOAD PHASE ===
+2026-06-14 21:22:55,786 [INFO] Queued 0 documents for download
+2026-06-14 21:22:55,787 [INFO] Download complete. {'total_discovered': 0, 'total_downloaded': 0, 'total_extracted': 0, 'total_failed': 0}
+2026-06-14 21:22:55,788 [INFO] === EXTRACTION PHASE ===
+2026-06-14 21:22:55,789 [INFO] Queued 0 PDFs for text extraction
+2026-06-14 21:22:55,790 [INFO] Extraction complete. {'total_discovered': 0, 'total_downloaded': 0, 'total_extracted': 0, 'total_failed': 0}

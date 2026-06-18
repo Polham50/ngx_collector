@@ -1,0 +1,8 @@
+2026-06-17 09:57:52,349 [INFO] 
+============================================================
+2026-06-17 09:57:52,350 [INFO] NGX-FND Return-Sentiment Analysis
+2026-06-17 09:57:52,351 [INFO] Dependent variable: CAR[0,+3]
+2026-06-17 09:57:52,351 [INFO] ============================================================
+2026-06-17 09:57:52,389 [INFO] Loaded 120 events with valid CAR[0,+3]
+2026-06-17 09:57:53,215 [INFO] Placebo test: true coef=0.02704, placebo p=0.0000 (1000 permutations)
+2026-06-17 09:57:55,542 [INFO] Bootstrap CI (95%): [0.01924, 0.03435] over 2000 valid resamples

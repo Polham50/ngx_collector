@@ -1,0 +1,18 @@
+2026-06-17 09:49:21,260 [INFO] 
+=======================================================
+2026-06-17 09:49:21,260 [INFO] Assembling Paper Package
+2026-06-17 09:49:21,261 [INFO] =======================================================
+2026-06-17 09:49:21,270 [WARNING]   [ERR] Tables 2-3: LLM Evaluation Results — not found (C:\Users\USER\Desktop\DataQUry\ngx_collector\data\llm_results\combined_5shot_20260615_0958\paper_tables.tex)
+2026-06-17 09:49:21,278 [INFO]   [OK] Tables 4-5: Return Regression Results
+2026-06-17 09:49:21,282 [INFO]   [OK] Section 4.4: Error Analysis Draft
+2026-06-17 09:49:21,291 [INFO]   [OK] Data: corpus_index.csv
+2026-06-17 09:49:21,292 [WARNING]   [ERR] Data: gold_standard.csv — not found (C:\Users\USER\Desktop\DataQUry\ngx_collector\data\metadata\gold_standard.csv)
+2026-06-17 09:49:21,296 [INFO]   [OK] Data: abnormal_returns.csv
+2026-06-17 09:49:21,299 [INFO]   [OK] Data: regression_results.csv
+2026-06-17 09:49:21,303 [INFO]   [OK] Data: group_tests.csv
+2026-06-17 09:49:21,308 [INFO]   [OK] Data: taxonomy_summary.csv
+2026-06-17 09:49:21,321 [INFO]   [OK] Data: qualitative_examples.json
+2026-06-17 09:49:21,325 [INFO]   [OK] Data: companies.json
+2026-06-17 09:49:21,329 [INFO]   [OK] Data: llm_predictions.csv
+2026-06-17 09:49:21,329 [WARNING]   [ERR] Data: sentiment_metrics.csv — not found (C:\Users\USER\Desktop\DataQUry\ngx_collector\data\llm_results\combined_5shot_20260615_0958\sentiment_metrics.csv)
+2026-06-17 09:49:21,331 [WARNING]   [ERR] Data: guidance_metrics.csv — not found (C:\Users\USER\Desktop\DataQUry\ngx_collector\data\llm_results\combined_5shot_20260615_0958\guidance_metrics.csv)

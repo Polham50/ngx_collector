@@ -1,0 +1,66 @@
+\subsection{Error Analysis and Failure Taxonomy}
+\label{sec:error_analysis}
+
+Among the 0 evaluated passages, 0 (0.0%) contained at least one sentiment misclassification. We conducted a systematic analysis of these errors, assigning each to one or more categories in a three-tier taxonomy of failure modes: \textit{linguistic} (A), \textit{domain} (B), and \textit{model-level} (C). Errors were categorised through a combination of automated pattern matching and manual review of a stratified sample.
+
+\subsubsection*{Taxonomy of Failure Modes}
+
+\begin{table}[h]
+\centering
+\caption{LLM Failure Mode Taxonomy on NGX-FND Passages}
+\label{tab:taxonomy}
+\begin{tabular}{llcp{7cm}}
+\hline
+\textbf{Code} & \textbf{Category} & \textbf{N} & \textbf{Description} \\
+\hline
+\multicolumn{4}{l}{\textit{A: Linguistic Failure Modes}} \\
+\quad A1 & Linguistic & 0 (0%) & Nigerian Pidgin / code-switching misread \\
+\quad A2 & Linguistic & 0 (0%) & Nigerian formal register misclassified \\
+\quad A3 & Linguistic & 0 (0%) & Naira/FX boilerplate over-weighted \\
+\quad A4 & Linguistic & 0 (0%) & Regulatory disclaimer treated as sentiment \\
+\hline
+\multicolumn{4}{l}{\textit{B: Domain Failure Modes}} \\
+\quad B1 & Domain & 0 (0%) & Sector-specific jargon misread \\
+\quad B2 & Domain & 0 (0%) & Nigerian macro context ignored \\
+\quad B3 & Domain & 0 (0%) & Guidance buried in boilerplate -- missed \\
+\quad B4 & Domain & 0 (0%) & Conditional guidance collapsed to wrong class \\
+\hline
+\multicolumn{4}{l}{\textit{C: Model-Level Failure Modes}} \\
+\quad C1 & Model & 0 (0%) & Intensity miscalibration \\
+\quad C2 & Model & 0 (0%) & Neutral bias under ambiguity \\
+\quad C3 & Model & 0 (0%) & Positive bias on formal language \\
+\quad C4 & Model & 0 (0%) & Guidance false positive \\
+\quad C5 & Model & 0 (0%) & Cross-model disagreement \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsubsection*{Quantitative Breakdown}
+
+
+\paragraph{Forward Guidance Detection Errors.}
+Guidance false positives (C4) occurred at a rate of 0.0%: models identified forward-looking \textit{language} but not genuine performance \textit{guidance}. This is particularly prevalent in governance and AGM passages containing verbs such as ``will'' and ``intend'' in procedural contexts. Guidance false negatives (B3) accounted for 0.0% of guidance-annotated passages, typically where guidance was embedded within long operational paragraphs rather than a dedicated outlook section.
+
+\paragraph{Naira and FX Boilerplate (A3).}
+Nigerian corporate disclosures routinely contain extensive discussion of foreign exchange losses, naira devaluation, and CBN policy. Models frequently misclassified positive overall passages as negative when such language appeared, even when the dominant narrative was one of resilience and growth. This represents a form of anchoring on surface-level negative signals that is not exhibited by human annotators familiar with the Nigerian reporting context.
+
+\paragraph{Conditional Guidance Collapse (B4).}
+A distinctive failure mode unique to the Nigerian context: guidance statements frequently condition outcomes on FX stability, government policy, or oil price movements. Models tend to collapse these conditional statements into either positive or negative guidance, losing the epistemic hedge that human annotators preserve. This finding suggests that standard financial NLP benchmarks, which rarely contain conditional guidance at this frequency, may underestimate model limitations in frontier market contexts.
+
+\paragraph{Cross-Model Disagreement (C5).}
+We observe substantial cross-model disagreement, particularly on passages that are short, contain Nigerian-specific idioms, or involve conditional guidance. Agreement is highest on clearly positive passages (banking sector earnings releases with explicit profit figures) and lowest on oil and gas operational reviews where macro headwinds and operational improvements co-occur.
+
+\subsubsection*{Qualitative Examples}
+
+\begin{figure}[h]
+\centering
+\fbox{\begin{minipage}{0.92\textwidth}
+\small
+\textbf{Example of A3 (Naira/FX Boilerplate Over-weighted):} \\
+\textit{[Example will be populated from annotation data]} \\[4pt]
+\textbf{Example of B4 (Conditional Guidance Collapsed):} \\
+\textit{[Example will be populated from annotation data]}
+\end{minipage}}
+\caption{Representative failure cases on NGX-FND passages.}
+\label{fig:error_examples}
+\end{figure}

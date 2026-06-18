@@ -1,0 +1,24 @@
+2026-06-17 16:49:23,077 [INFO] === CLEANING PHASE ===
+2026-06-17 16:49:23,140 [INFO] Processing 20 extracted files
+2026-06-17 16:49:23,141 [INFO]   Cleaning: BUACEMENT_2025_Annual_Reports___Accounts_9a1a0718.json
+2026-06-17 16:49:26,041 [INFO]   Cleaning: FBNH_FBN_Holdings_Plc_H1_2020_Results_Present_a63464af.json
+2026-06-17 16:49:26,662 [INFO]   Cleaning: FBNH_First_HoldCo_Plc_9M_2025_Unaudited_Finan_557fef83.json
+2026-06-17 16:49:27,139 [INFO]   Cleaning: FBNH_First_HoldCo_Plc_Q1_2026_Unaudited_Finan_ee424764.json
+2026-06-17 16:49:27,635 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2017_4ae688b0.json
+2026-06-17 16:49:28,885 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2018_4e0c6eb0.json
+2026-06-17 16:49:30,405 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2019_492add82.json
+2026-06-17 16:49:33,822 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2020_5209d07c.json
+2026-06-17 16:49:35,638 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2023_7d55a9a0.json
+2026-06-17 16:49:38,019 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2024_27c8e547.json
+2026-06-17 16:49:41,466 [INFO]   Cleaning: FIDELITYBK_Annual_Report_bf585906.json
+2026-06-17 16:49:46,174 [INFO]   Cleaning: FIDELITYBK_Investor_Presentation_a24a14df.json
+2026-06-17 16:49:46,477 [INFO]   Cleaning: FIDELITYBK_Proxy_Form_2c87e4db.json
+2026-06-17 16:49:46,507 [INFO]   Cleaning: Guaranty-Trust-Holding-Company-Plc-2025-Financial-Statements.json
+2026-06-17 16:49:53,702 [INFO]   Cleaning: Full-Year-2025-Audited-Financial-Statements-Nigerian-Breweries-Plc.json
+2026-06-17 16:49:53,804 [INFO]   Cleaning: NB-ANNUAL-REPORT-doc-1.json
+2026-06-17 16:49:55,935 [INFO]   Cleaning: For-the-Nine-Months-ended-30-September-2024.json
+2026-06-17 16:49:56,719 [INFO]   Cleaning: Unaudited Financial Statements - Quarter 2 2024.json
+2026-06-17 16:49:57,267 [INFO]   Cleaning: unaudited-financial-statements-september-2023.json
+2026-06-17 16:49:57,952 [INFO]   Cleaning: STERLING_Read_Our_Annual_Report_a007d4bd.json
+2026-06-17 16:49:59,959 [ERROR] Failed to restore annotations: cannot reindex on an axis with duplicate labels
+2026-06-17 16:49:59,994 [INFO] Annotation queue saved: 455 passages -> C:\Users\USER\Desktop\DataQUry\ngx_collector\data\metadata\annotation_queue.csv

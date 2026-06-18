@@ -1,0 +1,23 @@
+2026-06-14 23:54:16,962 [INFO] === CLEANING PHASE ===
+2026-06-14 23:54:16,965 [INFO] Processing 20 extracted files
+2026-06-14 23:54:16,965 [INFO]   Cleaning: Dangote-Cement-Plcs-AR-2025-At-at-Glance.json
+2026-06-14 23:54:17,003 [INFO]   Cleaning: FBNH_FBN_Holdings_Plc_H1_2020_Results_Present_a63464af.json
+2026-06-14 23:54:17,040 [INFO]   Cleaning: FBNH_First_HoldCo_Plc_9M_2025_Unaudited_Finan_557fef83.json
+2026-06-14 23:54:17,179 [INFO]   Cleaning: FBNH_First_HoldCo_Plc_Q1_2026_Unaudited_Finan_ee424764.json
+2026-06-14 23:54:17,306 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2017_4ae688b0.json
+2026-06-14 23:54:17,809 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2018_4e0c6eb0.json
+2026-06-14 23:54:18,314 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2019_492add82.json
+2026-06-14 23:54:18,802 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2020_5209d07c.json
+2026-06-14 23:54:19,366 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2023_7d55a9a0.json
+2026-06-14 23:54:20,005 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2024_27c8e547.json
+2026-06-14 23:54:20,876 [INFO]   Cleaning: FIDELITYBK_Investor_Presentation_a24a14df.json
+2026-06-14 23:54:20,918 [INFO]   Cleaning: FIDELITYBK_Proxy_Form_2c87e4db.json
+2026-06-14 23:54:20,926 [INFO]   Cleaning: Guaranty-Trust-Holding-Company-Plc-2025-Financial-Statements.json
+2026-06-14 23:54:21,683 [INFO]   Cleaning: For-the-Nine-Months-ended-30-September-2024.json
+2026-06-14 23:54:21,760 [INFO]   Cleaning: Unaudited Financial Statements - Quarter 2 2024.json
+2026-06-14 23:54:21,836 [INFO]   Cleaning: unaudited-financial-statements-september-2023.json
+2026-06-14 23:54:21,902 [INFO]   Cleaning: Full-Year-2025-Audited-Financial-Statements-Nigerian-Breweries-Plc.json
+2026-06-14 23:54:21,914 [INFO]   Cleaning: NB-ANNUAL-REPORT-doc-1.json
+2026-06-14 23:54:22,208 [INFO]   Cleaning: investor-presentation_-post-9m-2025-results_12-11-2025_approved-1.json
+2026-06-14 23:54:22,258 [INFO]   Cleaning: STERLING_Read_Our_Annual_Report_a007d4bd.json
+2026-06-14 23:54:23,063 [INFO] Annotation queue saved: 147 passages -> C:\Users\USER\Desktop\DataQUry\ngx_collector\data\metadata\annotation_queue.csv

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "ticker": "MANSARD",
+    "company_name": "MANSARD",
+    "sector": "Banking",
+    "year": "Unknown",
+    "doc_type": "manual_pdf",
+    "source": "manual",
+    "local_path": "C:\\Users\\USER\\Documents\\ngx_collector\\data\\raw_pdfs\\MANSARD\\2025-Q1-Unaudited-Financial-Statements_.pdf",
+    "char_counts": {
+      "full_text": 0,
+      "chairman_statement": 0,
+      "ceo_review": 0,
+      "operating_review": 0,
+      "outlook": 0,
+      "governance": 0,
+      "extraction_status": 2
+    }
+  },
+  "cleaned_sections": {
+    "full_text": {
+      "text": "",
+      "quality": "empty",
+      "char_count": 0
+    },
+    "chairman_statement": {
+      "text": "",
+      "quality": "empty",
+      "char_count": 0
+    },
+    "ceo_review": {
+      "text": "",
+      "quality": "empty",
+      "char_count": 0
+    },
+    "operating_review": {
+      "text": "",
+      "quality": "empty",
+      "char_count": 0
+    },
+    "outlook": {
+      "text": "",
+      "quality": "empty",
+      "char_count": 0
+    }
+  },
+  "passages": [],
+  "passage_count": 0,
+  "good_passages": 0,
+  "processed_at": "2026-06-18T12:30:55.905315"
+}

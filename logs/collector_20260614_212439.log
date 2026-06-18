@@ -1,0 +1,13 @@
+2026-06-14 21:24:39,080 [INFO] === DISCOVERY PHASE: 1 companies ===
+2026-06-14 21:24:39,081 [INFO] Discovering: MTNN — MTN Nigeria Communications Plc
+2026-06-14 21:24:39,808 [WARNING] [IR Page] MTNN failed: HTTPSConnectionPool(host='www.mtnnigeria.net', port=443): Max retries exceeded with url: /investors/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000198F5C736A0>: Failed to resolve 'www.mtnnigeria.net' ([Errno 11001] getaddrinfo failed)"))
+2026-06-14 21:24:56,830 [WARNING] [Proshare] MTNN search failed: HTTPSConnectionPool(host='www.proshareng.com', port=443): Max retries exceeded with url: /news/search/?q=MTNN+annual+report (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000198F5C73E80>, 'Connection to www.proshareng.com timed out. (connect timeout=15)'))
+2026-06-14 21:25:34,905 [WARNING] [NGX Portal] MTNN search failed: HTTPSConnectionPool(host='ngxgroup.com', port=443): Read timed out. (read timeout=30)
+2026-06-14 21:25:36,913 [INFO]   -> MTNN: 0 documents found
+2026-06-14 21:25:36,919 [INFO] Discovery complete. {'total_discovered': 0, 'total_downloaded': 0, 'total_extracted': 0, 'total_failed': 0}
+2026-06-14 21:25:36,920 [INFO] === DOWNLOAD PHASE ===
+2026-06-14 21:25:36,921 [INFO] Queued 0 documents for download
+2026-06-14 21:25:36,925 [INFO] Download complete. {'total_discovered': 0, 'total_downloaded': 0, 'total_extracted': 0, 'total_failed': 0}
+2026-06-14 21:25:36,926 [INFO] === EXTRACTION PHASE ===
+2026-06-14 21:25:36,927 [INFO] Queued 0 PDFs for text extraction
+2026-06-14 21:25:36,936 [INFO] Extraction complete. {'total_discovered': 0, 'total_downloaded': 0, 'total_extracted': 0, 'total_failed': 0}

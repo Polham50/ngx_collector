@@ -1,0 +1,6 @@
+2026-06-15 13:50:44,579 [INFO] === EXTRACTION PHASE ===
+2026-06-15 13:50:44,580 [INFO] Queued 2 PDFs for text extraction
+2026-06-15 13:50:44,581 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\DANGOTE\Dangote-Cement-Plcs-AR-2025-At-at-Glance.pdf
+2026-06-15 13:50:44,582 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\SEPLATENERGY\investor-presentation_-post-9m-2025-results_12-11-2025_approved-1.pdf
+2026-06-15 13:50:44,603 [INFO]   Corpus index saved: 18 documents
+2026-06-15 13:50:44,603 [INFO] Extraction complete. {'total_discovered': 37, 'total_downloaded': 20, 'total_extracted': 18, 'total_failed': 3}

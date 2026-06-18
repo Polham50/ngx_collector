@@ -1,0 +1,4 @@
+model,model_label,shots,n_samples,accuracy,f1,precision,recall,kappa,prevalence,guidance_type_accuracy,guidance_type_macro_f1
+gemini,Test Model,5,19,0.4737,0.5455,0.4615,0.6667,-0.0326,0.4737,0.3333,0.25
+gpt4o,Test Model,5,23,0.5652,0.2857,0.2222,0.4,0.0086,0.2174,0.6,0.4333
+claude,Test Model,5,18,0.5,0.4,0.5,0.3333,0.0,0.5,0.3333,0.2778

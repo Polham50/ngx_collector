@@ -1,0 +1,16 @@
+2026-06-17 10:23:18,898 [INFO] 
+============================================================
+2026-06-17 10:23:18,898 [INFO] NGX-FND Error Analysis & Failure Taxonomy
+2026-06-17 10:23:18,899 [INFO] ============================================================
+2026-06-17 10:23:18,923 [INFO] Loaded predictions: combined_5shot_20260615_0958 (57 rows)
+2026-06-17 10:23:18,953 [INFO] Using annotated queue: 4 passages
+2026-06-17 10:23:19,014 [INFO] Tagged predictions saved: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\error_analysis\failure_taxonomy.csv
+2026-06-17 10:23:19,120 [INFO] Qualitative examples saved
+2026-06-17 10:23:19,122 [INFO] LaTeX section saved: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\error_analysis\paper_section_4_4.tex
+2026-06-17 10:23:19,122 [INFO] 
+Generating figures...
+2026-06-17 10:23:20,429 [INFO]   Plot: confusion_matrices_all_models.pdf
+2026-06-17 10:23:21,847 [INFO]   Plot: error_rate_by_length.pdf
+2026-06-17 10:23:21,848 [INFO] Figures saved: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\figures\error_analysis
+2026-06-17 10:23:21,849 [INFO] 
+[OK] Error analysis complete. Outputs in: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\error_analysis

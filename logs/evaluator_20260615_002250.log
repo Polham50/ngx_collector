@@ -1,0 +1,15 @@
+2026-06-15 00:22:50,821 [INFO] 
+============================================================
+2026-06-15 00:22:50,822 [INFO] NGX-FND LLM Evaluation Run
+2026-06-15 00:22:50,822 [INFO] Task: combined | Shots: 5 | Models: ['gemini']
+2026-06-15 00:22:50,823 [INFO] Run ID: combined_5shot_20260615_0022
+2026-06-15 00:22:50,823 [INFO] ============================================================
+2026-06-15 00:22:50,854 [INFO] Gold standard not found — using annotation queue: 122 passages
+2026-06-15 00:22:50,855 [INFO] Evaluating 122 passages × 1 models
+2026-06-15 00:22:50,856 [INFO] Prompt: combined_5shot
+2026-06-15 00:22:50,857 [INFO] 
+==================================================
+2026-06-15 00:22:50,857 [INFO] Model: Gemini 2.5 Pro
+2026-06-15 00:22:50,857 [INFO] ==================================================
+2026-06-15 00:22:54,152 [WARNING]   [Gemini 2.5 Pro] attempt 1 failed: GenerationConfig.__init__() got an unexpected keyword argument 'response_mime_type'
+2026-06-15 00:22:59,164 [WARNING]   [Gemini 2.5 Pro] attempt 2 failed: GenerationConfig.__init__() got an unexpected keyword argument 'response_mime_type'

@@ -1,0 +1,14 @@
+2026-06-15 13:52:31,768 [INFO] === EXTRACTION PHASE ===
+2026-06-15 13:52:31,769 [INFO] Queued 20 PDFs for text extraction
+2026-06-15 13:52:31,770 [INFO]   Extracting: FBNH_First_HoldCo_Plc_Q1_2026_Unaudited_Finan_ee424764.pdf
+2026-06-15 13:52:48,014 [INFO]   Extracting: FBNH_First_HoldCo_Plc_9M_2025_Unaudited_Finan_557fef83.pdf
+2026-06-15 13:53:05,873 [INFO]   Extracting: FBNH_FBN_Holdings_Plc_H1_2020_Results_Present_a63464af.pdf
+2026-06-15 13:53:10,254 [INFO]   Extracting: FIDELITYBK_Investor_Presentation_a24a14df.pdf
+2026-06-15 13:53:21,349 [INFO]   Extracting: FIDELITYBK_Annual_Report_2024_27c8e547.pdf
+2026-06-15 13:55:46,648 [INFO]   Extracting: FIDELITYBK_Annual_Report_2023_7d55a9a0.pdf
+2026-06-15 13:57:11,103 [INFO]   Extracting: FIDELITYBK_Annual_Report_2020_5209d07c.pdf
+2026-06-15 13:58:39,667 [INFO]   Extracting: FIDELITYBK_Annual_Report_2019_492add82.pdf
+2026-06-15 13:59:53,624 [INFO]   Extracting: FIDELITYBK_Annual_Report_2018_4e0c6eb0.pdf
+2026-06-15 14:01:22,806 [INFO]   Extracting: FIDELITYBK_Annual_Report_2017_4ae688b0.pdf
+2026-06-15 14:02:12,556 [INFO]   Extracting: FIDELITYBK_Proxy_Form_2c87e4db.pdf
+2026-06-15 14:02:12,878 [INFO]   Extracting: STERLING_Read_Our_Annual_Report_a007d4bd.pdf

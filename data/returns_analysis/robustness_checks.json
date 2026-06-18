@@ -1,0 +1,19 @@
+{
+  "placebo_test": {
+    "true_beta": 0.027045,
+    "placebo_mean": 0.000208,
+    "placebo_std": 0.004695,
+    "p_value_placebo": 0.0,
+    "n_permutations": 1000,
+    "interpretation": "Result PASSES placebo test (true B in tail of null distribution)"
+  },
+  "bootstrap_ci": {
+    "n_bootstrap": 2000,
+    "ci_level": 0.95,
+    "lower_ci": 0.019239,
+    "upper_ci": 0.034348,
+    "bootstrap_std": 0.003859,
+    "bootstrap_mean": 0.027164,
+    "excludes_zero": true
+  }
+}

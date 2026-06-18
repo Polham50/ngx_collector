@@ -1,0 +1,658 @@
+passage_id,ticker,company,sector,year,doc_type,section,word_count,gold_sentiment,gold_intensity,gold_guidance,gold_guid_type,model,model_label,prompt_key,shots,pred_sentiment,pred_intensity,pred_guidance,pred_guid_type,pred_key_phrase,pred_rationale,guid_confidence,guid_spans,latency_ms,error,retry_count,raw_response
+FBNH_2021_operating_review_0_0,FBNH,FBN Holdings Plc,Banking,2021,interim_report,operating_review,195,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,strong,False,none,Profit before tax of NGN45.2bn (up 9.2% y-o-y) and 48.1% increase y-o-y in non-interest Income,"The passage highlights several key financial metrics that have improved over the past year, including profit before tax and non-interest income, which creates a strongly positive sentiment. There is no explicit forward-looking guidance present in the passage, which focuses on historical performance and long-term strategic initiatives.",high,[],4610.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""strong"",
+   ""sentiment_key_phrase"": ""Profit before tax of NGN45.2bn (up 9.2% y-o-y) and 48.1% increase y-o-y in non-interest Income"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage highlights several key financial metrics that have improved over the past year, including profit before tax and non-interest income, which creates a strongly positive sentiment. There is no explicit forward-looking guidance present in the passage, which focuses on historical performance and long-term strategic initiatives.""
+}"
+FBNH_None_chairman_statement_0_0,FBNH,FBN Holdings Plc,Banking,,earnings_release,chairman_statement,197,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,Certification pursuant to section 60(2) of Investment and Securities Act No. 29 of 2007,"The passage is procedurally formal and lacks any emotive or evaluative language, resulting in a neutral sentiment. There is no forward-looking guidance present in the passage, which is primarily focused on certification and compliance with regulatory requirements.",high,[],1085.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""Certification pursuant to section 60(2) of Investment and Securities Act No. 29 of 2007"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage is procedurally formal and lacks any emotive or evaluative language, resulting in a neutral sentiment. There is no forward-looking guidance present in the passage, which is primarily focused on certification and compliance with regulatory requirements.""
+}"
+FBNH_None_chairman_statement_0_1,FBNH,FBN Holdings Plc,Banking,,earnings_release,chairman_statement,220,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,financial statements and other financial information included in the report fairly represent in all material respects,"The passage maintains a neutral tone, primarily focused on procedural and regulatory compliance matters without expressing any emotional language or forward-looking performance expectations. There is no forward-looking guidance present in the passage, which is consistent with its formal and informational nature.",high,[],1259.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""financial statements and other financial information included in the report fairly represent in all material respects"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage maintains a neutral tone, primarily focused on procedural and regulatory compliance matters without expressing any emotional language or forward-looking performance expectations. There is no forward-looking guidance present in the passage, which is consistent with its formal and informational nature.""
+}"
+FBNH_None_chairman_statement_1_0,FBNH,FBN Holdings Plc,Banking,,earnings_release,chairman_statement,193,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,financial statements and other financial information included in the report fairly represent in all material respects the financial condition and results of operations of the Company,"The passage is procedurally formal and lacks emotive language, resulting in a neutral sentiment. There is no forward-looking guidance present in the passage, which is focused on certifying the accuracy and fairness of the financial report.",high,[],1046.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""financial statements and other financial information included in the report fairly represent in all material respects the financial condition and results of operations of the Company"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage is procedurally formal and lacks emotive language, resulting in a neutral sentiment. There is no forward-looking guidance present in the passage, which is focused on certifying the accuracy and fairness of the financial report.""
+}"
+FBNH_None_chairman_statement_1_1,FBNH,FBN Holdings Plc,Banking,,earnings_release,chairman_statement,174,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,have evaluated the effectiveness of the Company's internal controls,"The passage is written in a formal and procedural tone, lacking any emotional or sentiment-bearing language, thus resulting in a neutral sentiment. There is no forward-looking guidance present in the passage, which is focused on internal controls and audit procedures, leading to the conclusion that no guidance is provided.",high,[],1201.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""have evaluated the effectiveness of the Company's internal controls"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage is written in a formal and procedural tone, lacking any emotional or sentiment-bearing language, thus resulting in a neutral sentiment. There is no forward-looking guidance present in the passage, which is focused on internal controls and audit procedures, leading to the conclusion that no guidance is provided.""
+}"
+FBNH_None_ceo_review_0_0,FBNH,FBN Holdings Plc,Banking,,earnings_release,ceo_review,193,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,Certification pursuant to section 60(2) of Investment and Securities Act No. 29 of 2007,"The passage is procedurally formal and lacks emotive language, resulting in a neutral sentiment. There is no forward-looking guidance present, as the content is focused on certification and compliance with regulatory requirements.",high,[],1007.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""Certification pursuant to section 60(2) of Investment and Securities Act No. 29 of 2007"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage is procedurally formal and lacks emotive language, resulting in a neutral sentiment. There is no forward-looking guidance present, as the content is focused on certification and compliance with regulatory requirements.""
+}"
+FBNH_None_ceo_review_0_1,FBNH,FBN Holdings Plc,Banking,,earnings_release,ceo_review,220,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,financial statements and other financial information included in the report fairly represent in all material respects,"The passage maintains a neutral tone, primarily focused on procedural and regulatory compliance matters without expressing any emotional language or forward-looking performance expectations. There is no forward-looking guidance present in the passage, which is consistent with its formal and informational nature.",high,[],1309.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""financial statements and other financial information included in the report fairly represent in all material respects"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage maintains a neutral tone, primarily focused on procedural and regulatory compliance matters without expressing any emotional language or forward-looking performance expectations. There is no forward-looking guidance present in the passage, which is consistent with its formal and informational nature.""
+}"
+FBNH_None_ceo_review_0_2,FBNH,FBN Holdings Plc,Banking,,earnings_release,ceo_review,370,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,moderate,False,none,"Operating profit 209,934, Profit before tax 210,388","The financial performance indicators such as operating profit and profit before tax show a positive trend, contributing to the overall moderate positive sentiment. There is no explicit forward-looking guidance present in the passage, which is primarily focused on presenting historical financial data.",high,[],2032.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""moderate"",
+   ""sentiment_key_phrase"": ""Operating profit 209,934, Profit before tax 210,388"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The financial performance indicators such as operating profit and profit before tax show a positive trend, contributing to the overall moderate positive sentiment. There is no explicit forward-looking guidance present in the passage, which is primarily focused on presenting historical financial data.""
+}"
+FBNH_None_ceo_review_0_3,FBNH,FBN Holdings Plc,Banking,,earnings_release,ceo_review,249,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,strong,False,none,"Operating profit 17,554 26,149","The passage presents a strongly positive sentiment due to the significant increase in operating profit and profit for the period from continuing operations. There is no forward-looking guidance present in the passage, which is primarily a financial statement with historical data.",high,[],1176.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""strong"",
+   ""sentiment_key_phrase"": ""Operating profit 17,554 26,149"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage presents a strongly positive sentiment due to the significant increase in operating profit and profit for the period from continuing operations. There is no forward-looking guidance present in the passage, which is primarily a financial statement with historical data.""
+}"
+FBNH_None_ceo_review_0_4,FBNH,FBN Holdings Plc,Banking,,earnings_release,ceo_review,155,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,Total comprehensive income for the period,"The passage presents financial data in a neutral and factual manner, lacking any emotive language that could sway sentiment either positively or negatively. There is no forward-looking guidance present in the passage, which is purely a presentation of historical financial data without any projections or expectations for future performance.",high,[],6871.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""Total comprehensive income for the period"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage presents financial data in a neutral and factual manner, lacking any emotive language that could sway sentiment either positively or negatively. There is no forward-looking guidance present in the passage, which is purely a presentation of historical financial data without any projections or expectations for future performance.""
+}"
+FBNH_None_ceo_review_1_0,FBNH,FBN Holdings Plc,Banking,,earnings_release,ceo_review,193,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,fairly represent in all material respects the financial condition and results of operations,"The passage is procedurally formal and lacks emotive language, resulting in a neutral sentiment. There is no forward-looking guidance present, as the text is focused on certifying the accuracy and fairness of the financial report for a past period.",high,[],6985.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""fairly represent in all material respects the financial condition and results of operations"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage is procedurally formal and lacks emotive language, resulting in a neutral sentiment. There is no forward-looking guidance present, as the text is focused on certifying the accuracy and fairness of the financial report for a past period.""
+}"
+FBNH_None_ceo_review_1_1,FBNH,FBN Holdings Plc,Banking,,earnings_release,ceo_review,174,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,have evaluated the effectiveness of the Company's internal controls,"The passage is written in a formal and procedural tone, lacking any emotional or sentiment-bearing language, thus resulting in a neutral sentiment. There is no forward-looking guidance present in the passage, which is focused on internal controls and audit procedures, leading to the conclusion that no guidance is provided.",high,[],5349.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""have evaluated the effectiveness of the Company's internal controls"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage is written in a formal and procedural tone, lacking any emotional or sentiment-bearing language, thus resulting in a neutral sentiment. There is no forward-looking guidance present in the passage, which is focused on internal controls and audit procedures, leading to the conclusion that no guidance is provided.""
+}"
+FBNH_None_ceo_review_1_2,FBNH,FBN Holdings Plc,Banking,,earnings_release,ceo_review,370,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,moderate,False,none,"Operating profit 209,934, Profit before tax 210,388","The financial results show a positive trend with increasing operating profit and profit before tax, indicating a moderate positive sentiment. There is no forward-looking guidance present in the passage, which is primarily focused on presenting historical financial data.",high,[],9146.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""moderate"",
+   ""sentiment_key_phrase"": ""Operating profit 209,934, Profit before tax 210,388"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The financial results show a positive trend with increasing operating profit and profit before tax, indicating a moderate positive sentiment. There is no forward-looking guidance present in the passage, which is primarily focused on presenting historical financial data.""
+}"
+FBNH_None_ceo_review_1_3,FBNH,FBN Holdings Plc,Banking,,earnings_release,ceo_review,249,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,strong,False,none,"Operating profit 17,554 26,149","The passage presents a strongly positive sentiment due to the significant increase in operating profit and profit for the period from continuing operations. There is no forward-looking guidance present in the passage, which is primarily a financial statement with historical data.",high,[],8985.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""strong"",
+   ""sentiment_key_phrase"": ""Operating profit 17,554 26,149"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage presents a strongly positive sentiment due to the significant increase in operating profit and profit for the period from continuing operations. There is no forward-looking guidance present in the passage, which is primarily a financial statement with historical data.""
+}"
+FBNH_None_ceo_review_1_4,FBNH,FBN Holdings Plc,Banking,,earnings_release,ceo_review,155,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,Total comprehensive income for the period,"The passage presents financial data in a neutral and factual manner, lacking any emotive language that could sway sentiment either positively or negatively. There is no forward-looking guidance present in the passage, which is purely a presentation of historical financial data without any projections or expectations for future performance.",high,[],3859.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""Total comprehensive income for the period"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage presents financial data in a neutral and factual manner, lacking any emotive language that could sway sentiment either positively or negatively. There is no forward-looking guidance present in the passage, which is purely a presentation of historical financial data without any projections or expectations for future performance.""
+}"
+FBNH_None_chairman_statement_0_0,FBNH,FBN Holdings Plc,Banking,,quarterly_results,chairman_statement,375,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,Certification pursuant to section 60(2) of Investment and Securities Act No. 29 of 2007,"The passage is neutral in sentiment as it primarily consists of formal and procedural language related to certification and compliance. There is no forward-looking guidance present in the passage, which is typical of formal corporate disclosures that focus on regulatory compliance rather than performance projections.",high,[],9464.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""Certification pursuant to section 60(2) of Investment and Securities Act No. 29 of 2007"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage is neutral in sentiment as it primarily consists of formal and procedural language related to certification and compliance. There is no forward-looking guidance present in the passage, which is typical of formal corporate disclosures that focus on regulatory compliance rather than performance projections.""
+}"
+FBNH_None_chairman_statement_1_0,FBNH,FBN Holdings Plc,Banking,,quarterly_results,chairman_statement,335,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,Certification pursuant to section 60(2) of Investment and Securities Act No. 29 of 2007,"The passage is a formal certification statement with no emotional tone, resulting in a neutral sentiment. There is no forward-looking guidance present in the passage, as it is focused on certifying the accuracy and completeness of the financial report.",high,[],6537.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""Certification pursuant to section 60(2) of Investment and Securities Act No. 29 of 2007"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage is a formal certification statement with no emotional tone, resulting in a neutral sentiment. There is no forward-looking guidance present in the passage, as it is focused on certifying the accuracy and completeness of the financial report.""
+}"
+FBNH_None_ceo_review_0_1,FBNH,FBN Holdings Plc,Banking,,quarterly_results,ceo_review,168,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,financial statements and other financial information included in the report fairly represent in all material respects the financial condition and results of operations of the Company,"The passage is written in a formal and procedural tone, indicating a neutral sentiment with mild intensity due to the lack of emotive language. There is no forward-looking guidance present in the passage, which is focused on internal controls and financial reporting, hence no guidance is provided.",high,[],7214.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""financial statements and other financial information included in the report fairly represent in all material respects the financial condition and results of operations of the Company"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage is written in a formal and procedural tone, indicating a neutral sentiment with mild intensity due to the lack of emotive language. There is no forward-looking guidance present in the passage, which is focused on internal controls and financial reporting, hence no guidance is provided.""
+}"
+FBNH_None_ceo_review_0_2,FBNH,FBN Holdings Plc,Banking,,quarterly_results,ceo_review,194,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,Share Price at end of reporting period: N50.00,"The passage is primarily a factual disclosure of shareholding structure and financial data, resulting in a neutral sentiment. There is no forward-looking guidance present in the passage, which is focused on historical data and compliance reporting.",high,[],6817.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""Share Price at end of reporting period: N50.00"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage is primarily a factual disclosure of shareholding structure and financial data, resulting in a neutral sentiment. There is no forward-looking guidance present in the passage, which is focused on historical data and compliance reporting.""
+}"
+FBNH_None_ceo_review_0_3,FBNH,FBN Holdings Plc,Banking,,quarterly_results,ceo_review,168,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,compliant with the Nigerian Stock Exchange's free float requirements,"The passage is neutral as it primarily presents factual information about shareholdings and compliance with stock exchange requirements, lacking any emotive or directional language. There is no forward-looking guidance present in the passage, which is focused on historical data and regulatory compliance.",high,[],7045.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""compliant with the Nigerian Stock Exchange's free float requirements"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage is neutral as it primarily presents factual information about shareholdings and compliance with stock exchange requirements, lacking any emotive or directional language. There is no forward-looking guidance present in the passage, which is focused on historical data and regulatory compliance.""
+}"
+FBNH_None_ceo_review_1_1,FBNH,FBN Holdings Plc,Banking,,quarterly_results,ceo_review,157,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,evaluated the effectiveness of the Company's internal controls,"The passage is written in a formal and procedural tone, indicating a neutral sentiment with mild intensity due to the lack of emotive language. There is no forward-looking guidance present in the passage, which is focused on reporting and disclosure of internal control evaluations.",high,[],5575.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""evaluated the effectiveness of the Company's internal controls"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage is written in a formal and procedural tone, indicating a neutral sentiment with mild intensity due to the lack of emotive language. There is no forward-looking guidance present in the passage, which is focused on reporting and disclosure of internal control evaluations.""
+}"
+FBNH_None_ceo_review_1_2,FBNH,FBN Holdings Plc,Banking,,quarterly_results,ceo_review,155,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,"Share Price at end of reporting period: N50.00 (March 31, 2025: N28.15)","The passage presents factual information about the company's shareholding structure and financial data without expressing a clear emotional tone, resulting in a neutral sentiment. There is no forward-looking guidance present in the passage, as it primarily focuses on historical data and current shareholding structure.",high,[],7102.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""Share Price at end of reporting period: N50.00 (March 31, 2025: N28.15)"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage presents factual information about the company's shareholding structure and financial data without expressing a clear emotional tone, resulting in a neutral sentiment. There is no forward-looking guidance present in the passage, as it primarily focuses on historical data and current shareholding structure.""
+}"
+FBNH_None_ceo_review_1_3,FBNH,FBN Holdings Plc,Banking,,quarterly_results,ceo_review,153,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,compliant with the Nigerian Stock Exchange's free float requirements,"The passage is neutral as it primarily presents factual information about shareholdings and compliance with stock exchange requirements, without expressing any emotional tone or opinion. There is no forward-looking guidance present in the passage, which is focused on historical data and regulatory compliance.",high,[],6636.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""compliant with the Nigerian Stock Exchange's free float requirements"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage is neutral as it primarily presents factual information about shareholdings and compliance with stock exchange requirements, without expressing any emotional tone or opinion. There is no forward-looking guidance present in the passage, which is focused on historical data and regulatory compliance.""
+}"
+FBNH_None_ceo_review_2_0,FBNH,FBN Holdings Plc,Banking,,quarterly_results,ceo_review,313,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,strong,False,none,Operating profit increased to N320.033 billion from N186.695 billion,"The significant increase in operating profit and overall profitability signals a strongly positive sentiment. There is no forward-looking guidance present in the passage, which is primarily a factual presentation of the company's income statement.",high,[],8957.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""strong"",
+   ""sentiment_key_phrase"": ""Operating profit increased to N320.033 billion from N186.695 billion"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The significant increase in operating profit and overall profitability signals a strongly positive sentiment. There is no forward-looking guidance present in the passage, which is primarily a factual presentation of the company's income statement.""
+}"
+FBNH_None_ceo_review_2_1,FBNH,FBN Holdings Plc,Banking,,quarterly_results,ceo_review,89,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,Net interest income after impairment charge for losses,"The passage presents financial data in a neutral and factual manner, lacking any emotive language that could sway sentiment either positively or negatively. There is no forward-looking guidance present in the passage, which consists entirely of historical financial data without any projections or expectations for future performance.",high,[],4706.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""Net interest income after impairment charge for losses"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage presents financial data in a neutral and factual manner, lacking any emotive language that could sway sentiment either positively or negatively. There is no forward-looking guidance present in the passage, which consists entirely of historical financial data without any projections or expectations for future performance.""
+}"
+FIDELITYBK_2020_outlook_0_0,FIDELITYBK,Fidelity Bank Plc,Banking,2020,annual_report,outlook,210,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,moderate,True,positive,our outlook for 2018 financial year is positive,"The overall tone is positive due to the improved macroeconomic indices, declining inflation rate, and growth in major non-interest revenue lines. The guidance is explicitly positive, with the management expressing confidence in the continuation of the economic recovery and a positive outlook for the 2018 financial year.",high,"[""We expect the current economic recovery to continue with headline inflation receding"", ""our outlook for 2018 financial year is positive""]",6393.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""moderate"",
+   ""sentiment_key_phrase"": ""our outlook for 2018 financial year is positive"",
+   ""has_guidance"": true,
+   ""guidance_type"": ""positive"",
+   ""guidance_spans"": [""We expect the current economic recovery to continue with headline inflation receding"", ""our outlook for 2018 financial year is positive""],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The overall tone is positive due to the improved macroeconomic indices, declining inflation rate, and growth in major non-interest revenue lines. The guidance is explicitly positive, with the management expressing confidence in the continuation of the economic recovery and a positive outlook for the 2018 financial year.""
+}"
+FIDELITYBK_2020_ceo_review_0_0,FIDELITYBK,Fidelity Bank Plc,Banking,2020,annual_report,ceo_review,157,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,double-digit growth across key revenue lines,"The passage presents a mixed picture with both growth and challenges, resulting in a neutral sentiment. There is no explicit forward-looking guidance in the passage, which focuses on historical performance and regulatory compliance.",high,[],5271.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""double-digit growth across key revenue lines"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage presents a mixed picture with both growth and challenges, resulting in a neutral sentiment. There is no explicit forward-looking guidance in the passage, which focuses on historical performance and regulatory compliance.""
+}"
+FIDELITYBK_2020_ceo_review_0_1,FIDELITYBK,Fidelity Bank Plc,Banking,2020,annual_report,ceo_review,220,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,moderate,True,neutral,"able to achieve this stride through disciplined balance sheet management, strategic cost reduction","The passage conveys a positive tone due to the bank's ability to maintain a strong capital adequacy ratio and liquidity ratio, as well as its efforts to improve risk assets quality and reduce costs. The guidance is present but neutral, as it outlines the bank's plans to enhance service delivery, reduce costs, and drive its retail banking strategy without providing specific quantitative targets or directional outcomes.",medium,"[""We will continue to focus on redesigning our systems and processes to enhance service delivery, deepen our cost reduction and driving our retail banking strategy"", ""optimize initiatives to reduce operating expenses and cost-to-serve, and enhance our digital banking infrastructure""]",7183.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""moderate"",
+   ""sentiment_key_phrase"": ""able to achieve this stride through disciplined balance sheet management, strategic cost reduction"",
+   ""has_guidance"": true,
+   ""guidance_type"": ""neutral"",
+   ""guidance_spans"": [
+      ""We will continue to focus on redesigning our systems and processes to enhance service delivery, deepen our cost reduction and driving our retail banking strategy"",
+      ""optimize initiatives to reduce operating expenses and cost-to-serve, and enhance our digital banking infrastructure""
+   ],
+   ""guidance_confidence"": ""medium"",
+   ""overall_rationale"": ""The passage conveys a positive tone due to the bank's ability to maintain a strong capital adequacy ratio and liquidity ratio, as well as its efforts to improve risk assets quality and reduce costs. The guidance is present but neutral, as it outlines the bank's plans to enhance service delivery, reduce costs, and drive its retail banking strategy without providing specific quantitative targets or directional outcomes.""
+}"
+FIDELITYBK_2020_ceo_review_0_2,FIDELITYBK,Fidelity Bank Plc,Banking,2020,annual_report,ceo_review,208,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,moderate,True,positive,strong net revenue growth of NGN6.9 billion,"The passage exhibits a positive sentiment due to the strong net revenue growth and decline in expenses, indicating a favorable financial performance. The guidance is positive, with the company expressing intentions to increase digital adoption, market share, and enhance electronic banking processes, although the language is somewhat general, leading to a medium confidence level.",medium,"[""we will continue to increase the adoption and migration of customers to our digital platforms and increase our retail banking market share through innovative products and services"", ""We will enhance our robust electronic banking processes and products thereby deepening our hold on the space""]",6929.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""moderate"",
+   ""sentiment_key_phrase"": ""strong net revenue growth of NGN6.9 billion"",
+   ""has_guidance"": true,
+   ""guidance_type"": ""positive"",
+   ""guidance_spans"": [
+      ""we will continue to increase the adoption and migration of customers to our digital platforms and increase our retail banking market share through innovative products and services"",
+      ""We will enhance our robust electronic banking processes and products thereby deepening our hold on the space""
+   ],
+   ""guidance_confidence"": ""medium"",
+   ""overall_rationale"": ""The passage exhibits a positive sentiment due to the strong net revenue growth and decline in expenses, indicating a favorable financial performance. The guidance is positive, with the company expressing intentions to increase digital adoption, market share, and enhance electronic banking processes, although the language is somewhat general, leading to a medium confidence level.""
+}"
+FIDELITYBK_2020_ceo_review_0_3,FIDELITYBK,Fidelity Bank Plc,Banking,2020,annual_report,ceo_review,151,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,moderate,True,positive,set a strong pedestal for sustained growth in revenue,"The passage conveys a positive tone due to the successful refinancing and growth in non-interest income, indicating a moderate level of positivity. The guidance is positive, with the bank expressing optimism about future revenue growth, although the confidence level is medium due to the lack of specific quantitative targets.",medium,"[""We are optimistic about growth in revenue.""]",5859.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""moderate"",
+   ""sentiment_key_phrase"": ""set a strong pedestal for sustained growth in revenue"",
+   ""has_guidance"": true,
+   ""guidance_type"": ""positive"",
+   ""guidance_spans"": [""We are optimistic about growth in revenue.""],
+   ""guidance_confidence"": ""medium"",
+   ""overall_rationale"": ""The passage conveys a positive tone due to the successful refinancing and growth in non-interest income, indicating a moderate level of positivity. The guidance is positive, with the bank expressing optimism about future revenue growth, although the confidence level is medium due to the lack of specific quantitative targets.""
+}"
+FIDELITYBK_2020_ceo_review_0_4,FIDELITYBK,Fidelity Bank Plc,Banking,2020,annual_report,ceo_review,159,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,strong,True,positive,stellar growth in profitability as well as improved financial position,"The passage expresses strong positive sentiment due to stellar growth in profitability and improved financial position. Guidance is present and positive, indicating future growth, although the language is somewhat vague and lacks specific targets, leading to a medium confidence level.",medium,"[""we look forward to delivering decent set of numbers at the end of 2018 financial year."", ""which we would build on in the future""]",8731.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""strong"",
+   ""sentiment_key_phrase"": ""stellar growth in profitability as well as improved financial position"",
+   ""has_guidance"": true,
+   ""guidance_type"": ""positive"",
+   ""guidance_spans"": [""we look forward to delivering decent set of numbers at the end of 2018 financial year."", ""which we would build on in the future""],
+   ""guidance_confidence"": ""medium"",
+   ""overall_rationale"": ""The passage expresses strong positive sentiment due to stellar growth in profitability and improved financial position. Guidance is present and positive, indicating future growth, although the language is somewhat vague and lacks specific targets, leading to a medium confidence level.""
+}"
+FIDELITYBK_2020_ceo_review_0_5,FIDELITYBK,Fidelity Bank Plc,Banking,2020,annual_report,ceo_review,195,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,strong,True,positive,our outlook for 2018 financial year is positive,"The overall tone is strongly positive due to the increase in gross earnings, growth in total deposits, and improved macroeconomic indices. The guidance is explicitly positive, with the company stating a positive outlook for the 2018 financial year, indicating a high level of confidence in their future performance.",high,"[""our outlook for 2018 financial year is positive""]",10588.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""strong"",
+   ""sentiment_key_phrase"": ""our outlook for 2018 financial year is positive"",
+   ""has_guidance"": true,
+   ""guidance_type"": ""positive"",
+   ""guidance_spans"": [""our outlook for 2018 financial year is positive""],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The overall tone is strongly positive due to the increase in gross earnings, growth in total deposits, and improved macroeconomic indices. The guidance is explicitly positive, with the company stating a positive outlook for the 2018 financial year, indicating a high level of confidence in their future performance.""
+}"
+FIDELITYBK_2020_ceo_review_0_6,FIDELITYBK,Fidelity Bank Plc,Banking,2020,annual_report,ceo_review,196,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,moderate,True,positive,savings deposits increased by 15.2 percent to NGN178.6 billion,"The passage has a positive tone due to the increase in savings deposits and strong Net Interest Margin, indicating a favorable financial performance. The guidance is positive, as the bank expects the economic recovery to continue, although the confidence level is medium due to the general nature of the statement without specific targets or timelines.",medium,"[""We expect the current economic recovery to continue with headline inflation receding""]",9765.0,Request timed out.,1,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""moderate"",
+   ""sentiment_key_phrase"": ""savings deposits increased by 15.2 percent to NGN178.6 billion"",
+   ""has_guidance"": true,
+   ""guidance_type"": ""positive"",
+   ""guidance_spans"": [""We expect the current economic recovery to continue with headline inflation receding""],
+   ""guidance_confidence"": ""medium"",
+   ""overall_rationale"": ""The passage has a positive tone due to the increase in savings deposits and strong Net Interest Margin, indicating a favorable financial performance. The guidance is positive, as the bank expects the economic recovery to continue, although the confidence level is medium due to the general nature of the statement without specific targets or timelines.""
+}"
+FIDELITYBK_2020_operating_review_0_0,FIDELITYBK,Fidelity Bank Plc,Banking,2020,annual_report,operating_review,202,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,highest standards of ethics and business conduct,"The passage maintains a formal and procedural tone, discussing the Bank's Code of Business Conduct and Ethics Policy without expressing a clear positive or negative sentiment. There is no forward-looking guidance present in the passage, as it focuses on the Bank's internal policies and procedures rather than future performance or expectations.",high,[],1219.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""highest standards of ethics and business conduct"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage maintains a formal and procedural tone, discussing the Bank's Code of Business Conduct and Ethics Policy without expressing a clear positive or negative sentiment. There is no forward-looking guidance present in the passage, as it focuses on the Bank's internal policies and procedures rather than future performance or expectations.""
+}"
+FIDELITYBK_2020_ceo_review_0_0,FIDELITYBK,Fidelity Bank Plc,Banking,2020,annual_report,ceo_review,151,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,strong,False,none,"strong double-digit growth in earning assets, customer deposits, and revenues","The passage exudes a strongly positive tone due to the mention of double-digit growth across key financial metrics, indicating a successful year. There is no explicit forward-looking guidance provided in the passage, which focuses on reviewing past performance and strategic aspirations rather than offering projections or expectations for future financial performance.",high,[],1075.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""strong"",
+   ""sentiment_key_phrase"": ""strong double-digit growth in earning assets, customer deposits, and revenues"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage exudes a strongly positive tone due to the mention of double-digit growth across key financial metrics, indicating a successful year. There is no explicit forward-looking guidance provided in the passage, which focuses on reviewing past performance and strategic aspirations rather than offering projections or expectations for future financial performance.""
+}"
+FIDELITYBK_2020_ceo_review_0_1,FIDELITYBK,Fidelity Bank Plc,Banking,2020,annual_report,ceo_review,185,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,strong,False,none,Gross earnings increased by 4.8 percent to NGN188.9 billion,"The passage conveys a strongly positive sentiment due to the significant increase in gross earnings, growth in earning assets, and improvements in digital banking penetration. There is no explicit forward-looking guidance present in the passage, which focuses on historical performance and achievements, thus no guidance is provided.",high,[],1002.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""strong"",
+   ""sentiment_key_phrase"": ""Gross earnings increased by 4.8 percent to NGN188.9 billion"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage conveys a strongly positive sentiment due to the significant increase in gross earnings, growth in earning assets, and improvements in digital banking penetration. There is no explicit forward-looking guidance present in the passage, which focuses on historical performance and achievements, thus no guidance is provided.""
+}"
+FIDELITYBK_2020_ceo_review_0_2,FIDELITYBK,Fidelity Bank Plc,Banking,2020,annual_report,ceo_review,178,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,strong,False,none,Profit After Tax (PAT) increased by 29.0 percent to NGN22.9 billion,"The significant increase in Profit After Tax, despite rising operating expenses, creates a strongly positive sentiment. There is no explicit forward-looking guidance present in the passage, which focuses on past performance and the bank's growth aspirations without providing specific targets or projections.",high,[],1056.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""strong"",
+   ""sentiment_key_phrase"": ""Profit After Tax (PAT) increased by 29.0 percent to NGN22.9 billion"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The significant increase in Profit After Tax, despite rising operating expenses, creates a strongly positive sentiment. There is no explicit forward-looking guidance present in the passage, which focuses on past performance and the bank's growth aspirations without providing specific targets or projections.""
+}"
+FIDELITYBK_2020_ceo_review_0_3,FIDELITYBK,Fidelity Bank Plc,Banking,2020,annual_report,ceo_review,158,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,strong,False,none,recorded strong double-digit growth in the financial performance,"The passage conveys a strongly positive tone due to the emphasis on double-digit growth in financial performance and significant increases in deposits. There is no explicit forward-looking guidance present in the passage, which focuses on reporting past performance and achievements.",high,[],3189.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""strong"",
+   ""sentiment_key_phrase"": ""recorded strong double-digit growth in the financial performance"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage conveys a strongly positive tone due to the emphasis on double-digit growth in financial performance and significant increases in deposits. There is no explicit forward-looking guidance present in the passage, which focuses on reporting past performance and achievements.""
+}"
+FIDELITYBK_2020_ceo_review_0_4,FIDELITYBK,Fidelity Bank Plc,Banking,2020,annual_report,ceo_review,168,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,moderate,False,none,inroads we have made in the retail banking space during the year under review,"The passage has a positive tone due to the improvement in low-cost deposits and the growth in risk assets, indicating success in the retail banking space. There is no forward-looking guidance present in the passage, which focuses on past achievements and current initiatives without providing projections or expectations for future performance.",high,[],1228.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""moderate"",
+   ""sentiment_key_phrase"": ""inroads we have made in the retail banking space during the year under review"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage has a positive tone due to the improvement in low-cost deposits and the growth in risk assets, indicating success in the retail banking space. There is no forward-looking guidance present in the passage, which focuses on past achievements and current initiatives without providing projections or expectations for future performance.""
+}"
+FIDELITYBK_2020_ceo_review_0_5,FIDELITYBK,Fidelity Bank Plc,Banking,2020,annual_report,ceo_review,177,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,moderate,False,none,Cost of them financially included to access banking risk declined to 0.5 percent from 1.5 percent,"The passage has a positive tone due to the decline in banking risk and improvement in Non-performing Loans Ratio, as well as recognition from associations and operators in the MSME sub-sector. There is no forward-looking guidance present in the passage, which focuses on historical performance and current achievements.",high,[],1063.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""moderate"",
+   ""sentiment_key_phrase"": ""Cost of them financially included to access banking risk declined to 0.5 percent from 1.5 percent"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage has a positive tone due to the decline in banking risk and improvement in Non-performing Loans Ratio, as well as recognition from associations and operators in the MSME sub-sector. There is no forward-looking guidance present in the passage, which focuses on historical performance and current achievements.""
+}"
+FIDELITYBK_2020_ceo_review_0_6,FIDELITYBK,Fidelity Bank Plc,Banking,2020,annual_report,ceo_review,161,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,mild,False,none,Award in recognition of its support of the BusinessDay Top 100 Fastest Growing SMEs in Nigeria,"The tone is mildly positive due to the receipt of awards and recognition for supporting SMEs, indicating a favorable view of the bank's activities. There is no forward-looking guidance present in the passage, which focuses on past achievements and recognition.",high,[],1137.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""Award in recognition of its support of the BusinessDay Top 100 Fastest Growing SMEs in Nigeria"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The tone is mildly positive due to the receipt of awards and recognition for supporting SMEs, indicating a favorable view of the bank's activities. There is no forward-looking guidance present in the passage, which focuses on past achievements and recognition.""
+}"
+FIDELITYBK_2020_operating_review_0_0,FIDELITYBK,Fidelity Bank Plc,Banking,2020,annual_report,operating_review,81,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,Review the Bank's quarterly performance,"The passage is procedurally descriptive, outlining the objectives of the Business Review Committee without expressing any emotional tone or forward-looking performance expectations. There is no forward-looking guidance present, as the text focuses on the committee's roles and responsibilities rather than predicting future outcomes.",high,[],1061.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""Review the Bank's quarterly performance"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage is procedurally descriptive, outlining the objectives of the Business Review Committee without expressing any emotional tone or forward-looking performance expectations. There is no forward-looking guidance present, as the text focuses on the committee's roles and responsibilities rather than predicting future outcomes.""
+}"
+FIDELITYBK_None_outlook_0_0,FIDELITYBK,Fidelity Bank Plc,Banking,,annual_report,outlook,297,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,Real GDP growth for the 2019 fiscal year was 2.27 percent,"The passage presents a neutral tone, primarily focusing on factual information about economic conditions and the bank's initiatives without expressing a clear positive or negative sentiment. There is no explicit forward-looking guidance provided in the passage, resulting in a lack of guidance with high confidence in this assessment.",high,[],1137.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""Real GDP growth for the 2019 fiscal year was 2.27 percent"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage presents a neutral tone, primarily focusing on factual information about economic conditions and the bank's initiatives without expressing a clear positive or negative sentiment. There is no explicit forward-looking guidance provided in the passage, resulting in a lack of guidance with high confidence in this assessment.""
+}"
+FIDELITYBK_None_ceo_review_0_0,FIDELITYBK,Fidelity Bank Plc,Banking,,annual_report,ceo_review,161,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,moderate,True,neutral,helped to expand the total SMEs meet funders,"The overall tone is positive due to the successful expansion of SME funding and recognition of the bank's efforts, despite mentioning challenges. The guidance is neutral as it acknowledges potential negative impacts but does not provide a clear directional outlook for the company's performance.",medium,"[""Going into 2020 financial year, we recognize the negative impact of the global scourge (Covid-19) and declining crude""]",5626.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""moderate"",
+   ""sentiment_key_phrase"": ""helped to expand the total SMEs meet funders"",
+   ""has_guidance"": true,
+   ""guidance_type"": ""neutral"",
+   ""guidance_spans"": [""Going into 2020 financial year, we recognize the negative impact of the global scourge (Covid-19) and declining crude""],
+   ""guidance_confidence"": ""medium"",
+   ""overall_rationale"": ""The overall tone is positive due to the successful expansion of SME funding and recognition of the bank's efforts, despite mentioning challenges. The guidance is neutral as it acknowledges potential negative impacts but does not provide a clear directional outlook for the company's performance.""
+}"
+FIDELITYBK_None_ceo_review_0_1,FIDELITYBK,Fidelity Bank Plc,Banking,,annual_report,ceo_review,162,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,moderate,True,neutral,growth in Operating Income compensated for the increase in Operating Expenses,"The passage has a moderately positive tone due to the growth in operating income compensating for the increase in operating expenses and the bank receiving several awards. The guidance is present but neutral, as it focuses on ensuring safety and building a sustainable business without providing specific quantitative targets or directional indicators.",medium,"[""We will continue to take measures that will ensure the safety of our staff, customers and other stakeholders during this period whilst we remain committed to building a sustainable business""]",5500.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""moderate"",
+   ""sentiment_key_phrase"": ""growth in Operating Income compensated for the increase in Operating Expenses"",
+   ""has_guidance"": true,
+   ""guidance_type"": ""neutral"",
+   ""guidance_spans"": [""We will continue to take measures that will ensure the safety of our staff, customers and other stakeholders during this period whilst we remain committed to building a sustainable business""],
+   ""guidance_confidence"": ""medium"",
+   ""overall_rationale"": ""The passage has a moderately positive tone due to the growth in operating income compensating for the increase in operating expenses and the bank receiving several awards. The guidance is present but neutral, as it focuses on ensuring safety and building a sustainable business without providing specific quantitative targets or directional indicators.""
+}"
+FIDELITYBK_None_ceo_review_0_2,FIDELITYBK,Fidelity Bank Plc,Banking,,annual_report,ceo_review,164,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,strong,False,none,21.0 percent increase in Profit Before Tax (PBT) to N30.4 billion,"The passage expresses strong positive sentiment due to significant increases in Profit Before Tax and Profit After Tax, as well as awards and recognitions received by the bank. There is no forward-looking guidance present in the passage, which focuses on reporting past performance and achievements.",high,[],6598.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""strong"",
+   ""sentiment_key_phrase"": ""21.0 percent increase in Profit Before Tax (PBT) to N30.4 billion"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage expresses strong positive sentiment due to significant increases in Profit Before Tax and Profit After Tax, as well as awards and recognitions received by the bank. There is no forward-looking guidance present in the passage, which focuses on reporting past performance and achievements.""
+}"
+FIDELITYBK_None_ceo_review_0_3,FIDELITYBK,Fidelity Bank Plc,Banking,,annual_report,ceo_review,182,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,moderate,False,none,"Total Customer Deposits increased by 25.1 percent to N1,225.2 billion","The passage has a positive tone due to the significant increase in customer deposits and various awards and recognitions received by the bank. There is no forward-looking guidance present in the passage, which focuses on historical performance and achievements in 2019.",high,[],5288.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""moderate"",
+   ""sentiment_key_phrase"": ""Total Customer Deposits increased by 25.1 percent to N1,225.2 billion"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage has a positive tone due to the significant increase in customer deposits and various awards and recognitions received by the bank. There is no forward-looking guidance present in the passage, which focuses on historical performance and achievements in 2019.""
+}"
+FIDELITYBK_None_ceo_review_0_4,FIDELITYBK,Fidelity Bank Plc,Banking,,annual_report,ceo_review,171,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,strong,False,none,impressive double-digit growth across key performance indices,"The passage conveys a strongly positive sentiment due to the impressive double-digit growth in key performance indices, such as deposits and gross earnings. There is no explicit forward-looking guidance present in the passage, which focuses on reporting past performance and current market position.",high,[],6264.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""strong"",
+   ""sentiment_key_phrase"": ""impressive double-digit growth across key performance indices"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage conveys a strongly positive sentiment due to the impressive double-digit growth in key performance indices, such as deposits and gross earnings. There is no explicit forward-looking guidance present in the passage, which focuses on reporting past performance and current market position.""
+}"
+FIDELITYBK_None_ceo_review_0_5,FIDELITYBK,Fidelity Bank Plc,Banking,,annual_report,ceo_review,154,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,strong,False,none,"Net Loans and Advances increased by 32.6 percent to N1,127.0 billion","The passage has a strongly positive tone due to significant increases in key metrics such as Net Loans and Advances, and the success of digital banking products. There is no forward-looking guidance present in the passage, which focuses on reporting past performance and achievements.",high,[],6592.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""strong"",
+   ""sentiment_key_phrase"": ""Net Loans and Advances increased by 32.6 percent to N1,127.0 billion"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage has a strongly positive tone due to significant increases in key metrics such as Net Loans and Advances, and the success of digital banking products. There is no forward-looking guidance present in the passage, which focuses on reporting past performance and achievements.""
+}"
+FIDELITYBK_None_ceo_review_0_7,FIDELITYBK,Fidelity Bank Plc,Banking,,annual_report,ceo_review,98,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,grown the fortunes of the bank,"The passage is neutral as it primarily provides biographical information about individuals, with a mildly positive tone from phrases like 'grown the fortunes of the bank'. There is no forward-looking guidance present in the passage, as it focuses on past roles and educational backgrounds without discussing future plans or expectations.",high,[],4509.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""grown the fortunes of the bank"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage is neutral as it primarily provides biographical information about individuals, with a mildly positive tone from phrases like 'grown the fortunes of the bank'. There is no forward-looking guidance present in the passage, as it focuses on past roles and educational backgrounds without discussing future plans or expectations.""
+}"
+FIDELITYBK_2020_outlook_0_0,FIDELITYBK,Fidelity Bank Plc,Banking,2020,annual_report,outlook,274,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,moderate,True,positive,The prognosis for the Nigerian economy in 2021 is positive,"The overall tone of the passage is positive due to the expressed optimism about the Nigerian economy in 2021, with phrases like 'prognosis for the Nigerian economy in 2021 is positive' and 'business environment will be more viable'. The guidance provided is generally positive, with statements about sustained growth and achievable budget targets, although the confidence level is medium due to the presence of conditional factors like the impact of pandemic vaccines and production cuts.",medium,"[""The business environment will be more viable"", ""Current growth levels will be sustained"", ""The 3.0% growth target in the 2021 budget looks achievable""]",7867.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""moderate"",
+   ""sentiment_key_phrase"": ""The prognosis for the Nigerian economy in 2021 is positive"",
+   ""has_guidance"": true,
+   ""guidance_type"": ""positive"",
+   ""guidance_spans"": [
+      ""The business environment will be more viable"",
+      ""Current growth levels will be sustained"",
+      ""The 3.0% growth target in the 2021 budget looks achievable""
+   ],
+   ""guidance_confidence"": ""medium"",
+   ""overall_rationale"": ""The overall tone of the passage is positive due to the expressed optimism about the Nigerian economy in 2021, with phrases like 'prognosis for the Nigerian economy in 2021 is positive' and 'business environment will be more viable'. The guidance provided is generally positive, with statements about sustained growth and achievable budget targets, although the confidence level is medium due to the presence of conditional factors like the impact of pandemic vaccines and production cuts.""
+}"
+FIDELITYBK_2020_ceo_review_0_0,FIDELITYBK,Fidelity Bank Plc,Banking,2020,annual_report,ceo_review,268,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,proposed dividend of 22 Kobo per Ordinary Share,"The passage has a neutral tone as it primarily contains procedural and regulatory information without expressing a clear opinion or emotion. There is no forward-looking guidance present in the passage, as it focuses on historical and administrative matters such as dividend payment and audit committee nominations.",high,[],8259.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""proposed dividend of 22 Kobo per Ordinary Share"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage has a neutral tone as it primarily contains procedural and regulatory information without expressing a clear opinion or emotion. There is no forward-looking guidance present in the passage, as it focuses on historical and administrative matters such as dividend payment and audit committee nominations.""
+}"
+FIDELITYBK_2020_operating_review_0_0,FIDELITYBK,Fidelity Bank Plc,Banking,2020,annual_report,operating_review,81,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,Review the Bank's quarterly performance,"The passage is procedurally descriptive, outlining the objectives of the Business Review Committee without expressing any emotional tone or sentiment. There is no forward-looking guidance present in the passage, as it focuses on the committee's responsibilities and operational framework.",high,[],3441.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""Review the Bank's quarterly performance"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage is procedurally descriptive, outlining the objectives of the Business Review Committee without expressing any emotional tone or sentiment. There is no forward-looking guidance present in the passage, as it focuses on the committee's responsibilities and operational framework.""
+}"
+FIDELITYBK_2023_outlook_0_0,FIDELITYBK,Fidelity Bank Plc,Banking,2023,annual_report,outlook,167,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,strong,True,positive,exceeding the N100 billion PBT mark for the first time in our history,"The overall tone is strongly positive due to the significant increase in PBT and the milestone of exceeding N100 billion, showcasing a robust financial performance. The guidance is explicitly positive, with a clear numerical target for the 2024 fiscal year, indicating a high level of confidence in future performance.",high,"[""Outlook for the 2024 Fiscal year from N3.9 trillion in 2022 FY to N6.2 trillion""]",6878.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""strong"",
+   ""sentiment_key_phrase"": ""exceeding the N100 billion PBT mark for the first time in our history"",
+   ""has_guidance"": true,
+   ""guidance_type"": ""positive"",
+   ""guidance_spans"": [""Outlook for the 2024 Fiscal year from N3.9 trillion in 2022 FY to N6.2 trillion""],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The overall tone is strongly positive due to the significant increase in PBT and the milestone of exceeding N100 billion, showcasing a robust financial performance. The guidance is explicitly positive, with a clear numerical target for the 2024 fiscal year, indicating a high level of confidence in future performance.""
+}"
+FIDELITYBK_2023_outlook_0_1,FIDELITYBK,Fidelity Bank Plc,Banking,2023,annual_report,outlook,157,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,negative,strong,True,neutral,the NGN to deteriorate by 90% and 58%,"The passage's tone is predominantly negative due to the significant deterioration of the NGN and the challenges posed by importation, FX scarcity, and fiscal discipline issues. The guidance present is neutral, as it outlines intended policy changes and business expansion plans without providing clear, directional performance projections or confidence indicators.",medium,"[""The authorities intended these policy changes to boost capital importation, narrow the divergence in exchange rates, and redirect subsidy costs to crucial capital development projects."", ""used to procure additional retail banking infrastructure, refresh our IT applications, increase our business footprints around Nigeria, and expand internationally.""]",5547.0,,0,"{
+  ""sentiment"": ""negative"",
+   ""intensity"": ""strong"",
+   ""sentiment_key_phrase"": ""the NGN to deteriorate by 90% and 58%"",
+   ""has_guidance"": true,
+   ""guidance_type"": ""neutral"",
+   ""guidance_spans"": [
+      ""The authorities intended these policy changes to boost capital importation, narrow the divergence in exchange rates, and redirect subsidy costs to crucial capital development projects."",
+      ""used to procure additional retail banking infrastructure, refresh our IT applications, increase our business footprints around Nigeria, and expand internationally.""
+   ],
+   ""guidance_confidence"": ""medium"",
+   ""overall_rationale"": ""The passage's tone is predominantly negative due to the significant deterioration of the NGN and the challenges posed by importation, FX scarcity, and fiscal discipline issues. The guidance present is neutral, as it outlines intended policy changes and business expansion plans without providing clear, directional performance projections or confidence indicators.""
+}"
+FIDELITYBK_2023_outlook_0_2,FIDELITYBK,Fidelity Bank Plc,Banking,2023,annual_report,outlook,172,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,mild,True,neutral,sincere appreciation to Mr. Hassan Imam for his contributions to the growth and development of our Bank,"The tone is positive due to the expression of appreciation and gratitude, indicating a sense of respect and value for the contributions made. The guidance is neutral as it mentions initiatives to enhance employee welfare, but does not provide specific targets or outcomes, thus lacking clear direction.",medium,"[""We will continue to drive initiatives to enhance employee welfare and strive to make our bank the employer of choice for a discerning workforce""]",6864.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""sincere appreciation to Mr. Hassan Imam for his contributions to the growth and development of our Bank"",
+   ""has_guidance"": true,
+   ""guidance_type"": ""neutral"",
+   ""guidance_spans"": [""We will continue to drive initiatives to enhance employee welfare and strive to make our bank the employer of choice for a discerning workforce""],
+   ""guidance_confidence"": ""medium"",
+   ""overall_rationale"": ""The tone is positive due to the expression of appreciation and gratitude, indicating a sense of respect and value for the contributions made. The guidance is neutral as it mentions initiatives to enhance employee welfare, but does not provide specific targets or outcomes, thus lacking clear direction.""
+}"
+FIDELITYBK_2023_outlook_0_3,FIDELITYBK,Fidelity Bank Plc,Banking,2023,annual_report,outlook,101,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,positive,mild,True,positive,laid the foundation for strong and sustainable growth,"The tone is mildly positive due to the mention of strong and sustainable growth and the intention to sustain dividend payments. Guidance is present and positive, indicating a commitment to maintaining current performance, although the language is somewhat general and lacks specific targets.",medium,"[""We are resolute and fully dedicated to maintaining our current trajectory"", ""we will sustain this practice""]",5379.0,,0,"{
+  ""sentiment"": ""positive"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""laid the foundation for strong and sustainable growth"",
+   ""has_guidance"": true,
+   ""guidance_type"": ""positive"",
+   ""guidance_spans"": [""We are resolute and fully dedicated to maintaining our current trajectory"", ""we will sustain this practice""],
+   ""guidance_confidence"": ""medium"",
+   ""overall_rationale"": ""The tone is mildly positive due to the mention of strong and sustainable growth and the intention to sustain dividend payments. Guidance is present and positive, indicating a commitment to maintaining current performance, although the language is somewhat general and lacks specific targets.""
+}"
+FIDELITYBK_2023_chairman_statement_0_0,FIDELITYBK,Fidelity Bank Plc,Banking,2023,annual_report,chairman_statement,289,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,To be number one in every market we serve and for every branded product we offer,"The passage is largely informational and procedural, lacking any strongly emotive or directional language, thus resulting in a neutral sentiment. There is no forward-looking guidance present in the passage, which is primarily focused on providing corporate and financial information.",high,[],7804.0,,0,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""To be number one in every market we serve and for every branded product we offer"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage is largely informational and procedural, lacking any strongly emotive or directional language, thus resulting in a neutral sentiment. There is no forward-looking guidance present in the passage, which is primarily focused on providing corporate and financial information.""
+}"
+FIDELITYBK_2023_ceo_review_0_2,FIDELITYBK,Fidelity Bank Plc,Banking,2023,annual_report,ceo_review,155,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98874, Requested 1664. Please try again in 7m44.832s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+FIDELITYBK_2023_ceo_review_0_3,FIDELITYBK,Fidelity Bank Plc,Banking,2023,annual_report,ceo_review,205,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98852, Requested 1720. Please try again in 8m14.208s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+FIDELITYBK_2023_ceo_review_0_4,FIDELITYBK,Fidelity Bank Plc,Banking,2023,annual_report,ceo_review,173,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98830, Requested 1683. Please try again in 7m23.232s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+FIDELITYBK_2023_ceo_review_0_5,FIDELITYBK,Fidelity Bank Plc,Banking,2023,annual_report,ceo_review,137,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98808, Requested 1603. Please try again in 5m55.104s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+FIDELITYBK_2023_operating_review_0_0,FIDELITYBK,Fidelity Bank Plc,Banking,2023,annual_report,operating_review,79,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98786, Requested 1553. Please try again in 4m52.895999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+FIDELITYBK_2024_outlook_0_0,FIDELITYBK,Fidelity Bank Plc,Banking,2024,annual_report,outlook,156,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98765, Requested 1629. Please try again in 5m40.416s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+FIDELITYBK_2024_outlook_0_1,FIDELITYBK,Fidelity Bank Plc,Banking,2024,annual_report,outlook,165,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98743, Requested 1649. Please try again in 5m38.688s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+FIDELITYBK_2024_outlook_0_2,FIDELITYBK,Fidelity Bank Plc,Banking,2024,annual_report,outlook,157,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98721, Requested 1698. Please try again in 6m2.016s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+FIDELITYBK_2024_outlook_0_3,FIDELITYBK,Fidelity Bank Plc,Banking,2024,annual_report,outlook,97,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98699, Requested 1565. Please try again in 3m48.096s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+FIDELITYBK_2024_operating_review_0_0,FIDELITYBK,Fidelity Bank Plc,Banking,2024,annual_report,operating_review,81,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98678, Requested 1558. Please try again in 3m23.904s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+FIDELITYBK_None_operating_review_0_0,FIDELITYBK,Fidelity Bank Plc,Banking,,annual_report,operating_review,76,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98628, Requested 1542. Please try again in 2m26.88s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+GTCO_2023_outlook_0_0,GTCO,Guaranty Trust Holding Company Plc,Banking,2023,other,outlook,58,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98607, Requested 1510. Please try again in 1m41.088s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+GTCO_2023_chairman_statement_0_0,GTCO,Guaranty Trust Holding Company Plc,Banking,2023,other,chairman_statement,158,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98585, Requested 1607. Please try again in 2m45.888s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+GTCO_2023_chairman_statement_0_2,GTCO,Guaranty Trust Holding Company Plc,Banking,2023,other,chairman_statement,177,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98563, Requested 1661. Please try again in 3m13.535999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+GTCO_2023_ceo_review_0_1,GTCO,Guaranty Trust Holding Company Plc,Banking,2023,other,ceo_review,275,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98541, Requested 1958. Please try again in 7m11.135999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+GTCO_2023_ceo_review_0_2,GTCO,Guaranty Trust Holding Company Plc,Banking,2023,other,ceo_review,213,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98520, Requested 1695. Please try again in 3m5.76s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+GTCO_2023_operating_review_0_1,GTCO,Guaranty Trust Holding Company Plc,Banking,2023,other,operating_review,232,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98498, Requested 2110. Please try again in 8m45.312s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+GTCO_2023_operating_review_0_2,GTCO,Guaranty Trust Holding Company Plc,Banking,2023,other,operating_review,140,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98476, Requested 2047. Please try again in 7m31.872s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NB_2023_outlook_0_0,NB,Nigerian Breweries Plc,Consumer Goods,2023,other,outlook,60,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98455, Requested 1848. Please try again in 4m21.792s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NB_2023_ceo_review_0_0,NB,Nigerian Breweries Plc,Consumer Goods,2023,other,ceo_review,291,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98433, Requested 2182. Please try again in 8m51.36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NB_2023_outlook_0_0,NB,Nigerian Breweries Plc,Consumer Goods,2023,annual_report,outlook,51,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98411, Requested 1811. Please try again in 3m11.808s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NB_2023_chairman_statement_0_0,NB,Nigerian Breweries Plc,Consumer Goods,2023,annual_report,chairman_statement,153,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98389, Requested 1951. Please try again in 4m53.76s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NB_2023_ceo_review_0_0,NB,Nigerian Breweries Plc,Consumer Goods,2023,annual_report,ceo_review,387,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98364, Requested 2276. Please try again in 9m12.96s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_outlook_0_0,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,other,outlook,207,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98340, Requested 2027. Please try again in 5m17.088s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_ceo_review_0_0,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,other,ceo_review,277,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98314, Requested 2319. Please try again in 9m6.911999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_ceo_review_0_1,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,other,ceo_review,173,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98267, Requested 2021. Please try again in 4m8.832s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_ceo_review_0_2,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,other,ceo_review,284,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98241, Requested 2346. Please try again in 8m27.168s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_ceo_review_0_3,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,other,ceo_review,169,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98217, Requested 1944. Please try again in 2m19.104s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_ceo_review_0_4,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,other,ceo_review,155,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98194, Requested 1943. Please try again in 1m58.368s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_ceo_review_1_0,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,other,ceo_review,214,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98172, Requested 2188. Please try again in 5m11.039999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_ceo_review_1_1,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,other,ceo_review,173,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98150, Requested 2021. Please try again in 2m27.744s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_ceo_review_1_2,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,other,ceo_review,284,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98129, Requested 2346. Please try again in 6m50.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_ceo_review_1_3,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,other,ceo_review,169,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,neutral,mild,False,none,in compliance with The 's free float requirements,"The passage maintains a neutral tone, primarily focusing on compliance and asset valuation without expressing a clear positive or negative sentiment. There is no forward-looking guidance present in the passage, which is largely procedural and informative in nature.",high,[],56674.0,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98126, Requested 1944. Please try again in 1m0.48s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",1,"{
+  ""sentiment"": ""neutral"",
+   ""intensity"": ""mild"",
+   ""sentiment_key_phrase"": ""in compliance with The 's free float requirements"",
+   ""has_guidance"": false,
+   ""guidance_type"": ""none"",
+   ""guidance_spans"": [],
+   ""guidance_confidence"": ""high"",
+   ""overall_rationale"": ""The passage maintains a neutral tone, primarily focusing on compliance and asset valuation without expressing a clear positive or negative sentiment. There is no forward-looking guidance present in the passage, which is largely procedural and informative in nature.""
+}"
+NESTLE_2024_ceo_review_1_4,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,other,ceo_review,155,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99979, Requested 1553. Please try again in 22m3.648s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_outlook_0_0,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,earnings_release,outlook,234,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99956, Requested 2021. Please try again in 28m28.128s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_ceo_review_0_0,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,earnings_release,ceo_review,292,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99935, Requested 2362. Please try again in 33m4.608s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_ceo_review_0_1,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,earnings_release,ceo_review,173,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99913, Requested 2021. Please try again in 27m50.976s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_ceo_review_0_2,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,earnings_release,ceo_review,280,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99890, Requested 2325. Please try again in 31m53.76s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_ceo_review_0_3,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,earnings_release,ceo_review,158,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99869, Requested 1933. Please try again in 25m56.928s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_ceo_review_0_4,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,earnings_release,ceo_review,155,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99847, Requested 1943. Please try again in 25m46.56s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_ceo_review_1_0,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,earnings_release,ceo_review,231,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99824, Requested 1846. Please try again in 24m2.88s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_ceo_review_1_1,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,earnings_release,ceo_review,173,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99802, Requested 2021. Please try again in 26m15.072s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_ceo_review_1_2,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,earnings_release,ceo_review,280,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99780, Requested 2325. Please try again in 30m18.72s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_ceo_review_1_3,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,earnings_release,ceo_review,158,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99758, Requested 1933. Please try again in 24m21.024s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2024_ceo_review_1_4,NESTLE,Nestle Nigeria Plc,Consumer Goods,2024,earnings_release,ceo_review,155,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99736, Requested 1553. Please try again in 18m33.696s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2023_ceo_review_1_0,NESTLE,Nestle Nigeria Plc,Consumer Goods,2023,earnings_release,ceo_review,243,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99714, Requested 1880. Please try again in 22m57.216s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2023_ceo_review_1_1,NESTLE,Nestle Nigeria Plc,Consumer Goods,2023,earnings_release,ceo_review,154,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99692, Requested 2012. Please try again in 24m32.255999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+NESTLE_2023_ceo_review_1_4,NESTLE,Nestle Nigeria Plc,Consumer Goods,2023,earnings_release,ceo_review,164,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99670, Requested 1544. Please try again in 17m28.896s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+STERLING_2024_ceo_review_0_0,STERLING,Sterling Financial Holdings Plc,Banking,2024,annual_report,ceo_review,163,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99648, Requested 1953. Please try again in 23m3.264s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+STERLING_2024_ceo_review_0_1,STERLING,Sterling Financial Holdings Plc,Banking,2024,annual_report,ceo_review,162,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99626, Requested 1952. Please try again in 22m43.391999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+STERLING_2024_ceo_review_0_2,STERLING,Sterling Financial Holdings Plc,Banking,2024,annual_report,ceo_review,166,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99604, Requested 1957. Please try again in 22m28.704s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+STERLING_2024_ceo_review_0_3,STERLING,Sterling Financial Holdings Plc,Banking,2024,annual_report,ceo_review,164,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99582, Requested 1959. Please try again in 22m11.424s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+STERLING_2024_operating_review_0_0,STERLING,Sterling Financial Holdings Plc,Banking,2024,annual_report,operating_review,191,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99561, Requested 1979. Please try again in 22m10.56s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+STERLING_2024_operating_review_0_1,STERLING,Sterling Financial Holdings Plc,Banking,2024,annual_report,operating_review,169,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99539, Requested 1968. Please try again in 21m42.048s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,
+STERLING_2024_operating_review_0_2,STERLING,Sterling Financial Holdings Plc,Banking,2024,annual_report,operating_review,204,,,,,llama3,Llama 3.3 70B (Groq),combined_5shot,5,,,,,,,,[],,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kv55nb3eft1t7e9q52k5yt1s` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99516, Requested 2084. Please try again in 23m2.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",3,

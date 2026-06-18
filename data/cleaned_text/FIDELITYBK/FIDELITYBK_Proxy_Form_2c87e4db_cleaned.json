@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "source": "company_ir",
+    "ticker": "FIDELITYBK",
+    "url": "https://www.fidelitybank.ng/documents/Updated_AGM%202024_Proxy%20Form%20_April_2025.pdf",
+    "title": "Proxy Form",
+    "doc_type": "agm_statement",
+    "company_name": "Fidelity Bank Plc",
+    "sector": "Banking",
+    "year": "2024",
+    "discovered_at": "2026-06-14T21:33:41.264480",
+    "local_path": "C:\\Users\\USER\\Desktop\\DataQUry\\ngx_collector\\data\\raw_pdfs\\FIDELITYBK\\FIDELITYBK_Proxy_Form_2c87e4db.pdf",
+    "downloaded_at": "2026-06-14T22:04:33.153847",
+    "extracted_at": "2026-06-15T14:30:18.173863",
+    "extraction_stats": {
+      "page_count": 1,
+      "full_text_chars": 3004,
+      "chairman_chars": 0,
+      "ceo_chars": 0,
+      "operating_chars": 0,
+      "outlook_chars": 0,
+      "extraction_status": "ok"
+    },
+    "char_counts": {
+      "full_text": 3004,
+      "chairman_statement": 0,
+      "ceo_review": 0,
+      "operating_review": 0,
+      "outlook": 0,
+      "governance": 0,
+      "extraction_status": 2
+    }
+  },
+  "cleaned_sections": {
+    "full_text": {
+      "text": "I/We desire this proxy to be used in favour of/or against the resolution as indicated alongside (strike out whichever is not required).\nNo\nORDINARY RESOLUTIONS\nFOR\nAGAINST\nTo consider and if thought fit, pass the following as Ordinary\nResolutions:\n1.\nTo lay before the members, the Audited Financial Statements\nDirectors, Exter-nal Auditors and Audit Committee thereon.\n2.\nTo declare a final Dividend.\n3.\n(a.) To elect Alhaji Abdullahi Sarki Mohammed, as Independent\nNon-Executive Director.\n(b.)  To elect Ms. Obiaku Augusta Okam as Non-Executive\nDirector.\n(c.)  To elect Mr. Sufiyanu Ibrahim Garba as Executive Director.\n4.\n(a.)  To re-elect Mr. Mustafa Chike-Obi as Non-Executive Director.\n(b.)  To re-elect Engr. Henry Obih as Non-Executive Director.\n5.\nTo authorize the Directors to fix the remuneration of the External\nAudi-tors for 2025.\n6.\nTo disclose the remuneration of the managers of the Company.\n7.\nTo elect the members of the Statutory Audit Committee.\nPlease indicate with an \"X\" in the appropriate column, how you wish your votes to be cast on the resolutions set out above. Unless otherwise instructed, the Proxy will vote or abstain from voting at his discretion.\nSignature of Person Attending\nI/We of being a Shareholder(s) of Fidelity Bank Plc hereby appoint\nMr. Mustafa Chike-Obi or failing him, Dr. Nneka Onyeali-Ikpe as my/our Proxy to act and vote for me/us on my/our behalf at the Annual General Meeting to be held at 10:00a.m. on the 29th day of April 2025 and at any adjournment thereof.\nDated this 4th day of April 2025\nShareholder's Signature  Account Number\nThis proxy form should NOT be completed and sent to the registered office of the Registrar if the\nShareholder will be attending the meeting.\nNOTES\nA Shareholder entitled to attend and vote at the Annual General Meeting is entitled to appoint a Proxy in his stead.  All proxy forms should be deposited at the registered office of the Registrar (as in the\nNotice) not later than 48 hours before the meeting.\nIn the case of Joint Shareholders, any of them may complete the form, but the names of all Joint\nShareholders must be stated.\nIf the Shareholder is a corporation, this form must be executed under its Common Seal or under the hand of some of its officers or an attorney duly authorized.\nIt is a legal requirement that all instruments of proxy to be used for the purpose of voting by any person entitled to vote at any meeting of Shareholders must bear appropriate stamp duty from the\nStamp Duties Office (not adhesive postage stamps).\n(i) (ii) (iii) (iv)\nFor the Annual General Meeting of members of Fidelity Bank Plc to be held virtually via https://www.fidelitybank.ng/agm/ At 10.00a.m. on Tuesday, April 29, 2025.\nProxy Form",
+      "quality": "acceptable",
+      "char_count": 2719,
+      "original_len": 3004,
+      "compression": 9.5
+    },
+    "chairman_statement": {
+      "text": "",
+      "quality": "empty",
+      "char_count": 0
+    },
+    "ceo_review": {
+      "text": "",
+      "quality": "empty",
+      "char_count": 0
+    },
+    "operating_review": {
+      "text": "",
+      "quality": "empty",
+      "char_count": 0
+    },
+    "outlook": {
+      "text": "",
+      "quality": "empty",
+      "char_count": 0
+    }
+  },
+  "passages": [],
+  "passage_count": 0,
+  "good_passages": 0,
+  "processed_at": "2026-06-18T12:30:53.646626"
+}

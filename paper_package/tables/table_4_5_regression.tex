@@ -1,0 +1,57 @@
+% === TABLE 4: Regression Results ===
+
+\begin{table}[h]
+\centering
+\small
+\caption{Regression of Post-Disclosure Abnormal Returns on LLM Sentiment Scores (NGX 2020--2024)}
+\label{tab:regression_CAR0_+3}
+\begin{tabular}{lcccccc}
+\hline
+\textbf{Variable} & \textbf{Model 1: Univariate Sentiment} & \textbf{Model 2: Guidance Signals} & \textbf{Model 3: Sentiment + Guidance} & \textbf{Model 4: Sentiment + Controls} & \textbf{Model 5: Full Model odel (Sector + Year FE)} & \textbf{Model 6: Net Sentiment Index} \\
+\hline
+sentiment\_score\_mean & 0.0270*** & -- & 0.0230** & 0.0196* & 0.0218** & -- \\
+ & (0.0045) &  & (0.0103) & (0.0106) & (0.0109) &  \\
+guidance\_score\_mean & -- & -0.0070 & -0.0052 & -0.0061 & -0.0016 & -- \\
+ &  & (0.0092) & (0.0076) & (0.0080) & (0.0077) &  \\
+guidance\_rate & -- & 0.0153 & 0.0064 & 0.0070 & -0.0016 & -- \\
+ &  & (0.0118) & (0.0088) & (0.0089) & (0.0086) &  \\
+weighted\_score\_mean & -- & -- & 0.0038 & 0.0076 & 0.0044 & -- \\
+ &  &  & (0.0101) & (0.0100) & (0.0111) &  \\
+net\_sentiment & -- & -- & -- & -- & -- & 0.0183*** \\
+ &  &  &  &  &  & (0.0029) \\
+guidance\_adj\_sentiment & -- & -- & -- & -- & -- & 0.0128*** \\
+ &  &  &  &  &  & (0.0020) \\
+beta & -- & -- & -- & -0.0102 & -0.0142 & -0.0076 \\
+ &  &  &  & (0.0117) & (0.0113) & (0.0112) \\
+post\_fx\_unif & -- & -- & -- & -0.0005 & 0.0054 & -- \\
+ &  &  &  & (0.0044) & (0.0037) &  \\
+\hline
+Observations & 120 & 120 & 120 & 120 & 120 & 120 \\
+$R^2$ & 0.3007 & 0.0119 & 0.3051 & 0.3107 & 0.3819 & 0.3042 \\
+Adj. $R^2$ & 0.2948 & -0.005 & 0.2809 & 0.2741 & 0.2995 & 0.2924 \\
+\hline
+\multicolumn{7}{l}{\textit{Notes: HAC standard errors in parentheses. }} \\
+\multicolumn{7}{l}{\textit{*** p$<$0.01, ** p$<$0.05, * p$<$0.10. Sentiment from LLM 5-shot combined prompts.}} \\
+\end{tabular}
+\end{table}
+
+
+% === TABLE 5: Group Tests ===
+
+\begin{table}[h]
+\centering
+\caption{Post-Disclosure Abnormal Returns by LLM Sentiment Group (NGX 2020--2024)}
+\label{tab:group_tests}
+\begin{tabular}{lcccccc}
+\hline
+\textbf{Group} & \textbf{N} & \textbf{Mean CAR[0,+3]} & \textbf{Median} & \textbf{t-stat} & \textbf{p-value} & \textbf{Sig} \\
+\hline
+Negative & 54 & -0.0139 & -0.0115 & -3.912 & 0.000 & *** \\
+Neutral & 20 & -0.0046 & -0.0020 & -0.883 & 0.388 &  \\
+Positive & 46 & 0.0188 & 0.0175 & 5.015 & 0.000 & *** \\
+Positive vs Negative (diff) & 46 vs 54 & 0.0327 & 0.0290 & 6.332 & 0.000 & *** \\
+Spearman rho (sentiment vs CAR) & 120 & 0.5677 & -- & -- & 0.000 & *** \\
+\hline
+\multicolumn{7}{l}{\textit{Notes: t-statistics test H$_0$: mean CAR = 0. Welch t-test for group differences.}} \\
+\end{tabular}
+\end{table}

@@ -1,0 +1,238 @@
+2026-06-17 16:21:22,727 [INFO] === DISCOVERY PHASE: 49 companies ===
+2026-06-17 16:21:22,728 [INFO] Discovering: ZENITHBANK — Zenith Bank Plc
+2026-06-17 16:21:23,516 [INFO] [IR Page] ZENITHBANK: found 0 PDF links
+2026-06-17 16:21:30,228 [INFO] [Proshare] ZENITHBANK: found 0 links
+2026-06-17 16:21:45,169 [WARNING] [NGX Portal] ZENITHBANK search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=ZENITHBANK
+2026-06-17 16:21:47,189 [INFO]   -> ZENITHBANK: 0 documents found
+2026-06-17 16:21:47,189 [INFO] Discovering: GTCO — Guaranty Trust Holding Company Plc
+2026-06-17 16:21:49,357 [INFO] [IR Page] GTCO: found 0 PDF links
+2026-06-17 16:21:54,816 [INFO] [Proshare] GTCO: found 0 links
+2026-06-17 16:22:12,703 [WARNING] [NGX Portal] GTCO search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=GTCO
+2026-06-17 16:22:14,708 [INFO]   -> GTCO: 0 documents found
+2026-06-17 16:22:14,708 [INFO] Discovering: ACCESS — Access Holdings Plc
+2026-06-17 16:22:15,553 [WARNING] [IR Page] ACCESS failed: 403 Client Error: Forbidden for url: https://www.accessbankplc.com/investor-relations
+2026-06-17 16:22:22,283 [INFO] [Proshare] ACCESS: found 0 links
+2026-06-17 16:22:39,831 [WARNING] [NGX Portal] ACCESS search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=ACCESS
+2026-06-17 16:22:41,841 [INFO]   -> ACCESS: 0 documents found
+2026-06-17 16:22:41,842 [INFO] Discovering: UBA — United Bank for Africa Plc
+2026-06-17 16:22:42,983 [INFO] [IR Page] UBA: found 0 PDF links
+2026-06-17 16:22:49,620 [INFO] [Proshare] UBA: found 0 links
+2026-06-17 16:23:17,927 [WARNING] [NGX Portal] UBA search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=UBA
+2026-06-17 16:23:19,934 [INFO]   -> UBA: 0 documents found
+2026-06-17 16:23:19,934 [INFO] Discovering: FBNH — FBN Holdings Plc
+2026-06-17 16:23:22,352 [INFO] [IR Page] FBNH: found 8 PDF links
+2026-06-17 16:23:28,303 [INFO] [Proshare] FBNH: found 0 links
+2026-06-17 16:23:55,403 [WARNING] [NGX Portal] FBNH search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=FBNH
+2026-06-17 16:23:57,421 [INFO]   -> FBNH: 8 documents found
+2026-06-17 16:23:57,421 [INFO] Discovering: STANBIC — Stanbic IBTC Holdings Plc
+2026-06-17 16:23:57,826 [WARNING] [IR Page] STANBIC failed: HTTPSConnectionPool(host='www.stanbicibtcholdings.com', port=443): Max retries exceeded with url: /investor-relations (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000017258E8F8E0>: Failed to resolve 'www.stanbicibtcholdings.com' ([Errno 11001] getaddrinfo failed)"))
+2026-06-17 16:24:03,814 [INFO] [Proshare] STANBIC: found 0 links
+2026-06-17 16:24:20,783 [WARNING] [NGX Portal] STANBIC search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=STANBIC
+2026-06-17 16:24:22,795 [INFO]   -> STANBIC: 0 documents found
+2026-06-17 16:24:22,796 [INFO] Discovering: FIDELITYBK — Fidelity Bank Plc
+2026-06-17 16:24:25,565 [INFO] [IR Page] FIDELITYBK: found 16 PDF links
+2026-06-17 16:24:33,611 [INFO] [Proshare] FIDELITYBK: found 0 links
+2026-06-17 16:24:50,437 [WARNING] [NGX Portal] FIDELITYBK search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=FIDELITYBK
+2026-06-17 16:24:52,459 [INFO]   -> FIDELITYBK: 16 documents found
+2026-06-17 16:24:52,459 [INFO] Discovering: FCMB — FCMB Group Plc
+2026-06-17 16:24:54,895 [INFO] [IR Page] FCMB: found 1 PDF links
+2026-06-17 16:25:01,974 [INFO] [Proshare] FCMB: found 0 links
+2026-06-17 16:25:26,779 [WARNING] [NGX Portal] FCMB search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=FCMB
+2026-06-17 16:25:28,796 [INFO]   -> FCMB: 1 documents found
+2026-06-17 16:25:28,796 [INFO] Discovering: STERLING — Sterling Financial Holdings Plc
+2026-06-17 16:25:32,024 [INFO] [IR Page] STERLING: found 7 PDF links
+2026-06-17 16:25:39,970 [INFO] [Proshare] STERLING: found 0 links
+2026-06-17 16:25:58,792 [WARNING] [NGX Portal] STERLING search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=STERLING
+2026-06-17 16:26:00,805 [INFO]   -> STERLING: 7 documents found
+2026-06-17 16:26:00,806 [INFO] Discovering: WEMA — Wema Bank Plc
+2026-06-17 16:26:01,850 [INFO] [IR Page] WEMA: found 0 PDF links
+2026-06-17 16:26:09,264 [INFO] [Proshare] WEMA: found 0 links
+2026-06-17 16:26:27,859 [WARNING] [NGX Portal] WEMA search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=WEMA
+2026-06-17 16:26:29,864 [INFO]   -> WEMA: 0 documents found
+2026-06-17 16:26:29,864 [INFO] Discovering: SEPLAT — Seplat Energy Plc
+2026-06-17 16:26:30,472 [WARNING] [IR Page] SEPLAT failed: 403 Client Error: Forbidden for url: https://www.seplatenergy.com/investors/
+2026-06-17 16:26:37,108 [INFO] [Proshare] SEPLAT: found 0 links
+2026-06-17 16:26:54,152 [WARNING] [NGX Portal] SEPLAT search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=SEPLAT
+2026-06-17 16:26:56,162 [INFO]   -> SEPLAT: 0 documents found
+2026-06-17 16:26:56,168 [INFO] Discovering: OANDO — Oando Plc
+2026-06-17 16:26:57,009 [WARNING] [IR Page] OANDO failed: HTTPSConnectionPool(host='www.oandoplc.com', port=443): Max retries exceeded with url: /investor-relations/ (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_BAD_RECORD_MAC] sslv3 alert bad record mac (_ssl.c:2548)')))
+2026-06-17 16:27:04,017 [INFO] [Proshare] OANDO: found 0 links
+2026-06-17 16:27:25,338 [WARNING] [NGX Portal] OANDO search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=OANDO
+2026-06-17 16:27:27,349 [INFO]   -> OANDO: 0 documents found
+2026-06-17 16:27:27,350 [INFO] Discovering: TOTAL — TotalEnergies Marketing Nigeria Plc
+2026-06-17 16:27:27,769 [WARNING] [IR Page] TOTAL failed: HTTPSConnectionPool(host='totalenergies.com.ng', port=443): Max retries exceeded with url: /investors (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:997)')))
+2026-06-17 16:27:35,136 [INFO] [Proshare] TOTAL: found 0 links
+2026-06-17 16:28:02,269 [WARNING] [NGX Portal] TOTAL search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=TOTAL
+2026-06-17 16:28:04,288 [INFO]   -> TOTAL: 0 documents found
+2026-06-17 16:28:04,289 [INFO] Discovering: ARDOVA — Ardova Plc
+2026-06-17 16:28:04,915 [WARNING] [IR Page] ARDOVA failed: 403 Client Error: Forbidden for url: https://www.ardovaplc.com/investor-relations/
+2026-06-17 16:28:11,996 [INFO] [Proshare] ARDOVA: found 0 links
+2026-06-17 16:28:38,218 [WARNING] [NGX Portal] ARDOVA search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=ARDOVA
+2026-06-17 16:28:40,223 [INFO]   -> ARDOVA: 0 documents found
+2026-06-17 16:28:40,224 [INFO] Discovering: CONOIL — Conoil Plc
+2026-06-17 16:28:44,346 [WARNING] [IR Page] CONOIL failed: 404 Client Error: Not Found for url: https://conoilplc.com/investor-relations/
+2026-06-17 16:28:51,729 [INFO] [Proshare] CONOIL: found 0 links
+2026-06-17 16:29:08,698 [WARNING] [NGX Portal] CONOIL search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=CONOIL
+2026-06-17 16:29:10,709 [INFO]   -> CONOIL: 0 documents found
+2026-06-17 16:29:10,710 [INFO] Discovering: ETERNA — Eterna Plc
+2026-06-17 16:29:18,869 [WARNING] [IR Page] ETERNA failed: 404 Client Error: Not Found for url: https://eternaplc.com/investor-relations/
+2026-06-17 16:29:25,855 [INFO] [Proshare] ETERNA: found 0 links
+2026-06-17 16:29:46,004 [WARNING] [NGX Portal] ETERNA search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=ETERNA
+2026-06-17 16:29:48,022 [INFO]   -> ETERNA: 0 documents found
+2026-06-17 16:29:48,022 [INFO] Discovering: JAPAUL — Japaul Gold & Ventures Plc
+2026-06-17 16:29:55,259 [INFO] [Proshare] JAPAUL: found 0 links
+2026-06-17 16:30:17,258 [WARNING] [NGX Portal] JAPAUL search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=JAPAUL
+2026-06-17 16:30:19,269 [INFO]   -> JAPAUL: 0 documents found
+2026-06-17 16:30:19,269 [INFO] Discovering: NNPC — MRS Oil Nigeria Plc
+2026-06-17 16:30:25,817 [INFO] [Proshare] NNPC: found 0 links
+2026-06-17 16:30:44,221 [WARNING] [NGX Portal] NNPC search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=NNPC
+2026-06-17 16:30:46,237 [INFO]   -> NNPC: 0 documents found
+2026-06-17 16:30:46,237 [INFO] Discovering: DANGCEM — Dangote Cement Plc
+2026-06-17 16:30:47,177 [WARNING] [IR Page] DANGCEM failed: HTTPSConnectionPool(host='www.dangotecement.com', port=443): Max retries exceeded with url: /investors/ (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.dangotecement.com'. (_ssl.c:997)")))
+2026-06-17 16:30:53,199 [INFO] [Proshare] DANGCEM: found 0 links
+2026-06-17 16:31:25,630 [WARNING] [NGX Portal] DANGCEM search failed: HTTPSConnectionPool(host='ngxgroup.com', port=443): Read timed out. (read timeout=30)
+2026-06-17 16:31:27,639 [INFO]   -> DANGCEM: 0 documents found
+2026-06-17 16:31:27,640 [INFO] Discovering: BUACEMENT — BUA Cement Plc
+2026-06-17 16:31:28,802 [INFO] [IR Page] BUACEMENT: found 1 PDF links
+2026-06-17 16:31:36,016 [INFO] [Proshare] BUACEMENT: found 0 links
+2026-06-17 16:32:08,506 [WARNING] [NGX Portal] BUACEMENT search failed: HTTPSConnectionPool(host='ngxgroup.com', port=443): Read timed out. (read timeout=30)
+2026-06-17 16:32:10,510 [INFO]   -> BUACEMENT: 1 documents found
+2026-06-17 16:32:10,511 [INFO] Discovering: WAPCO — Lafarge Africa Plc
+2026-06-17 16:32:11,382 [WARNING] [IR Page] WAPCO failed: 404 Client Error: Not Found for url: https://www.lafarge.com.ng/investors/
+2026-06-17 16:32:18,163 [INFO] [Proshare] WAPCO: found 0 links
+2026-06-17 16:32:49,368 [WARNING] [NGX Portal] WAPCO search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=WAPCO
+2026-06-17 16:32:51,387 [INFO]   -> WAPCO: 0 documents found
+2026-06-17 16:32:51,388 [INFO] Discovering: CUTIX — Cutix Plc
+2026-06-17 16:33:01,017 [INFO] [Proshare] CUTIX: found 0 links
+2026-06-17 16:33:33,972 [WARNING] [NGX Portal] CUTIX search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=CUTIX
+2026-06-17 16:33:35,982 [INFO]   -> CUTIX: 0 documents found
+2026-06-17 16:33:35,982 [INFO] Discovering: BERGER — Berger Paints Nigeria Plc
+2026-06-17 16:33:42,178 [INFO] [Proshare] BERGER: found 0 links
+2026-06-17 16:34:00,231 [WARNING] [NGX Portal] BERGER search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=BERGER
+2026-06-17 16:34:02,254 [INFO]   -> BERGER: 0 documents found
+2026-06-17 16:34:02,255 [INFO] Discovering: PORTPAINT — Portland Paints & Products Nigeria Plc
+2026-06-17 16:34:08,887 [INFO] [Proshare] PORTPAINT: found 0 links
+2026-06-17 16:34:30,946 [WARNING] [NGX Portal] PORTPAINT search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=PORTPAINT
+2026-06-17 16:34:32,959 [INFO]   -> PORTPAINT: 0 documents found
+2026-06-17 16:34:32,960 [INFO] Discovering: CAPhotels — Capital Hotel Plc
+2026-06-17 16:34:38,707 [INFO] [Proshare] CAPhotels: found 0 links
+2026-06-17 16:34:55,522 [WARNING] [NGX Portal] CAPhotels search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=CAPhotels
+2026-06-17 16:34:57,534 [INFO]   -> CAPhotels: 0 documents found
+2026-06-17 16:34:57,534 [INFO] Discovering: MTNN — MTN Nigeria Communications Plc
+2026-06-17 16:34:57,598 [WARNING] [IR Page] MTNN failed: HTTPSConnectionPool(host='www.mtnnigeria.net', port=443): Max retries exceeded with url: /investors/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000017258C974F0>: Failed to resolve 'www.mtnnigeria.net' ([Errno 11001] getaddrinfo failed)"))
+2026-06-17 16:35:03,077 [INFO] [Proshare] MTNN: found 0 links
+2026-06-17 16:35:24,083 [WARNING] [NGX Portal] MTNN search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=MTNN
+2026-06-17 16:35:26,097 [INFO]   -> MTNN: 0 documents found
+2026-06-17 16:35:26,098 [INFO] Discovering: AIRTELAFRI — Airtel Africa Plc
+2026-06-17 16:35:26,432 [WARNING] [IR Page] AIRTELAFRI failed: HTTPSConnectionPool(host='www.airtelafrica.com', port=443): Max retries exceeded with url: /investors/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000017258C97310>: Failed to resolve 'www.airtelafrica.com' ([Errno 11001] getaddrinfo failed)"))
+2026-06-17 16:35:31,621 [INFO] [Proshare] AIRTELAFRI: found 0 links
+2026-06-17 16:35:50,053 [WARNING] [NGX Portal] AIRTELAFRI search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=AIRTELAFRI
+2026-06-17 16:35:52,058 [INFO]   -> AIRTELAFRI: 0 documents found
+2026-06-17 16:35:52,058 [INFO] Discovering: NESTLE — Nestle Nigeria Plc
+2026-06-17 16:35:53,264 [WARNING] [IR Page] NESTLE failed: 403 Client Error: Forbidden for url: https://www.nestle-cwa.com/ng/investors/
+2026-06-17 16:35:58,889 [INFO] [Proshare] NESTLE: found 0 links
+2026-06-17 16:36:15,831 [WARNING] [NGX Portal] NESTLE search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=NESTLE
+2026-06-17 16:36:17,841 [INFO]   -> NESTLE: 0 documents found
+2026-06-17 16:36:17,841 [INFO] Discovering: UNILEVER — Unilever Nigeria Plc
+2026-06-17 16:36:19,836 [WARNING] [IR Page] UNILEVER failed: 403 Client Error: Forbidden for url: https://www.unilever-ewa.com/investor-relations/
+2026-06-17 16:36:25,829 [INFO] [Proshare] UNILEVER: found 0 links
+2026-06-17 16:36:51,659 [WARNING] [NGX Portal] UNILEVER search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=UNILEVER
+2026-06-17 16:36:53,664 [INFO]   -> UNILEVER: 0 documents found
+2026-06-17 16:36:53,664 [INFO] Discovering: DANGSUGAR — Dangote Sugar Refinery Plc
+2026-06-17 16:36:54,006 [WARNING] [IR Page] DANGSUGAR failed: HTTPSConnectionPool(host='www.dangotesugar.com.ng', port=443): Max retries exceeded with url: /investors/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000017258B1C400>: Failed to resolve 'www.dangotesugar.com.ng' ([Errno 11001] getaddrinfo failed)"))
+2026-06-17 16:37:01,037 [INFO] [Proshare] DANGSUGAR: found 0 links
+2026-06-17 16:37:28,854 [WARNING] [NGX Portal] DANGSUGAR search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=DANGSUGAR
+2026-06-17 16:37:30,871 [INFO]   -> DANGSUGAR: 0 documents found
+2026-06-17 16:37:30,871 [INFO] Discovering: FLOURMILL — Flour Mills of Nigeria Plc
+2026-06-17 16:37:31,014 [WARNING] [IR Page] FLOURMILL failed: HTTPSConnectionPool(host='www.flourmillsofnigeria.com', port=443): Max retries exceeded with url: /investors/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000017258B1CCD0>: Failed to resolve 'www.flourmillsofnigeria.com' ([Errno 11001] getaddrinfo failed)"))
+2026-06-17 16:37:36,374 [INFO] [Proshare] FLOURMILL: found 0 links
+2026-06-17 16:37:56,401 [WARNING] [NGX Portal] FLOURMILL search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=FLOURMILL
+2026-06-17 16:37:58,412 [INFO]   -> FLOURMILL: 0 documents found
+2026-06-17 16:37:58,413 [INFO] Discovering: GUINNESS — Guinness Nigeria Plc
+2026-06-17 16:38:00,318 [WARNING] [IR Page] GUINNESS failed: 500 Server Error: Internal Server Error for url: https://www.guinness-nigeria.com/investor-relations/
+2026-06-17 16:38:06,340 [INFO] [Proshare] GUINNESS: found 0 links
+2026-06-17 16:38:24,164 [WARNING] [NGX Portal] GUINNESS search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=GUINNESS
+2026-06-17 16:38:26,172 [INFO]   -> GUINNESS: 0 documents found
+2026-06-17 16:38:26,172 [INFO] Discovering: NB — Nigerian Breweries Plc
+2026-06-17 16:38:29,361 [WARNING] [IR Page] NB failed: 404 Client Error: Not Found for url: https://www.nbplc.com/investors/
+2026-06-17 16:38:34,840 [INFO] [Proshare] NB: found 0 links
+2026-06-17 16:38:55,685 [WARNING] [NGX Portal] NB search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=NB
+2026-06-17 16:38:57,689 [INFO]   -> NB: 0 documents found
+2026-06-17 16:38:57,689 [INFO] Discovering: INTBREW — International Breweries Plc
+2026-06-17 16:39:03,237 [INFO] [Proshare] INTBREW: found 0 links
+2026-06-17 16:39:19,519 [WARNING] [NGX Portal] INTBREW search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=INTBREW
+2026-06-17 16:39:21,523 [INFO]   -> INTBREW: 0 documents found
+2026-06-17 16:39:21,523 [INFO] Discovering: NASCON — NASCON Allied Industries Plc
+2026-06-17 16:39:28,610 [INFO] [Proshare] NASCON: found 0 links
+2026-06-17 16:39:45,441 [WARNING] [NGX Portal] NASCON search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=NASCON
+2026-06-17 16:39:47,446 [INFO]   -> NASCON: 0 documents found
+2026-06-17 16:39:47,446 [INFO] Discovering: CADBURY — Cadbury Nigeria Plc
+2026-06-17 16:40:29,734 [WARNING] [IR Page] CADBURY failed: HTTPSConnectionPool(host='www.cadburynigeria.com', port=443): Max retries exceeded with url: /investor-relations/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000172593F9840>, 'Connection to www.cadburynigeria.com timed out. (connect timeout=30)'))
+2026-06-17 16:40:37,407 [INFO] [Proshare] CADBURY: found 0 links
+2026-06-17 16:40:57,022 [WARNING] [NGX Portal] CADBURY search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=CADBURY
+2026-06-17 16:40:59,033 [INFO]   -> CADBURY: 0 documents found
+2026-06-17 16:40:59,034 [INFO] Discovering: PRESCO — Presco Plc
+2026-06-17 16:41:06,084 [INFO] [Proshare] PRESCO: found 0 links
+2026-06-17 16:41:39,075 [WARNING] [NGX Portal] PRESCO search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=PRESCO
+2026-06-17 16:41:41,084 [INFO]   -> PRESCO: 0 documents found
+2026-06-17 16:41:41,085 [INFO] Discovering: OKOMUOIL — Okomu Oil Palm Plc
+2026-06-17 16:41:47,251 [INFO] [Proshare] OKOMUOIL: found 0 links
+2026-06-17 16:42:18,378 [WARNING] [NGX Portal] OKOMUOIL search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=OKOMUOIL
+2026-06-17 16:42:20,389 [INFO]   -> OKOMUOIL: 0 documents found
+2026-06-17 16:42:20,389 [INFO] Discovering: CHAMPION — Champion Breweries Plc
+2026-06-17 16:42:26,854 [INFO] [Proshare] CHAMPION: found 0 links
+2026-06-17 16:42:44,171 [WARNING] [NGX Portal] CHAMPION search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=CHAMPION
+2026-06-17 16:42:46,191 [INFO]   -> CHAMPION: 0 documents found
+2026-06-17 16:42:46,191 [INFO] Discovering: VITAFOAM — Vitafoam Nigeria Plc
+2026-06-17 16:42:52,935 [INFO] [Proshare] VITAFOAM: found 0 links
+2026-06-17 16:43:15,012 [WARNING] [NGX Portal] VITAFOAM search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=VITAFOAM
+2026-06-17 16:43:17,028 [INFO]   -> VITAFOAM: 0 documents found
+2026-06-17 16:43:17,028 [INFO] Discovering: NNFM — Northern Nigerian Flour Mills Plc
+2026-06-17 16:43:24,901 [INFO] [Proshare] NNFM: found 0 links
+2026-06-17 16:43:53,452 [WARNING] [NGX Portal] NNFM search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=NNFM
+2026-06-17 16:43:55,470 [INFO]   -> NNFM: 0 documents found
+2026-06-17 16:43:55,470 [INFO] Discovering: LIVESTOCK — Livestock Feeds Plc
+2026-06-17 16:44:02,140 [INFO] [Proshare] LIVESTOCK: found 0 links
+2026-06-17 16:44:28,447 [WARNING] [NGX Portal] LIVESTOCK search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=LIVESTOCK
+2026-06-17 16:44:30,461 [INFO]   -> LIVESTOCK: 0 documents found
+2026-06-17 16:44:30,461 [INFO] Discovering: TRANSCORP — Transnational Corporation Plc
+2026-06-17 16:45:13,678 [WARNING] [IR Page] TRANSCORP failed: HTTPSConnectionPool(host='www.transcorpplc.com', port=443): Max retries exceeded with url: /investor-relations/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000017258C95990>, 'Connection to www.transcorpplc.com timed out. (connect timeout=30)'))
+2026-06-17 16:45:22,328 [INFO] [Proshare] TRANSCORP: found 0 links
+2026-06-17 16:45:49,773 [WARNING] [NGX Portal] TRANSCORP search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=TRANSCORP
+2026-06-17 16:45:51,820 [INFO]   -> TRANSCORP: 0 documents found
+2026-06-17 16:45:51,820 [INFO] Discovering: JULI — Juli Plc
+2026-06-17 16:45:58,782 [INFO] [Proshare] JULI: found 0 links
+2026-06-17 16:46:31,218 [WARNING] [NGX Portal] JULI search failed: HTTPSConnectionPool(host='ngxgroup.com', port=443): Read timed out. (read timeout=30)
+2026-06-17 16:46:33,230 [INFO]   -> JULI: 0 documents found
+2026-06-17 16:46:33,230 [INFO] Discovering: NSLTECH — Tripple Gee and Company Plc
+2026-06-17 16:46:40,126 [INFO] [Proshare] NSLTECH: found 0 links
+2026-06-17 16:47:10,554 [WARNING] [NGX Portal] NSLTECH search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=NSLTECH
+2026-06-17 16:47:12,569 [INFO]   -> NSLTECH: 0 documents found
+2026-06-17 16:47:12,570 [INFO] Discovering: VERITASKAP — Veritas Kapital Assurance Plc
+2026-06-17 16:47:20,024 [INFO] [Proshare] VERITASKAP: found 0 links
+2026-06-17 16:47:52,685 [WARNING] [NGX Portal] VERITASKAP search failed: HTTPSConnectionPool(host='ngxgroup.com', port=443): Read timed out. (read timeout=30)
+2026-06-17 16:47:54,696 [INFO]   -> VERITASKAP: 0 documents found
+2026-06-17 16:47:54,696 [INFO] Discovering: BUAFOODS — BUA Foods Plc
+2026-06-17 16:47:54,927 [WARNING] [IR Page] BUAFOODS failed: HTTPSConnectionPool(host='www.buafoods.com', port=443): Max retries exceeded with url: /investors/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000017259844EE0>: Failed to resolve 'www.buafoods.com' ([Errno 11001] getaddrinfo failed)"))
+2026-06-17 16:48:02,830 [INFO] [Proshare] BUAFOODS: found 0 links
+2026-06-17 16:48:18,966 [WARNING] [NGX Portal] BUAFOODS search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=BUAFOODS
+2026-06-17 16:48:20,983 [INFO]   -> BUAFOODS: 0 documents found
+2026-06-17 16:48:20,983 [INFO] Discovering: GEREGU — Geregu Power Plc
+2026-06-17 16:48:29,641 [INFO] [Proshare] GEREGU: found 0 links
+2026-06-17 16:48:45,140 [WARNING] [NGX Portal] GEREGU search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=GEREGU
+2026-06-17 16:48:47,158 [INFO]   -> GEREGU: 0 documents found
+2026-06-17 16:48:47,158 [INFO] Discovering: ARADEL — Aradel Holdings Plc
+2026-06-17 16:48:55,099 [INFO] [Proshare] ARADEL: found 0 links
+2026-06-17 16:49:12,088 [WARNING] [NGX Portal] ARADEL search failed: 404 Client Error: Not Found for url: https://ngxgroup.com/exchange/data/company-filings/?ticker=ARADEL
+2026-06-17 16:49:14,117 [INFO]   -> ARADEL: 0 documents found
+2026-06-17 16:49:14,147 [INFO] Discovery complete. {'total_discovered': 39, 'total_downloaded': 22, 'total_extracted': 19, 'total_failed': 3}
+2026-06-17 16:49:14,147 [INFO] === DOWNLOAD PHASE ===
+2026-06-17 16:49:14,147 [INFO] Queued 0 documents for download
+2026-06-17 16:49:14,166 [INFO] Download complete. {'total_discovered': 39, 'total_downloaded': 22, 'total_extracted': 19, 'total_failed': 3}
+2026-06-17 16:49:14,166 [INFO] === EXTRACTION PHASE ===
+2026-06-17 16:49:14,166 [INFO] Queued 3 PDFs for text extraction
+2026-06-17 16:49:14,167 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\STERLING\STERLING_Read_Our_Annual_Report_a007d4bd.pdf
+2026-06-17 16:49:14,167 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\DANGOTE\Dangote-Cement-Plcs-AR-2025-At-at-Glance.pdf
+2026-06-17 16:49:14,168 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\SEPLATENERGY\investor-presentation_-post-9m-2025-results_12-11-2025_approved-1.pdf
+2026-06-17 16:49:14,553 [INFO]   Corpus index saved: 19 documents
+2026-06-17 16:49:14,553 [INFO] Extraction complete. {'total_discovered': 39, 'total_downloaded': 22, 'total_extracted': 19, 'total_failed': 3}

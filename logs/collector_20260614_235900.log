@@ -1,0 +1,4 @@
+2026-06-14 23:59:00,419 [INFO] === EXTRACTION PHASE ===
+2026-06-14 23:59:00,420 [INFO] Queued 0 PDFs for text extraction
+2026-06-14 23:59:03,948 [INFO]   Corpus index saved: 20 documents
+2026-06-14 23:59:03,949 [INFO] Extraction complete. {'total_discovered': 37, 'total_downloaded': 20, 'total_extracted': 20, 'total_failed': 3}

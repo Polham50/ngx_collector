@@ -1,0 +1,7 @@
+2026-06-14 23:14:47,560 [INFO] === EXTRACTION PHASE ===
+2026-06-14 23:14:47,560 [INFO] Queued 3 PDFs for text extraction
+2026-06-14 23:14:47,561 [INFO]   Extracting: Dangote-Cement-Plcs-AR-2025-At-at-Glance.pdf
+2026-06-14 23:14:56,234 [INFO]   Extracting: Guaranty-Trust-Holding-Company-Plc-2025-Financial-Statements.pdf
+2026-06-14 23:16:52,378 [INFO]   Extracting: investor-presentation_-post-9m-2025-results_12-11-2025_approved-1.pdf
+2026-06-14 23:17:15,025 [INFO]   Corpus index saved: 3 documents
+2026-06-14 23:17:15,026 [INFO] Extraction complete. {'total_discovered': 32, 'total_downloaded': 15, 'total_extracted': 15, 'total_failed': 3}

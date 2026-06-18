@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "description": "NGX-FND target company registry for LLM financial narrative analysis",
+    "version": "1.0",
+    "total_companies": 50,
+    "sectors": ["Banking", "Oil & Gas", "Consumer Goods", "Telecoms", "Industrial"]
+  },
+  "companies": [
+    {"ticker": "ZENITHBANK", "name": "Zenith Bank Plc", "sector": "Banking", "tier": 1, "ir_url": "https://www.zenithbank.com/investor-relations/financial-results/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "GTCO", "name": "Guaranty Trust Holding Company Plc", "sector": "Banking", "tier": 1, "ir_url": "https://www.gtcoplc.com/investor-relations/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "ACCESS", "name": "Access Holdings Plc", "sector": "Banking", "tier": 1, "ir_url": "https://www.accessbankplc.com/investor-relations", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "UBA", "name": "United Bank for Africa Plc", "sector": "Banking", "tier": 1, "ir_url": "https://www.ubagroup.com/investor-relations/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "FBNH", "name": "FBN Holdings Plc", "sector": "Banking", "tier": 1, "ir_url": "https://www.fbnholdings.com/investor-relations/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "STANBIC", "name": "Stanbic IBTC Holdings Plc", "sector": "Banking", "tier": 1, "ir_url": "https://www.stanbicibtcholdings.com/investor-relations", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "FIDELITYBK", "name": "Fidelity Bank Plc", "sector": "Banking", "tier": 2, "ir_url": "https://www.fidelitybank.ng/investor-relations/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "FCMB", "name": "FCMB Group Plc", "sector": "Banking", "tier": 2, "ir_url": "https://www.fcmbgroup.com/investor-relations/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "STERLING", "name": "Sterling Financial Holdings Plc", "sector": "Banking", "tier": 2, "ir_url": "https://www.sterlingbankng.com/investor-relations/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "WEMA", "name": "Wema Bank Plc", "sector": "Banking", "tier": 2, "ir_url": "https://www.wemabank.com/investor-relations/", "sec_url": "https://sec.gov.ng"},
+
+    {"ticker": "SEPLAT", "name": "Seplat Energy Plc", "sector": "Oil & Gas", "tier": 1, "ir_url": "https://www.seplatenergy.com/investors/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "OANDO", "name": "Oando Plc", "sector": "Oil & Gas", "tier": 1, "ir_url": "https://www.oandoplc.com/investor-relations/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "TOTAL", "name": "TotalEnergies Marketing Nigeria Plc", "sector": "Oil & Gas", "tier": 1, "ir_url": "https://totalenergies.com.ng/investors", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "ARDOVA", "name": "Ardova Plc", "sector": "Oil & Gas", "tier": 2, "ir_url": "https://www.ardovaplc.com/investor-relations/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "CONOIL", "name": "Conoil Plc", "sector": "Oil & Gas", "tier": 2, "ir_url": "https://www.conoilplc.com/investor-relations/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "ETERNA", "name": "Eterna Plc", "sector": "Oil & Gas", "tier": 2, "ir_url": "https://www.eternaplc.com/investor-relations/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "JAPAUL", "name": "Japaul Gold & Ventures Plc", "sector": "Oil & Gas", "tier": 2, "ir_url": "https://sec.gov.ng", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "NNPC", "name": "MRS Oil Nigeria Plc", "sector": "Oil & Gas", "tier": 2, "ir_url": "https://sec.gov.ng", "sec_url": "https://sec.gov.ng"},
+
+    {"ticker": "DANGCEM", "name": "Dangote Cement Plc", "sector": "Industrial", "tier": 1, "ir_url": "https://www.dangotecement.com/investors/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "BUACEMENT", "name": "BUA Cement Plc", "sector": "Industrial", "tier": 1, "ir_url": "https://www.buacement.com/investors/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "WAPCO", "name": "Lafarge Africa Plc", "sector": "Industrial", "tier": 1, "ir_url": "https://www.lafarge.com.ng/investors/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "CUTIX", "name": "Cutix Plc", "sector": "Industrial", "tier": 2, "ir_url": "https://sec.gov.ng", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "BERGER", "name": "Berger Paints Nigeria Plc", "sector": "Industrial", "tier": 2, "ir_url": "https://sec.gov.ng", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "PORTPAINT", "name": "Portland Paints & Products Nigeria Plc", "sector": "Industrial", "tier": 2, "ir_url": "https://sec.gov.ng", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "CAPhotels", "name": "Capital Hotel Plc", "sector": "Industrial", "tier": 2, "ir_url": "https://sec.gov.ng", "sec_url": "https://sec.gov.ng"},
+
+    {"ticker": "MTNN", "name": "MTN Nigeria Communications Plc", "sector": "Telecoms", "tier": 1, "ir_url": "https://www.mtnnigeria.net/investors/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "AIRTELAFRI", "name": "Airtel Africa Plc", "sector": "Telecoms", "tier": 1, "ir_url": "https://www.airtelafrica.com/investors/", "sec_url": "https://sec.gov.ng"},
+
+    {"ticker": "NESTLE", "name": "Nestle Nigeria Plc", "sector": "Consumer Goods", "tier": 1, "ir_url": "https://www.nestle-cwa.com/ng/investors/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "UNILEVER", "name": "Unilever Nigeria Plc", "sector": "Consumer Goods", "tier": 1, "ir_url": "https://www.unilever-ewa.com/investor-relations/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "DANGSUGAR", "name": "Dangote Sugar Refinery Plc", "sector": "Consumer Goods", "tier": 1, "ir_url": "https://www.dangotesugar.com.ng/investors/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "FLOURMILL", "name": "Flour Mills of Nigeria Plc", "sector": "Consumer Goods", "tier": 1, "ir_url": "https://www.flourmillsofnigeria.com/investors/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "GUINNESS", "name": "Guinness Nigeria Plc", "sector": "Consumer Goods", "tier": 1, "ir_url": "https://www.guinness-nigeria.com/investor-relations/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "NB", "name": "Nigerian Breweries Plc", "sector": "Consumer Goods", "tier": 1, "ir_url": "https://www.nbplc.com/investors/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "INTBREW", "name": "International Breweries Plc", "sector": "Consumer Goods", "tier": 2, "ir_url": "https://sec.gov.ng", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "NASCON", "name": "NASCON Allied Industries Plc", "sector": "Consumer Goods", "tier": 2, "ir_url": "https://sec.gov.ng", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "CADBURY", "name": "Cadbury Nigeria Plc", "sector": "Consumer Goods", "tier": 2, "ir_url": "https://www.cadburynigeria.com/investor-relations/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "PRESCO", "name": "Presco Plc", "sector": "Consumer Goods", "tier": 2, "ir_url": "https://sec.gov.ng", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "OKOMUOIL", "name": "Okomu Oil Palm Plc", "sector": "Consumer Goods", "tier": 2, "ir_url": "https://sec.gov.ng", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "CHAMPION", "name": "Champion Breweries Plc", "sector": "Consumer Goods", "tier": 2, "ir_url": "https://sec.gov.ng", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "VITAFOAM", "name": "Vitafoam Nigeria Plc", "sector": "Consumer Goods", "tier": 2, "ir_url": "https://sec.gov.ng", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "NNFM", "name": "Northern Nigerian Flour Mills Plc", "sector": "Consumer Goods", "tier": 2, "ir_url": "https://sec.gov.ng", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "LIVESTOCK", "name": "Livestock Feeds Plc", "sector": "Consumer Goods", "tier": 2, "ir_url": "https://sec.gov.ng", "sec_url": "https://sec.gov.ng"},
+
+    {"ticker": "TRANSCORP", "name": "Transnational Corporation Plc", "sector": "Industrial", "tier": 2, "ir_url": "https://www.transcorpplc.com/investor-relations/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "JULI", "name": "Juli Plc", "sector": "Industrial", "tier": 2, "ir_url": "https://sec.gov.ng", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "NSLTECH", "name": "Tripple Gee and Company Plc", "sector": "Industrial", "tier": 2, "ir_url": "https://sec.gov.ng", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "VERITASKAP", "name": "Veritas Kapital Assurance Plc", "sector": "Industrial", "tier": 2, "ir_url": "https://sec.gov.ng", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "BUAFOODS", "name": "BUA Foods Plc", "sector": "Consumer Goods", "tier": 1, "ir_url": "https://www.buafoods.com/investors/", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "GEREGU", "name": "Geregu Power Plc", "sector": "Industrial", "tier": 1, "ir_url": "https://sec.gov.ng", "sec_url": "https://sec.gov.ng"},
+    {"ticker": "ARADEL", "name": "Aradel Holdings Plc", "sector": "Oil & Gas", "tier": 1, "ir_url": "https://sec.gov.ng", "sec_url": "https://sec.gov.ng"}
+  ]
+}

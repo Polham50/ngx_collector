@@ -1,0 +1,14 @@
+2026-06-14 22:50:23,682 [INFO] === CLEANING PHASE ===
+2026-06-14 22:50:23,687 [INFO] Processing 12 extracted files
+2026-06-14 22:50:23,687 [INFO]   Cleaning: FBNH_FBN_Holdings_Plc_H1_2020_Results_Present_a63464af.json
+2026-06-14 22:50:23,773 [INFO]   Cleaning: FBNH_First_HoldCo_Plc_9M_2025_Unaudited_Finan_557fef83.json
+2026-06-14 22:50:24,045 [INFO]   Cleaning: FBNH_First_HoldCo_Plc_Q1_2026_Unaudited_Finan_ee424764.json
+2026-06-14 22:50:24,441 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2017_4ae688b0.json
+2026-06-14 22:50:26,601 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2018_4e0c6eb0.json
+2026-06-14 22:50:28,065 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2019_492add82.json
+2026-06-14 22:50:28,814 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2020_5209d07c.json
+2026-06-14 22:50:29,710 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2023_7d55a9a0.json
+2026-06-14 22:50:30,827 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2024_27c8e547.json
+2026-06-14 22:50:32,264 [INFO]   Cleaning: FIDELITYBK_Investor_Presentation_a24a14df.json
+2026-06-14 22:50:32,333 [INFO]   Cleaning: FIDELITYBK_Proxy_Form_2c87e4db.json
+2026-06-14 22:50:32,342 [INFO]   Cleaning: STERLING_Read_Our_Annual_Report_a007d4bd.json

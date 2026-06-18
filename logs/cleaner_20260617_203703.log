@@ -1,0 +1,52 @@
+2026-06-17 20:37:03,046 [INFO] === CLEANING PHASE ===
+2026-06-17 20:37:03,052 [INFO] Processing 49 extracted files
+2026-06-17 20:37:03,052 [INFO]   Cleaning: 45213_ACCESS_HOLDINGS_PLC-_QUARTER_2_-_FINANCIAL_STATEMENT_FOR_2025_FINANCIAL_STATEMENTS_OCTOBER_2025.json
+2026-06-17 20:37:04,551 [INFO]   Cleaning: 46923_ACCESS_HOLDINGS_PLC-_QUARTER_5_-_FINANCIAL_STATEMENT_FOR_2025_FINANCIAL_STATEMENTS_MAY_2026.json
+2026-06-17 20:37:06,315 [INFO]   Cleaning: Abriged-FS-2025-Q1-Final.json
+2026-06-17 20:37:06,341 [INFO]   Cleaning: Access-Bank-Plc-September-2024-Financial-Statement.json
+2026-06-17 20:37:07,495 [INFO]   Cleaning: ACCESS-HOLDINGS-PLC-FINANCIAL-STATEMENTS-30-SEPTEMBER-2025.json
+2026-06-17 20:37:08,406 [INFO]   Cleaning: Access-Holdings-PLC-FY-2025.json
+2026-06-17 20:37:10,343 [INFO]   Cleaning: Access-Holdings-Q1-2026.json
+2026-06-17 20:37:11,174 [INFO]   Cleaning: BUACEMENT_2025_Annual_Reports___Accounts_9a1a0718.json
+2026-06-17 20:37:11,728 [INFO]   Cleaning: Dangote-Cement-Plcs-AR-2025-At-at-Glance.json
+2026-06-17 20:37:11,764 [INFO]   Cleaning: DANGOTE-SUGAR-AGM-2024-CHAIRMANS-STATEMENT.json
+2026-06-17 20:37:11,838 [INFO]   Cleaning: DANGOTE-SUGAR-REFINERY-PLC-2025-ANNUAL-REPORT-CHAIRMANS-STATEMENT.json
+2026-06-17 20:37:11,875 [INFO]   Cleaning: DANGOTE-SUGAR-REFINERY-PLC-2025-ANNUAL-REPORT.json
+2026-06-17 20:37:13,174 [INFO]   Cleaning: NASCON-Allied-Industries-Plc-2025-H1-Financial-Statements.json
+2026-06-17 20:37:13,421 [INFO]   Cleaning: Nascon-Allied-Industries-Plc-Q3-2025-Financial-Statements.json
+2026-06-17 20:37:14,043 [INFO]   Cleaning: NASCON-Audited-Finanical-Statements-FY-2023.json
+2026-06-17 20:37:14,426 [INFO]   Cleaning: NASCON-FY-2025-Financial-Statement.json
+2026-06-17 20:37:14,691 [INFO]   Cleaning: NASCON-FY-2025-Result-Statement.json
+2026-06-17 20:37:14,710 [INFO]   Cleaning: NASCON-Q3-FS.json
+2026-06-17 20:37:14,927 [INFO]   Cleaning: NASCON-Unaudited-Financial-Statement-2023-Q3-Result.json
+2026-06-17 20:37:15,220 [INFO]   Cleaning: NASCON-Unaudited-Q1-2023-FS.json
+2026-06-17 20:37:15,420 [INFO]   Cleaning: FBNH_FBN_Holdings_Plc_H1_2020_Results_Present_a63464af.json
+2026-06-17 20:37:15,506 [INFO]   Cleaning: FBNH_First_HoldCo_Plc_9M_2025_Unaudited_Finan_557fef83.json
+2026-06-17 20:37:15,709 [INFO]   Cleaning: FBNH_First_HoldCo_Plc_Q1_2026_Unaudited_Finan_ee424764.json
+2026-06-17 20:37:15,933 [INFO]   Cleaning: 2024 FCMB ANNUAL REPORT & ACCOUNTS.json
+2026-06-17 20:37:17,803 [INFO]   Cleaning: 47129_FCMB_GROUP_PLC-_QUARTER_5_-_FINANCIAL_STATEMENT_FOR_2025_FINANCIAL_STATEMENTS_JUNE_2026.json
+2026-06-17 20:37:18,970 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2017_4ae688b0.json
+2026-06-17 20:37:19,884 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2018_4e0c6eb0.json
+2026-06-17 20:37:21,066 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2019_492add82.json
+2026-06-17 20:37:23,149 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2020_5209d07c.json
+2026-06-17 20:37:24,485 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2023_7d55a9a0.json
+2026-06-17 20:37:26,661 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2024_27c8e547.json
+2026-06-17 20:37:29,757 [INFO]   Cleaning: FIDELITYBK_Annual_Report_bf585906.json
+2026-06-17 20:37:33,295 [INFO]   Cleaning: FIDELITYBK_Investor_Presentation_a24a14df.json
+2026-06-17 20:37:33,908 [INFO]   Cleaning: FIDELITYBK_Proxy_Form_2c87e4db.json
+2026-06-17 20:37:33,922 [INFO]   Cleaning: Guaranty-Trust-Holding-Company-Plc-2025-Financial-Statements.json
+2026-06-17 20:37:36,067 [INFO]   Cleaning: Full-Year-2025-Audited-Financial-Statements-Nigerian-Breweries-Plc.json
+2026-06-17 20:37:36,093 [INFO]   Cleaning: NB-ANNUAL-REPORT-doc-1.json
+2026-06-17 20:37:36,959 [INFO]   Cleaning: For-the-Nine-Months-ended-30-September-2024.json
+2026-06-17 20:37:37,601 [INFO]   Cleaning: Unaudited Financial Statements - Quarter 2 2024.json
+2026-06-17 20:37:37,952 [INFO]   Cleaning: unaudited-financial-statements-september-2023.json
+2026-06-17 20:37:38,299 [INFO]   Cleaning: investor-presentation_-post-9m-2025-results_12-11-2025_approved-1.json
+2026-06-17 20:37:38,450 [INFO]   Cleaning: 1777473162-StanbicIBTCHoldingsPLC2025AnnualReport.json
+2026-06-17 20:37:42,469 [INFO]   Cleaning: STERLING_Read_Our_Annual_Report_a007d4bd.json
+2026-06-17 20:37:44,193 [INFO]   Cleaning: UBA-2025-AR-NGX.json
+2026-06-17 20:37:47,151 [INFO]   Cleaning: UBA-ANNUAL-REPORT-ACCOUNTS-2022.json
+2026-06-17 20:37:48,486 [INFO]   Cleaning: UBA-PLC-2025-Annual-Report.json
+2026-06-17 20:37:49,824 [INFO]   Cleaning: NASCON-Audited-Finanical-Statements-FY-2022.json
+2026-06-17 20:37:50,659 [INFO]   Cleaning: NASCON-Audited-Finanical-Statements-FY-2023-.json
+2026-06-17 20:37:52,214 [INFO]   Cleaning: NASCON-Audited-Finanical-Statements-FY-2023.json
+2026-06-17 20:37:53,602 [INFO] Annotation queue saved: 1074 passages -> C:\Users\USER\Documents\ngx_collector\data\metadata\annotation_queue.csv

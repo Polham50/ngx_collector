@@ -1,0 +1,21 @@
+2026-06-15 07:22:08,135 [INFO] === CLEANING PHASE ===
+2026-06-15 07:22:08,141 [INFO] Processing 18 extracted files
+2026-06-15 07:22:08,141 [INFO]   Cleaning: FBNH_FBN_Holdings_Plc_H1_2020_Results_Present_a63464af.json
+2026-06-15 07:22:08,234 [INFO]   Cleaning: FBNH_First_HoldCo_Plc_9M_2025_Unaudited_Finan_557fef83.json
+2026-06-15 07:22:08,463 [INFO]   Cleaning: FBNH_First_HoldCo_Plc_Q1_2026_Unaudited_Finan_ee424764.json
+2026-06-15 07:22:08,717 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2017_4ae688b0.json
+2026-06-15 07:22:09,936 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2018_4e0c6eb0.json
+2026-06-15 07:22:10,871 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2019_492add82.json
+2026-06-15 07:22:11,562 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2020_5209d07c.json
+2026-06-15 07:22:12,538 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2023_7d55a9a0.json
+2026-06-15 07:22:13,511 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2024_27c8e547.json
+2026-06-15 07:22:15,020 [INFO]   Cleaning: FIDELITYBK_Investor_Presentation_a24a14df.json
+2026-06-15 07:22:15,297 [INFO]   Cleaning: FIDELITYBK_Proxy_Form_2c87e4db.json
+2026-06-15 07:22:15,332 [INFO]   Cleaning: Guaranty-Trust-Holding-Company-Plc-2025-Financial-Statements.json
+2026-06-15 07:22:16,209 [INFO]   Cleaning: Full-Year-2025-Audited-Financial-Statements-Nigerian-Breweries-Plc.json
+2026-06-15 07:22:16,333 [INFO]   Cleaning: NB-ANNUAL-REPORT-doc-1.json
+2026-06-15 07:22:16,675 [INFO]   Cleaning: For-the-Nine-Months-ended-30-September-2024.json
+2026-06-15 07:22:16,823 [INFO]   Cleaning: Unaudited Financial Statements - Quarter 2 2024.json
+2026-06-15 07:22:16,922 [INFO]   Cleaning: unaudited-financial-statements-september-2023.json
+2026-06-15 07:22:17,098 [INFO]   Cleaning: STERLING_Read_Our_Annual_Report_a007d4bd.json
+2026-06-15 07:22:18,293 [INFO] Annotation queue saved: 136 passages -> C:\Users\USER\Desktop\DataQUry\ngx_collector\data\metadata\annotation_queue.csv

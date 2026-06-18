@@ -1,0 +1,6 @@
+group,n,mean_car,std_car,median_car,t_stat,p_value,sig,pct_positive_car
+Negative,54,-0.0139,0.0258,-0.0115,-3.9124,0.0003,***,0.1852
+Neutral,20,-0.0046,0.0228,-0.002,-0.8831,0.3882,,0.4
+Positive,46,0.0188,0.0252,0.0175,5.0153,0.0,***,0.8043
+Positive vs Negative (diff),46 vs 54,0.0327,,0.029,6.332,0.0,***,
+Spearman rho (sentiment vs CAR),120,0.5677,,,,0.0,***,

@@ -1,0 +1,24 @@
+2026-06-15 14:11:08,365 [INFO] === EXTRACTION PHASE ===
+2026-06-15 14:11:08,365 [INFO] Queued 20 PDFs for text extraction
+2026-06-15 14:11:08,367 [INFO]   Extracting: FBNH_First_HoldCo_Plc_Q1_2026_Unaudited_Finan_ee424764.pdf
+2026-06-15 14:11:32,764 [INFO]   Extracting: FBNH_First_HoldCo_Plc_9M_2025_Unaudited_Finan_557fef83.pdf
+2026-06-15 14:12:08,185 [INFO]   Extracting: FBNH_FBN_Holdings_Plc_H1_2020_Results_Present_a63464af.pdf
+2026-06-15 14:12:17,145 [INFO]   Extracting: FIDELITYBK_Investor_Presentation_a24a14df.pdf
+2026-06-15 14:12:33,534 [INFO]   Extracting: FIDELITYBK_Annual_Report_2024_27c8e547.pdf
+2026-06-15 14:14:45,999 [INFO]   Extracting: FIDELITYBK_Annual_Report_2023_7d55a9a0.pdf
+2026-06-15 14:15:55,623 [INFO]   Extracting: FIDELITYBK_Annual_Report_2020_5209d07c.pdf
+2026-06-15 14:16:56,636 [INFO]   Extracting: FIDELITYBK_Annual_Report_2019_492add82.pdf
+2026-06-15 14:18:04,536 [INFO]   Extracting: FIDELITYBK_Annual_Report_2018_4e0c6eb0.pdf
+2026-06-15 14:19:31,898 [INFO]   Extracting: FIDELITYBK_Annual_Report_2017_4ae688b0.pdf
+2026-06-15 14:20:25,958 [INFO]   Extracting: FIDELITYBK_Proxy_Form_2c87e4db.pdf
+2026-06-15 14:20:26,263 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\STERLING\STERLING_Read_Our_Annual_Report_a007d4bd.pdf
+2026-06-15 14:20:26,264 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\DANGOTE\Dangote-Cement-Plcs-AR-2025-At-at-Glance.pdf
+2026-06-15 14:20:26,265 [INFO]   Extracting: Guaranty-Trust-Holding-Company-Plc-2025-Financial-Statements.pdf
+2026-06-15 14:22:58,448 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\SEPLATENERGY\investor-presentation_-post-9m-2025-results_12-11-2025_approved-1.pdf
+2026-06-15 14:22:58,449 [INFO]   Extracting: For-the-Nine-Months-ended-30-September-2024.pdf
+2026-06-15 14:23:15,389 [INFO]   Extracting: Unaudited Financial Statements - Quarter 2 2024.pdf
+2026-06-15 14:23:26,152 [INFO]   Extracting: unaudited-financial-statements-september-2023.pdf
+2026-06-15 14:23:36,773 [INFO]   Extracting: Full-Year-2025-Audited-Financial-Statements-Nigerian-Breweries-Plc.pdf
+2026-06-15 14:23:37,718 [INFO]   Extracting: NB-ANNUAL-REPORT-doc-1.pdf
+2026-06-15 14:26:27,136 [INFO]   Corpus index saved: 17 documents
+2026-06-15 14:26:27,137 [INFO] Extraction complete. {'total_discovered': 37, 'total_downloaded': 20, 'total_extracted': 17, 'total_failed': 3}

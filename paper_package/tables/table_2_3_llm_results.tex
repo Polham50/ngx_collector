@@ -1,0 +1,36 @@
+% === TABLE 2: Main Results ===
+
+\begin{table}[h]
+\centering
+\caption{LLM Performance on NGX-FND: Sentiment Classification and Forward Guidance Detection}
+\label{tab:main_results}
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{llcccccc}
+\hline
+\textbf{Model} & \textbf{Shots} & \textbf{Acc} & \textbf{Macro-F1} & \textbf{$\kappa$} & \textbf{F1$_{pos}$} & \textbf{F1$_{neg}$} & \textbf{F1$_{neu}$} \\
+\hline
+\multicolumn{8}{l}{\textit{Sentiment Classification}} \\
+Test Model           & 5 & 0.789 & 0.763 & 0.672 & 0.889 & 0.600 & 0.800 \\
+Test Model           & 5 & 0.696 & 0.679 & 0.536 & 0.667 & 0.824 & 0.545 \\
+Test Model           & 5 & 0.889 & 0.882 & 0.827 & 0.857 & 0.857 & 0.933 \\
+\hline
+\end{tabular}
+\end{table}
+
+
+% === TABLE 3: Guidance Results ===
+
+\begin{table}[h]
+\centering
+\caption{Forward Guidance Detection Performance on NGX-FND}
+\label{tab:guidance_results}
+\begin{tabular}{llcccc}
+\hline
+\textbf{Model} & \textbf{Shots} & \textbf{Acc} & \textbf{Prec} & \textbf{Rec} & \textbf{F1} \\
+\hline
+Test Model           & 5 & 0.474 & 0.462 & 0.667 & 0.545 \\
+Test Model           & 5 & 0.565 & 0.222 & 0.400 & 0.286 \\
+Test Model           & 5 & 0.500 & 0.500 & 0.333 & 0.400 \\
+\hline
+\end{tabular}
+\end{table}

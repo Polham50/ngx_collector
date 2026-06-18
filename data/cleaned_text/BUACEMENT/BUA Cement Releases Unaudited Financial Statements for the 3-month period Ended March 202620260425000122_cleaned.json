@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "ticker": "BUACEMENT",
+    "company_name": "BUACEMENT",
+    "sector": "Industrial",
+    "year": "Unknown",
+    "doc_type": "manual_pdf",
+    "source": "manual",
+    "local_path": "C:\\Users\\USER\\Documents\\ngx_collector\\data\\raw_pdfs\\BUACEMENT\\BUA Cement Releases Unaudited Financial Statements for the 3-month period Ended March 202620260425000122.pdf",
+    "char_counts": {
+      "full_text": 4595,
+      "chairman_statement": 0,
+      "ceo_review": 0,
+      "operating_review": 0,
+      "outlook": 0,
+      "governance": 0,
+      "extraction_status": 2
+    }
+  },
+  "cleaned_sections": {
+    "full_text": {
+      "text": "Media Relations\nE. media@buacement.com\nT. 01 461 0669\nInvestor Relations\nE. investor.relations@buacement.com\nT. 01 461 0670\n\n\nANALYST NOTE\n\n\nNGX: BUACEMENT\n\n\nBloomberg: BUACEMEN:NL\n\n\nReuters: BUACEMENT.LG\n\nBUA Cement Analyst Note\nPAGE 1\nContact\nBUA CEMENT PLC RELEASES UNAUDITED FINANCIAL RESULTS FOR THE 3-MONTH\nPERIOD ENDED MARCH 2026. SUSTAINS REVENUE GROWTH BY 22.1% TO N355\nBILLION; PROFIT BEFORE TAX RECORDS A TWO-FOLD INCREASE TO N192.7 BILLION;\nPROFIT AFTER TAX RISES BY 117.4% TO N176.4 BILLION.\n\nApril 23, 2026\nLagos, Nigeria.\n\nBUA Cement (\"the Company\") announces the release of its First Quarter 2026 Unaudited Financial\nStatements, reporting a 22.1% increase in revenue to N355 billion from N290.8 billion in the corresponding quarter ended March 2025. In addition, profit before tax increased by 93.2% to N192.7 billion (Q1'2025: N99.7 billion), with profit after tax up by 117.4% to N176.4 billion (Q1'2025: N81.1 billion).\n\nThe result was driven by cost efficiency, reflecting the outcome of Management's earlier strategic alignment, and supported by strong interest income growth and foreign exchange gains. Direct cost per tonne declined for the second consecutive year, down 2.1% year-on-year, underscoring sustained cost control and operational efficiency. Total cost, including selling, distribution, and administrative expenses, rose marginally by 1.9% to N175.8 billion from N172.5 billion in Q1 2025, remaining below the average inflation rate for the period despite global energy shocks arising from geopolitical tensions.\n\nOverall, business margins held at acceptable levels. Specifically, gross profit and EBITDA margin rose by 9.2% and 9% points, respectively to 56.9% and 53.9%. Furthermore, the Company reported an EPS of N5.21 (Q1'2025: N2.40), along with a return of equity of 23.2% (Q1'2025: 18.9%).\n\nSpeaking on the results release, the Managing Director, Yusuf Binji said, \"It is encouraging to see our results and organisational transformation aligning so well. Revenue growth remained strong as we continue to meet cement demand, including in the bulk segment. We also progressed our business transformation programme during the quarter, including the realignment of the Transport Department for greater effectiveness. While the transition presented some challenges, we have now achieved operational stability.\n\nFollowing the strategic alignment initiated mid-last year, we expect the benefits to be fully reflected in our bottom line this fiscal year and sustained thereafter. Considering the current geopolitical environment, our cost reduction initiatives have proven timely, safeguarding our profitability and reinforcing operational agility.\n\nOver the coming quarters, our focus will be on further reducing operating costs through optimisation and enhanced monitoring, while increasing brand penetration, particularly within what we define as 'new markets'.\"\n\n\n\n-MORE-\n\n\n\nMedia Relations\nE. media@buacement.com\nT. 01 461 0669\nInvestor Relations\nE. investor.relations@buacement.com\nT. 01 461 0670\n\n\nANALYST NOTE\n\n\nNGX: BUACEMENT\n\n\nBloomberg: BUACEMEN:NL\n\n\nReuters: BUACEMENT.LG\n\nBUA Cement Analyst Note\nPAGE 2\nContact\nI.\nFinancial Highlights\n\n\nN'm\nQ1'2026\nQ1'2025 %∆\nRevenue\n354,979\n290,821\n22.1\nCost of sales (153,080) (152,067)\n0.7\nOperating profit\n179,509\n119,035\n50.8\nProfit before tax\n192,685\n99,741\n93.2\nProfit after tax\n176,377\n81,124\n117.4\nEarnings per share (kobo)\n117.4\n\n\n\n\n\n\n\n\n\n\n-ENDS-\n\n\nFOR FURTHER INFORMATION:\n\n\n\n\n\nLadipo Ogunlesi (Investor Relations / FP&A)\n\n\n+234 1 4610670\n\n\n\n\n\n\n\n\nladipo.ogunlesi@buacement.com\n\n\n\n\n\n\nBUA Cement Plc is Nigeria's second largest cement company and the largest producer in its North-West,\nSouth-South and South-East regions; with a combined installed capacity of 17 mmtpa and with plans underway to increase existing capacity to 20 mmtpa with the construction of a greenfield cement plant in\nOsoso, Edo State. BUA Cement operates strategically from Okpella, Edo State and Kalambaina, Sokoto State.\n\nCurrently, it is one of the most capitalised companies of the  (NGX). BUA Cement is committed to quality - a differentiating attribute, driven by its people, innovation and technology; and positioned to solving Nigeria's cement under capacity while driving economic growth and development.\n\nMore information can be found at www.buacement.com.",
+      "quality": "good",
+      "char_count": 4329,
+      "original_len": 4595,
+      "compression": 5.8
+    },
+    "chairman_statement": {
+      "text": "",
+      "quality": "empty",
+      "char_count": 0
+    },
+    "ceo_review": {
+      "text": "",
+      "quality": "empty",
+      "char_count": 0
+    },
+    "operating_review": {
+      "text": "",
+      "quality": "empty",
+      "char_count": 0
+    },
+    "outlook": {
+      "text": "",
+      "quality": "empty",
+      "char_count": 0
+    }
+  },
+  "passages": [],
+  "passage_count": 0,
+  "good_passages": 0,
+  "processed_at": "2026-06-18T12:30:32.909183"
+}

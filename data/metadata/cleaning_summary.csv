@@ -1,0 +1,72 @@
+ticker,file,passage_count,good_passages,year,sector,doc_type
+ACCESS,45213_ACCESS_HOLDINGS_PLC-_QUARTER_2_-_FINANCIAL_STATEMENT_FOR_2025_FINANCIAL_STATEMENTS_OCTOBER_2025.json,9,0,Unknown,Banking,manual_pdf
+ACCESS,46923_ACCESS_HOLDINGS_PLC-_QUARTER_5_-_FINANCIAL_STATEMENT_FOR_2025_FINANCIAL_STATEMENTS_MAY_2026.json,15,1,Unknown,Banking,manual_pdf
+ACCESS,Abriged-FS-2025-Q1-Final.json,0,0,Unknown,Banking,manual_pdf
+ACCESS,Access-Bank-Plc-September-2024-Financial-Statement.json,0,0,Unknown,Banking,manual_pdf
+ACCESS,ACCESS-HOLDINGS-PLC-FINANCIAL-STATEMENTS-30-SEPTEMBER-2025.json,2,0,Unknown,Banking,manual_pdf
+ACCESS,Access-Holdings-PLC-FY-2025.json,15,1,Unknown,Banking,manual_pdf
+ACCESS,Access-Holdings-Q1-2026.json,6,0,Unknown,Banking,manual_pdf
+AIICO,AIICO_2025_Audited_FS.json,0,0,Unknown,Banking,manual_pdf
+AIICO,ng-aiico-2025-ar-00.json,56,5,Unknown,Banking,manual_pdf
+AIRTELAFRI,Airtel_Africa_plc_Annual_Report_and_Accounts_2026.json,40,19,Unknown,Telecoms,manual_pdf
+AIRTELAFRI,LSE_AAF.L_2025.json,47,21,Unknown,Telecoms,manual_pdf
+BUACEMENT,BUA Cement Plc 2024 - compressed20260302033844.json,20,10,Unknown,Industrial,manual_pdf
+BUACEMENT,BUA Cement Releases Unaudited Financial Statements for the 3-month period Ended March 202620260425000122.json,0,0,Unknown,Industrial,manual_pdf
+BUACEMENT,BUACEMENT_2025_Annual_Reports___Accounts_9a1a0718.json,2,0,,Industrial,annual_report
+CADBURY,43612_CADBURY_NIGERIA_PLC.-_QUARTER_5_-_FINANCIAL_STATEMENT_FOR_2024_FINANCIAL_STATEMENTS_MARCH_2025.json,88,16,Unknown,Consumer Goods,manual_pdf
+CADBURY,ng-cadbur-2024-ar-00.json,88,16,Unknown,Consumer Goods,manual_pdf
+DANGCEM,Dangote-Cement-Plcs-AR-2025-At-at-Glance.json,0,0,Unknown,Industrial,manual_pdf
+DANGCEM,DANGOTE-SUGAR-AGM-2024-CHAIRMANS-STATEMENT.json,30,13,Unknown,Industrial,manual_pdf
+DANGCEM,DANGOTE-SUGAR-REFINERY-PLC-2025-ANNUAL-REPORT-CHAIRMANS-STATEMENT.json,12,7,Unknown,Industrial,manual_pdf
+DANGCEM,DANGOTE-SUGAR-REFINERY-PLC-2025-ANNUAL-REPORT.json,16,1,Unknown,Industrial,manual_pdf
+DANGCEM,NASCON-Allied-Industries-Plc-2025-H1-Financial-Statements.json,45,13,Unknown,Industrial,manual_pdf
+DANGCEM,Nascon-Allied-Industries-Plc-Q3-2025-Financial-Statements.json,45,13,Unknown,Industrial,manual_pdf
+DANGCEM,NASCON-Audited-Finanical-Statements-FY-2023.json,0,0,Unknown,Industrial,manual_pdf
+DANGCEM,NASCON-FY-2025-Financial-Statement.json,3,0,Unknown,Industrial,manual_pdf
+DANGCEM,NASCON-FY-2025-Result-Statement.json,0,0,Unknown,Industrial,manual_pdf
+DANGCEM,NASCON-Q3-FS.json,49,13,Unknown,Industrial,manual_pdf
+DANGCEM,NASCON-Unaudited-Financial-Statement-2023-Q3-Result.json,46,12,Unknown,Industrial,manual_pdf
+DANGCEM,NASCON-Unaudited-Q1-2023-FS.json,46,13,Unknown,Industrial,manual_pdf
+ETI,20260423093934855a.json,13,1,Unknown,Banking,manual_pdf
+ETI,20260610034536778v.json,76,44,Unknown,Banking,manual_pdf
+FBNH,FBNH_FBN_Holdings_Plc_H1_2020_Results_Present_a63464af.json,3,0,2021,Banking,interim_report
+FBNH,FBNH_First_HoldCo_Plc_9M_2025_Unaudited_Finan_557fef83.json,0,0,,Banking,earnings_release
+FBNH,FBNH_First_HoldCo_Plc_Q1_2026_Unaudited_Finan_ee424764.json,0,0,,Banking,quarterly_results
+FCMB,2024 FCMB ANNUAL REPORT & ACCOUNTS.json,5,2,Unknown,Banking,manual_pdf
+FCMB,47129_FCMB_GROUP_PLC-_QUARTER_5_-_FINANCIAL_STATEMENT_FOR_2025_FINANCIAL_STATEMENTS_JUNE_2026.json,34,1,Unknown,Banking,manual_pdf
+FIDELITYBK,FIDELITYBK_Annual_Report_2017_4ae688b0.json,36,12,2020,Banking,annual_report
+FIDELITYBK,FIDELITYBK_Annual_Report_2018_4e0c6eb0.json,34,5,2020,Banking,annual_report
+FIDELITYBK,FIDELITYBK_Annual_Report_2019_492add82.json,38,3,,Banking,annual_report
+FIDELITYBK,FIDELITYBK_Annual_Report_2020_5209d07c.json,41,10,2020,Banking,annual_report
+FIDELITYBK,FIDELITYBK_Annual_Report_2023_7d55a9a0.json,16,1,2023,Banking,annual_report
+FIDELITYBK,FIDELITYBK_Annual_Report_2024_27c8e547.json,21,2,2024,Banking,annual_report
+FIDELITYBK,FIDELITYBK_Annual_Report_bf585906.json,31,15,,Banking,annual_report
+FIDELITYBK,FIDELITYBK_Investor_Presentation_a24a14df.json,0,0,,Banking,annual_report
+FIDELITYBK,FIDELITYBK_Proxy_Form_2c87e4db.json,0,0,2024,Banking,agm_statement
+GTCO,Guaranty-Trust-Holding-Company-Plc-2025-Financial-Statements.json,39,3,2023,Banking,other
+GUINNESS,Guinness-Nigeria-Plc-Press-Announcement-Q1F26.json,0,0,Unknown,Consumer Goods,manual_pdf
+GUINNESS,Guinness-Nigeria-Plc-Q1-26-Unaudited-Financials.json,36,3,Unknown,Consumer Goods,manual_pdf
+GUINNESS,Guinness-Nigeria-Plc_Q5F25_Unaudited-Financial-Statements.json,0,0,Unknown,Consumer Goods,manual_pdf
+JBERGER,2026.05.05_julius_berger_nigeria_plc_-_annual_reports_2025.json,37,15,Unknown,Industrial,manual_pdf
+JBERGER,annual_reports_2024.json,37,9,Unknown,Industrial,manual_pdf
+MANSARD,2024-Q1-Unaudited-Financial-Statements.json,3,0,Unknown,Banking,manual_pdf
+MANSARD,2025-Q1-Unaudited-Financial-Statements_.json,0,0,Unknown,Banking,manual_pdf
+MTNN,MTN-Nigeria-Audited-Financial-Statements-2024.json,5,0,Unknown,Telecoms,manual_pdf
+MTNN,MTN-Nigeria-FY-2025-Audited-Financial-Statements.json,1,0,Unknown,Telecoms,manual_pdf
+NASCON,NASCON-Audited-Finanical-Statements-FY-2022.json,0,0,Unknown,Consumer Goods,manual_pdf
+NASCON,NASCON-Audited-Finanical-Statements-FY-2023-.json,75,17,Unknown,Consumer Goods,manual_pdf
+NASCON,NASCON-Audited-Finanical-Statements-FY-2023.json,25,4,Unknown,Consumer Goods,manual_pdf
+NB,Full-Year-2025-Audited-Financial-Statements-Nigerian-Breweries-Plc.json,0,0,2023,Consumer Goods,other
+NB,NB-ANNUAL-REPORT-doc-1.json,54,16,2023,Consumer Goods,annual_report
+NESTLE,For-the-Nine-Months-ended-30-September-2024.json,43,6,2024,Consumer Goods,other
+NESTLE,Unaudited Financial Statements - Quarter 2 2024.json,44,8,2024,Consumer Goods,earnings_release
+NESTLE,unaudited-financial-statements-september-2023.json,43,8,2023,Consumer Goods,earnings_release
+SEPLAT,investor-presentation_-post-9m-2025-results_12-11-2025_approved-1.json,0,0,Unknown,Oil & Gas,manual_pdf
+STANBIC,1777473162-StanbicIBTCHoldingsPLC2025AnnualReport.json,8,4,Unknown,Banking,manual_pdf
+STERLING,STERLING_Read_Our_Annual_Report_a007d4bd.json,10,1,2024,Banking,annual_report
+UBA,UBA-2025-AR-NGX.json,63,31,Unknown,Banking,manual_pdf
+UBA,UBA-ANNUAL-REPORT-ACCOUNTS-2022.json,8,0,Unknown,Banking,manual_pdf
+UBA,UBA-PLC-2025-Annual-Report.json,62,35,Unknown,Banking,manual_pdf
+UNILEVER,unilever-annual-report-and-accounts-2025.json,79,45,Unknown,Consumer Goods,manual_pdf
+UNILEVER,unilever-annual-report-on-form-20-f-2025.json,90,55,Unknown,Consumer Goods,manual_pdf
+WAPCO,ng-wapco-2025-ar-00.json,42,7,Unknown,Industrial,manual_pdf

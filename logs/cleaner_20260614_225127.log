@@ -1,0 +1,15 @@
+2026-06-14 22:51:27,926 [INFO] === CLEANING PHASE ===
+2026-06-14 22:51:27,928 [INFO] Processing 12 extracted files
+2026-06-14 22:51:27,929 [INFO]   Cleaning: FBNH_FBN_Holdings_Plc_H1_2020_Results_Present_a63464af.json
+2026-06-14 22:51:28,018 [INFO]   Cleaning: FBNH_First_HoldCo_Plc_9M_2025_Unaudited_Finan_557fef83.json
+2026-06-14 22:51:28,254 [INFO]   Cleaning: FBNH_First_HoldCo_Plc_Q1_2026_Unaudited_Finan_ee424764.json
+2026-06-14 22:51:28,522 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2017_4ae688b0.json
+2026-06-14 22:51:29,429 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2018_4e0c6eb0.json
+2026-06-14 22:51:30,510 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2019_492add82.json
+2026-06-14 22:51:31,733 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2020_5209d07c.json
+2026-06-14 22:51:32,655 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2023_7d55a9a0.json
+2026-06-14 22:51:33,744 [INFO]   Cleaning: FIDELITYBK_Annual_Report_2024_27c8e547.json
+2026-06-14 22:51:35,718 [INFO]   Cleaning: FIDELITYBK_Investor_Presentation_a24a14df.json
+2026-06-14 22:51:35,785 [INFO]   Cleaning: FIDELITYBK_Proxy_Form_2c87e4db.json
+2026-06-14 22:51:35,796 [INFO]   Cleaning: STERLING_Read_Our_Annual_Report_a007d4bd.json
+2026-06-14 22:51:37,013 [INFO] Annotation queue saved: 86 passages -> C:\Users\USER\Desktop\DataQUry\ngx_collector\data\metadata\annotation_queue.csv

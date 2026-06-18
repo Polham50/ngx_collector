@@ -1,0 +1,7 @@
+2026-06-17 10:17:20,309 [INFO] 
+============================================================
+2026-06-17 10:17:20,310 [INFO] NGX-FND Error Analysis & Failure Taxonomy
+2026-06-17 10:17:20,319 [INFO] ============================================================
+2026-06-17 10:17:20,707 [INFO] Loaded predictions: combined_5shot_20260615_0958 (57 rows)
+2026-06-17 10:17:21,106 [INFO] Using annotated queue: 4 passages
+2026-06-17 10:17:21,450 [INFO] Tagged predictions saved: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\error_analysis\failure_taxonomy.csv

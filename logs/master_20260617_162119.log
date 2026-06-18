@@ -1,0 +1,21 @@
+2026-06-17 16:21:19,222 [INFO] 
+NGX-FND Pipeline -- Running: data
+2026-06-17 16:21:19,223 [INFO] Stages: ['collect', 'clean', 'validate']
+2026-06-17 16:21:19,223 [INFO] 
+=======================================================
+2026-06-17 16:21:19,223 [INFO] Running: Stage 1: Data Collection
+2026-06-17 16:21:19,224 [INFO] =======================================================
+2026-06-17 16:21:19,226 [INFO]   Running: C:\Users\USER\AppData\Local\Programs\Python\Python310\python.exe C:\Users\USER\Desktop\DataQUry\ngx_collector\scripts\ngx_collector.py --mode full
+2026-06-17 16:49:15,900 [INFO]   Stage complete [OK]
+2026-06-17 16:49:15,901 [INFO] 
+=======================================================
+2026-06-17 16:49:15,901 [INFO] Running: Stage 2: Text Cleaning
+2026-06-17 16:49:15,901 [INFO] =======================================================
+2026-06-17 16:49:15,902 [INFO]   Running: C:\Users\USER\AppData\Local\Programs\Python\Python310\python.exe C:\Users\USER\Desktop\DataQUry\ngx_collector\scripts\text_cleaner.py
+2026-06-17 16:50:01,600 [INFO]   Stage complete [OK]
+2026-06-17 16:50:01,615 [INFO] 
+=======================================================
+2026-06-17 16:50:01,616 [INFO] Running: Stage 3: Corpus Validation
+2026-06-17 16:50:01,616 [INFO] =======================================================
+2026-06-17 16:50:01,617 [INFO]   Running: C:\Users\USER\AppData\Local\Programs\Python\Python310\python.exe C:\Users\USER\Desktop\DataQUry\ngx_collector\scripts\corpus_validator.py --report
+2026-06-17 16:50:09,940 [INFO]   Stage complete [OK]

@@ -1,0 +1,19 @@
+2026-06-15 00:19:13,559 [WARNING] Prompt 'combined_3shot' not found, using 'combined_0shot'
+2026-06-15 00:19:13,561 [INFO] 
+============================================================
+2026-06-15 00:19:13,562 [INFO] NGX-FND LLM Evaluation Run
+2026-06-15 00:19:13,562 [INFO] Task: combined | Shots: 3 | Models: ['gpt4o', 'claude', 'gemini']
+2026-06-15 00:19:13,562 [INFO] Run ID: combined_3shot_20260615_0019
+2026-06-15 00:19:13,563 [INFO] ============================================================
+2026-06-15 00:19:13,604 [INFO] Gold standard not found — using annotation queue: 122 passages
+2026-06-15 00:19:13,610 [INFO] Sampled 1 passages
+2026-06-15 00:19:13,612 [INFO] Evaluating 1 passages × 3 models
+2026-06-15 00:19:13,613 [INFO] Prompt: combined_0shot
+2026-06-15 00:19:13,613 [INFO] 
+==================================================
+2026-06-15 00:19:13,613 [INFO] Model: GPT-4o
+2026-06-15 00:19:13,613 [INFO] ==================================================
+2026-06-15 00:19:24,533 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-06-15 00:19:24,537 [WARNING]   [GPT-4o] attempt 1 failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: AQ.Ab8RN*****************************************e4OQ. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-06-15 00:19:33,984 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-06-15 00:19:33,988 [WARNING]   [GPT-4o] attempt 2 failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: AQ.Ab8RN*****************************************e4OQ. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}

@@ -1,0 +1,11 @@
+2026-06-14 14:04:28,006 [INFO] 
+============================================================
+2026-06-14 14:04:28,006 [INFO] NGX-FND Error Analysis & Failure Taxonomy
+2026-06-14 14:04:28,006 [INFO] ============================================================
+2026-06-14 14:04:28,085 [INFO] Loaded predictions: test_run_001 (60 rows)
+2026-06-14 14:04:28,093 [INFO] Tagged predictions saved: /home/claude/ngx_collector/data/error_analysis/failure_taxonomy.csv
+2026-06-14 14:04:28,112 [INFO] Cross-model disagreements: 0 / 60 passages (nan%)
+2026-06-14 14:04:28,135 [INFO] Qualitative examples saved
+2026-06-14 14:04:28,136 [INFO] LaTeX section saved: /home/claude/ngx_collector/data/error_analysis/paper_section_4_4.tex
+2026-06-14 14:04:28,136 [INFO] 
+✅ Error analysis complete. Outputs in: /home/claude/ngx_collector/data/error_analysis

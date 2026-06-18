@@ -1,0 +1,22 @@
+{
+  "total_evaluated": 0,
+  "total_errors": 0,
+  "error_rate": 0,
+  "sentiment_errors": 0,
+  "guidance_errors": 0,
+  "tag_counts": {},
+  "tag_rates": {},
+  "error_rate_by_model": {
+    "error_rate": {},
+    "n_errors": {},
+    "n_total": {}
+  },
+  "error_rate_by_sector": {
+    "error_rate": {},
+    "n": {}
+  },
+  "error_rate_by_doctype": {
+    "error_rate": {},
+    "n": {}
+  }
+}

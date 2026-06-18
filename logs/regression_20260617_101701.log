@@ -1,0 +1,19 @@
+2026-06-17 10:17:01,987 [INFO] 
+============================================================
+2026-06-17 10:17:01,987 [INFO] NGX-FND Return-Sentiment Analysis
+2026-06-17 10:17:01,989 [INFO] Dependent variable: CAR[0,+3]
+2026-06-17 10:17:01,989 [INFO] ============================================================
+2026-06-17 10:17:02,052 [INFO] Loaded 120 events with valid CAR[0,+3]
+2026-06-17 10:17:03,447 [INFO] Placebo test: true coef=0.02704, placebo p=0.0000 (1000 permutations)
+2026-06-17 10:17:09,350 [INFO] Bootstrap CI (95%): [0.01924, 0.03435] over 2000 valid resamples
+2026-06-17 10:17:09,352 [INFO]   Robustness checks saved: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\returns_analysis\robustness_checks.json
+2026-06-17 10:17:09,370 [INFO] 
+[doc] LaTeX tables saved: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\returns_analysis\paper_tables.tex
+2026-06-17 10:17:09,370 [INFO] 
+Generating figures...
+2026-06-17 10:17:32,299 [INFO]   Plot saved: sentiment_vs_CAR0_+3.pdf
+2026-06-17 10:17:39,377 [INFO]   Plot saved: car_by_group_CAR0_+3.pdf
+2026-06-17 10:17:47,526 [INFO]   Plot saved: car_by_sector.pdf
+2026-06-17 10:17:47,530 [INFO] [chart] All figures saved to: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\figures\returns_20260617
+2026-06-17 10:17:47,532 [INFO] 
+[OK] Analysis complete. Results in: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\returns_analysis
