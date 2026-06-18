@@ -53,6 +53,7 @@ HEADER_FOOTER_PATTERNS = [
     r"^\s*\|\s*\d+\s*\|\s*$",                   # table page markers
     r"confidential.*?only\s*$",
     r"^\s*for the (year|period) ended.*?$",
+    r"^.*?(?:/|\|)\s*(?:annual report|business review|strategic report|financial statements).*$", # Airtel/others footer
 ]
 
 # Boilerplate legal/regulatory phrases to strip
@@ -154,25 +155,25 @@ def fix_number_formatting(text: str) -> str:
 
 def segment_paragraphs(text: str) -> str:
     """Ensure clean paragraph breaks for LLM input."""
-    # Merge adjacent non-blank lines to form complete paragraphs.
-    lines = text.split("\n")
-    merged = []
-    buffer = []
+    # Split by blank lines to get natural paragraphs
+    blocks = re.split(r'\n\s*\n', text)
+    cleaned_blocks = []
     
-    for line in lines:
-        line = line.strip()
-        if not line:
-            if buffer:
-                merged.append(" ".join(buffer))
-                buffer = []
+    for block in blocks:
+        # Merge wrapped lines within the block
+        merged_block = re.sub(r'(?<!\n)\n(?!\n)', ' ', block).strip()
+        merged_block = re.sub(r'\s+', ' ', merged_block)
+        if not merged_block:
             continue
             
-        buffer.append(line)
-        
-    if buffer:
-        merged.append(" ".join(buffer))
-        
-    return "\n\n".join(merged)
+        # If the block starts with a lowercase letter, it's a continuation of the previous block
+        # (happens often with PDF page breaks or aggressive blank lines)
+        if cleaned_blocks and merged_block[0].islower():
+            cleaned_blocks[-1] += " " + merged_block
+        else:
+            cleaned_blocks.append(merged_block)
+            
+    return "\n\n".join(cleaned_blocks)
 
 
 def clean_section(text: str, section_name: str = "") -> dict:
