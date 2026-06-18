@@ -154,32 +154,25 @@ def fix_number_formatting(text: str) -> str:
 
 def segment_paragraphs(text: str) -> str:
     """Ensure clean paragraph breaks for LLM input."""
-    # Merge lines that don't end with sentence punctuation (likely wrapped)
+    # Merge adjacent non-blank lines to form complete paragraphs.
     lines = text.split("\n")
     merged = []
-    buffer = ""
+    buffer = []
+    
     for line in lines:
         line = line.strip()
         if not line:
             if buffer:
-                merged.append(buffer)
-                buffer = ""
-            merged.append("")
+                merged.append(" ".join(buffer))
+                buffer = []
             continue
-        if buffer and not re.search(r"[.!?:;]$", buffer):
-            # Don't merge if the new line starts with a capital letter or digit (likely a new bullet point or table row)
-            if re.match(r"^[A-Z0-9]", line):
-                merged.append(buffer)
-                buffer = line
-            else:
-                buffer = buffer + " " + line
-        else:
-            if buffer:
-                merged.append(buffer)
-            buffer = line
+            
+        buffer.append(line)
+        
     if buffer:
-        merged.append(buffer)
-    return "\n".join(merged)
+        merged.append(" ".join(buffer))
+        
+    return "\n\n".join(merged)
 
 
 def clean_section(text: str, section_name: str = "") -> dict:
