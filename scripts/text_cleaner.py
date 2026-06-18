@@ -54,6 +54,7 @@ HEADER_FOOTER_PATTERNS = [
     r"confidential.*?only\s*$",
     r"^\s*for the (year|period) ended.*?$",
     r"^.*?(?:/|\|)\s*(?:annual report|business review|strategic report|financial statements).*$", # Airtel/others footer
+    r"^\s*(?:strategic report|business review|annual report)\s*$", # standalone footer fragments
 ]
 
 # Boilerplate legal/regulatory phrases to strip
@@ -140,6 +141,8 @@ def fix_ocr_artifacts(text: str) -> str:
     text = re.sub(r"\.{4,}", " ", text)
     # Remove long underscores (form fields, dividers)
     text = re.sub(r"_{3,}", " ", text)
+    # Strip Private Use Area characters (PDF font icons like   )
+    text = re.sub(r'[\uE000-\uF8FF]', ' ', text)
     return text
 
 

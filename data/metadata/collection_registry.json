@@ -719,27 +719,7 @@
     "https://www.fidelitybank.ng/documents/Fidelity-Bank-Plc-2025-Annual-Report.pdf",
     "https://www.buacement.com/documents/20260514_BUA%20CEMENT%20AR25_VF_update%20(INTERACTIVE)20260514091939.pdf"
   ],
-  "extracted": [
-    "https://first-holdco.com/wp-content/uploads/2026/05/First_HoldCo_-_Unaudited_Financial_Statements_Q1_2026.pdf",
-    "https://first-holdco.com/wp-content/uploads/2025/10/45380_FIRST_HOLDCO_PLC-_QUARTER_3_-_FINANCIAL_STATEMENT_FOR_2025_FINANCIAL_STATEMENTS_OCTOBER_2025.pdf",
-    "https://first-holdco.com/wp-content/uploads/2021/08/FBN-Holdings-Plc-%E2%80%93-H1-2021-Results-Presentation.pdf",
-    "https://www.fidelitybank.ng/documents/Fidelity-Bank-2025FY-Investor-Presentation.pdf",
-    "https://www.fidelitybank.ng/documents/2024-Fidelity-Bank-Annual-Report.pdf",
-    "https://www.fidelitybank.ng/documents/Fidelity-Bank-2023-Annual-Report.pdf",
-    "https://www.fidelitybank.ng/documents/2020_Annual_report-Final_compressed.pdf",
-    "https://www.fidelitybank.ng/documents/2019%20Annual%20report%20Final%20Web%20Version.pdf",
-    "https://www.fidelitybank.ng/documents/Fidelity%20annual%20report%202018.pdf",
-    "https://www.fidelitybank.ng/documents/Fidelity%20Annual%20Report%202017%20web-version.pdf",
-    "https://www.fidelitybank.ng/documents/Updated_AGM%202024_Proxy%20Form%20_April_2025.pdf",
-    "manual://GTCO/Guaranty-Trust-Holding-Company-Plc-2025-Financial-Statements.pdf",
-    "manual://NESTLE/For-the-Nine-Months-ended-30-September-2024.pdf",
-    "manual://NESTLE/Unaudited Financial Statements - Quarter 2 2024.pdf",
-    "manual://NESTLE/unaudited-financial-statements-september-2023.pdf",
-    "manual://NB/Full-Year-2025-Audited-Financial-Statements-Nigerian-Breweries-Plc.pdf",
-    "manual://NB/NB-ANNUAL-REPORT-doc-1.pdf",
-    "https://www.fidelitybank.ng/documents/Fidelity-Bank-Plc-2025-Annual-Report.pdf",
-    "https://www.buacement.com/documents/20260514_BUA%20CEMENT%20AR25_VF_update%20(INTERACTIVE)20260514091939.pdf"
-  ],
+  "extracted": [],
   "failed": [
     {
       "url": "https://first-holdco.com/wp-content/uploads/2026/05/First-HoldCo-Plc-2025-Annual-Report-Accounts-_.pdf",

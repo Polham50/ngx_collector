@@ -1,26 +1,12 @@
 {
   "meta": {
-    "source": "manual",
     "ticker": "NB",
-    "url": "manual://NB/Full-Year-2025-Audited-Financial-Statements-Nigerian-Breweries-Plc.pdf",
-    "title": "Full-Year-2025-Audited-Financial-Statements-Nigerian-Breweries-Plc",
-    "doc_type": "other",
-    "company_name": "Nigerian Breweries Plc",
+    "company_name": "NB",
     "sector": "Consumer Goods",
-    "year": "2023",
-    "discovered_at": "2026-06-14T23:51:33.171230",
-    "local_path": "C:\\Users\\USER\\Desktop\\DataQUry\\ngx_collector\\data\\raw_pdfs\\NB\\Full-Year-2025-Audited-Financial-Statements-Nigerian-Breweries-Plc.pdf",
-    "downloaded_at": "2026-06-14T23:51:33.171230",
-    "extracted_at": "2026-06-15T14:30:22.427595",
-    "extraction_stats": {
-      "page_count": 2,
-      "full_text_chars": 4364,
-      "chairman_chars": 0,
-      "ceo_chars": 4274,
-      "operating_chars": 0,
-      "outlook_chars": 446,
-      "extraction_status": "ok"
-    },
+    "year": "Unknown",
+    "doc_type": "manual_pdf",
+    "source": "manual",
+    "local_path": "C:\\Users\\USER\\Documents\\ngx_collector\\data\\raw_pdfs\\NB\\Full-Year-2025-Audited-Financial-Statements-Nigerian-Breweries-Plc.pdf",
     "char_counts": {
       "full_text": 4364,
       "chairman_statement": 0,
@@ -33,11 +19,11 @@
   },
   "cleaned_sections": {
     "full_text": {
-      "text": "DIRECTORS: Mrs. J.C Anammah - Chair; T.F.B Boidin (French) - Managing Director/Chief Executive; Mrs. O.A. Akande;\n\nMrs. A.O. Aroyewun; G.B.M Duverdier (French); M.A. Karaseva (Russian); Mrs. S.O. Ojekwe-Onyejeli;\n\nJ.A.A. Overmars (Dutch); R. Pirmez (Belgian); I.A. Puri.\n\n\nLagos, 13th February 2026\n\nAUDITED FINANCIAL STATEMENTS FOR THE YEAR ENDED 31st DECEMBER 2025\n\nThe Board of Directors (\"the Board\") of Nigerian Breweries Plc (\"the Company\") hereby announces the following Audited Financial Statements for the year ended 31st December 2025:\n\nIncome Statement\nGroup*\nCompany\nGroup*\nCompany\nGroup\nCompany\n\n31/12/2025\n31/12/2025\n31/12/2024\n31/12/2024\nChange\nChange\n\nNG(NGN million)\nNG(NGN million)\nNG(NGN million)\nNG(NGN million) % %\nRevenue\n\n1,467,422\n\n1,462,472\n\n1,084,436\n\n1,074,882\nCost of Sales\n\n(902,240)\n\n(897,734)\n\n(764,520)\n\n(757,330) (18) (19)\nGross Profit\n\n565,182\n\n564,737\n\n319,916\n\n317,551\nMarketing, Distribution & Admin.\nExpenses\n\n(364,142)\n\n(375,353)\n\n(254,048)\n\n(253,177) (43) (48)\nOther Income\n\n4,159\n\n4,159\n\n4,029\n\n4,029\nResults from Operating\nActivities\n\n205,199\n\n193,543\n\n69,897\n\n68,403\nNet finance Expense\n\n(44,137)\n\n(41,969)\n\n(252,814)\n\n(250,822)\nProfit/(Loss) before tax\n\n161,062\n\n151,575\n\n(182,917)\n\n(182,419)\nIncome Tax\n\n(61,962)\n\n(60,915)\n\n38,034\n\n38,081 (263) (260)\nProfit/(Loss) after Tax from\nContinuing Operations\n\n99,100\n\n90,660\n\n(144,883)\n\n(144,338)\nLoss for the year from\nDiscontinued Operations\n\n\n\n(113)\n\n-\nProfit/(Loss) for the year\n\n99,100\n\n90,660\n\n(144,996)\n\n(144,338)\nProfit/(loss) for the period attributable to:\n\n\n\n\n-  -\nEquity Owners\n\n99,100\n\n90,660\n\n(144,887)\n\n(144,338)\nNon-Controlling Interest\n\n\n\n(109)\n\n\n100.0 -\nProfit/(Loss) for the Period\n\n99,100\n\n90,660\n\n(144,996)\n\n(144,338)\nBasic earnings per share (kobo)\n\n\n\n(1,207)\n\n(1,203)\nDiluted earnings per share (kobo)\n\n\n\n(1,207)\n\n(1,203)\n\n\nThe detailed Financial Statements for the year are available on the Company's website, www.nbplc.com/investor-relations.\n*Group results include the figures of Distell Wines and Spirits Nigeria Limited, a subsidiary of the Company.\n\n\n\n\nComments:\nIn 2025, the Company made a rebound from what was a challenging year for the business in\n2024 driven mainly by macroeconomic factors. 2025 saw an improved but still volatile operating environment. Group revenue grew by 35%, supported by sustained innovation, premiumisation, right pricing, and strong commercial execution.\nGroup operating profit grew by over 190%, reflecting the revenue growth, rigorous cost discipline, productivity gains, and supply chain efficiencies on the back of the 2024 business recovery plan. Group net profit rebounded by 168% from the net loss position of a year earlier.\nThe rebound was aided by an 83% reduction in net finance costs following the successful 2024\nRights Issue which helped to deleverage the balance sheet and eliminate foreign currency exposures.\nDespite the positive 2025 results, the Company's retained earnings position remained in the negative, arising from the heavy net losses suffered in the last two years. The Board is nevertheless pleased that the journey to reversing the negative position is proceeding in line with expectations.\nThe full acquisition and integration of Distell Wines and Spirits Nigeria Limited was completed in 2025 with a one-off integration cost. The integration will help to expand the Company's beyond beer portfolio and contribute to its long-term growth prospects.\nThe Board is confident that with the continuing support of Shareholders as well as the continuous focus on agility, innovation, revenue management, and financial discipline, the\nCompany is set for sustainable growth and long-term value creation for the Shareholders.\nBy Order of the Board\n\n\n\nUaboi G. AGBEBAKU, Esq.\nCompany Secretary\nFRC/2013/PRO/NBA/002/00000001003\nIganmu House, Abebe Village Road\nIganmu, Lagos, Nigeria",
+      "text": "DIRECTORS: Mrs. J.C Anammah - Chair; T.F.B Boidin (French) - Managing Director/Chief Executive; Mrs. O.A. Akande;\n\nMrs. A.O. Aroyewun; G.B.M Duverdier (French); M.A. Karaseva (Russian); Mrs. S.O. Ojekwe-Onyejeli;\n\nJ.A.A. Overmars (Dutch); R. Pirmez (Belgian); I.A. Puri.\n\nLagos, 13th February 2026\n\nAUDITED FINANCIAL STATEMENTS FOR THE YEAR ENDED 31st DECEMBER 2025\n\nThe Board of Directors (\"the Board\") of Nigerian Breweries Plc (\"the Company\") hereby announces the following Audited Financial Statements for the year ended 31st December 2025:\n\nIncome Statement Group* Company Group* Company Group Company\n\n31/12/2025 31/12/2025 31/12/2024 31/12/2024 Change Change\n\nNG(NGN million) NG(NGN million) NG(NGN million) NG(NGN million) % % Revenue\n\n1,467,422\n\n1,462,472\n\n1,084,436\n\n1,074,882 Cost of Sales\n\n(902,240)\n\n(897,734)\n\n(764,520)\n\n(757,330) (18) (19) Gross Profit\n\n565,182\n\n564,737\n\n319,916\n\n317,551 Marketing, Distribution & Admin. Expenses\n\n(364,142)\n\n(375,353)\n\n(254,048)\n\n(253,177) (43) (48) Other Income\n\n4,159\n\n4,159\n\n4,029\n\n4,029 Results from Operating Activities\n\n205,199\n\n193,543\n\n69,897\n\n68,403 Net finance Expense\n\n(44,137)\n\n(41,969)\n\n(252,814)\n\n(250,822) Profit/(Loss) before tax\n\n161,062\n\n151,575\n\n(182,917)\n\n(182,419) Income Tax\n\n(61,962)\n\n(60,915)\n\n38,034\n\n38,081 (263) (260) Profit/(Loss) after Tax from Continuing Operations\n\n99,100\n\n90,660\n\n(144,883)\n\n(144,338) Loss for the year from Discontinued Operations\n\n(113)\n\n- Profit/(Loss) for the year\n\n99,100\n\n90,660\n\n(144,996)\n\n(144,338) Profit/(loss) for the period attributable to:\n\n- - Equity Owners\n\n99,100\n\n90,660\n\n(144,887)\n\n(144,338) Non-Controlling Interest\n\n(109)\n\n100.0 - Profit/(Loss) for the Period\n\n99,100\n\n90,660\n\n(144,996)\n\n(144,338) Basic earnings per share (kobo)\n\n(1,207)\n\n(1,203) Diluted earnings per share (kobo)\n\n(1,207)\n\n(1,203)\n\nThe detailed Financial Statements for the year are available on the Company's website, www.nbplc.com/investor-relations. *Group results include the figures of Distell Wines and Spirits Nigeria Limited, a subsidiary of the Company.\n\nComments: In 2025, the Company made a rebound from what was a challenging year for the business in 2024 driven mainly by macroeconomic factors. 2025 saw an improved but still volatile operating environment. Group revenue grew by 35%, supported by sustained innovation, premiumisation, right pricing, and strong commercial execution. Group operating profit grew by over 190%, reflecting the revenue growth, rigorous cost discipline, productivity gains, and supply chain efficiencies on the back of the 2024 business recovery plan. Group net profit rebounded by 168% from the net loss position of a year earlier. The rebound was aided by an 83% reduction in net finance costs following the successful 2024 Rights Issue which helped to deleverage the balance sheet and eliminate foreign currency exposures. Despite the positive 2025 results, the Company's retained earnings position remained in the negative, arising from the heavy net losses suffered in the last two years. The Board is nevertheless pleased that the journey to reversing the negative position is proceeding in line with expectations. The full acquisition and integration of Distell Wines and Spirits Nigeria Limited was completed in 2025 with a one-off integration cost. The integration will help to expand the Company's beyond beer portfolio and contribute to its long-term growth prospects. The Board is confident that with the continuing support of Shareholders as well as the continuous focus on agility, innovation, revenue management, and financial discipline, the Company is set for sustainable growth and long-term value creation for the Shareholders. By Order of the Board\n\nUaboi G. AGBEBAKU, Esq. Company Secretary FRC/2013/PRO/NBA/002/00000001003 Iganmu House, Abebe Village Road Iganmu, Lagos, Nigeria",
       "quality": "good",
-      "char_count": 3850,
+      "char_count": 3830,
       "original_len": 4364,
-      "compression": 11.8
+      "compression": 12.2
     },
     "chairman_statement": {
       "text": "",
@@ -63,5 +49,5 @@
   "passages": [],
   "passage_count": 0,
   "good_passages": 0,
-  "processed_at": "2026-06-18T12:30:59.393711"
+  "processed_at": "2026-06-18T22:22:36.528832"
 }

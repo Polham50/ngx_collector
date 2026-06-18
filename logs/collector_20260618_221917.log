@@ -1,0 +1,26 @@
+2026-06-18 22:19:17,799 [INFO] === EXTRACTION PHASE ===
+2026-06-18 22:19:17,800 [INFO] Queued 22 PDFs for text extraction
+2026-06-18 22:19:17,808 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\FBNH\FBNH_First_HoldCo_Plc_Q1_2026_Unaudited_Finan_ee424764.pdf
+2026-06-18 22:19:17,809 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\FBNH\FBNH_First_HoldCo_Plc_9M_2025_Unaudited_Finan_557fef83.pdf
+2026-06-18 22:19:17,817 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\FBNH\FBNH_FBN_Holdings_Plc_H1_2020_Results_Present_a63464af.pdf
+2026-06-18 22:19:17,818 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\FIDELITYBK\FIDELITYBK_Investor_Presentation_a24a14df.pdf
+2026-06-18 22:19:17,819 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\FIDELITYBK\FIDELITYBK_Annual_Report_2024_27c8e547.pdf
+2026-06-18 22:19:17,819 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\FIDELITYBK\FIDELITYBK_Annual_Report_2023_7d55a9a0.pdf
+2026-06-18 22:19:17,820 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\FIDELITYBK\FIDELITYBK_Annual_Report_2020_5209d07c.pdf
+2026-06-18 22:19:17,820 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\FIDELITYBK\FIDELITYBK_Annual_Report_2019_492add82.pdf
+2026-06-18 22:19:17,820 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\FIDELITYBK\FIDELITYBK_Annual_Report_2018_4e0c6eb0.pdf
+2026-06-18 22:19:17,821 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\FIDELITYBK\FIDELITYBK_Annual_Report_2017_4ae688b0.pdf
+2026-06-18 22:19:17,821 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\FIDELITYBK\FIDELITYBK_Proxy_Form_2c87e4db.pdf
+2026-06-18 22:19:17,822 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\STERLING\STERLING_Read_Our_Annual_Report_a007d4bd.pdf
+2026-06-18 22:19:17,822 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\DANGOTE\Dangote-Cement-Plcs-AR-2025-At-at-Glance.pdf
+2026-06-18 22:19:17,823 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\GTCO\Guaranty-Trust-Holding-Company-Plc-2025-Financial-Statements.pdf
+2026-06-18 22:19:17,823 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\SEPLATENERGY\investor-presentation_-post-9m-2025-results_12-11-2025_approved-1.pdf
+2026-06-18 22:19:17,824 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\NESTLE\For-the-Nine-Months-ended-30-September-2024.pdf
+2026-06-18 22:19:17,824 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\NESTLE\Unaudited Financial Statements - Quarter 2 2024.pdf
+2026-06-18 22:19:17,825 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\NESTLE\unaudited-financial-statements-september-2023.pdf
+2026-06-18 22:19:17,825 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\NB\Full-Year-2025-Audited-Financial-Statements-Nigerian-Breweries-Plc.pdf
+2026-06-18 22:19:17,825 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\NB\NB-ANNUAL-REPORT-doc-1.pdf
+2026-06-18 22:19:17,826 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\FIDELITYBK\FIDELITYBK_Annual_Report_bf585906.pdf
+2026-06-18 22:19:17,828 [WARNING]   PDF not found: C:\Users\USER\Desktop\DataQUry\ngx_collector\data\raw_pdfs\BUACEMENT\BUACEMENT_2025_Annual_Reports___Accounts_9a1a0718.pdf
+2026-06-18 22:19:17,915 [INFO]   Corpus index saved: 19 documents
+2026-06-18 22:19:17,916 [INFO] Extraction complete. {'total_discovered': 39, 'total_downloaded': 22, 'total_extracted': 0, 'total_failed': 3}

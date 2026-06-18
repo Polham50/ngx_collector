@@ -318,10 +318,13 @@ def extract_section(text: str, start_markers: list, end_markers: list,
 
     for marker in start_markers:
         # Allow marker at the very beginning or preceded by newline
-        pattern = re.compile(r'(?:^|\n)\s*' + re.escape(marker.lower()))
+        # Ensure it's a header line (relatively short, ends with newline)
+        pattern = re.compile(r'(?:^|\n)\s*' + re.escape(marker.lower()) + r'[^\n]{0,60}(?:\n|$)')
         match = pattern.search(text_lower)
         if match:
-            start_pos = match.start()
+            # We want to capture starting from the actual text, not the newline preceding it.
+            # match.start() could be the newline character. Let's find the start of the marker itself.
+            start_pos = text_lower.find(marker.lower(), match.start())
             break
 
     if start_pos == -1:
