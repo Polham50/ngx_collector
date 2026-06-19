@@ -7,6 +7,7 @@ import pandas as pd
 import streamlit as st
 import gspread
 import json
+import plotly.express as px
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
 BASE_DIR     = Path(__file__).resolve().parent.parent
@@ -359,155 +360,245 @@ with st.sidebar:
         st.session_state.annotator = None
         st.rerun()
 
-# ── Annotation Logic ───────────────────────────────────────────────────────────
-# Only show good/acceptable quality passages; skip poor automatically
-quality_filter  = ["good", "acceptable"]
-pending_all = df[
-    df["quality"].isin(quality_filter) &
-    (
-        (df["annotation_status"] == "pending") |
-        (df["annotator"].isna()) |
-        (df["annotator"] == "")
+# ── Main App Layout ────────────────────────────────────────────────────────────
+tab_annotate, tab_dashboard = st.tabs(["📝 Annotate", "📊 Analytics Dashboard"])
+
+with tab_annotate:
+    # Only show good/acceptable quality passages; skip poor automatically
+    quality_filter  = ["good", "acceptable"]
+    pending_all = df[
+        df["quality"].isin(quality_filter) &
+        (
+            (df["annotation_status"] == "pending") |
+            (df["annotation_status"] == "ai_annotated") |
+            (df["annotator"].isna()) |
+            (df["annotator"] == "")
+        )
+    ].copy()
+
+    # Apply sector filter
+    if sector_filter != "All":
+        pending_all = pending_all[pending_all["sector"] == sector_filter]
+    
+    # Sort by quality priority then section priority
+    priority_order = {"good": 0, "acceptable": 1}
+    section_order  = {"outlook": 0, "chairman_statement": 1, "ceo_review": 2, "operating_review": 3}
+    pending_all["_q_order"] = pending_all["quality"].map(priority_order).fillna(9)
+    pending_all["_s_order"] = pending_all["section"].map(section_order).fillna(9)
+    pending_all = pending_all.sort_values(["_q_order", "_s_order"])
+    
+    # Progress for selected view
+    total_view = len(df[df["quality"].isin(quality_filter)] if sector_filter == "All"
+                     else df[(df["quality"].isin(quality_filter)) & (df["sector"] == sector_filter)])
+    done_view  = len(df[
+        (df["quality"].isin(quality_filter)) &
+        (df["annotation_status"] == "done") &
+        (df["sector"] == sector_filter if sector_filter != "All" else True)
+    ])
+    
+    st.markdown(
+        f'<div class="progress-text">Progress ({sector_filter}): {done_view} / {total_view} annotatable passages done</div>',
+        unsafe_allow_html=True
     )
-].copy()
-
-# Apply sector filter
-if sector_filter != "All":
-    pending_all = pending_all[pending_all["sector"] == sector_filter]
-
-# Sort by quality priority then section priority
-priority_order = {"good": 0, "acceptable": 1}
-section_order  = {"outlook": 0, "chairman_statement": 1, "ceo_review": 2, "operating_review": 3}
-pending_all["_q_order"] = pending_all["quality"].map(priority_order).fillna(9)
-pending_all["_s_order"] = pending_all["section"].map(section_order).fillna(9)
-pending_all = pending_all.sort_values(["_q_order", "_s_order"])
-
-# Progress for selected view
-total_view = len(df[df["quality"].isin(quality_filter)] if sector_filter == "All"
-                 else df[(df["quality"].isin(quality_filter)) & (df["sector"] == sector_filter)])
-done_view  = len(df[
-    (df["quality"].isin(quality_filter)) &
-    (df["annotation_status"] == "done") &
-    (df["sector"] == sector_filter if sector_filter != "All" else True)
-])
-
-st.markdown(
-    f'<div class="progress-text">Progress ({sector_filter}): {done_view} / {total_view} annotatable passages done</div>',
-    unsafe_allow_html=True
-)
-st.progress(done_view / max(total_view, 1))
-
-if pending_all.empty:
-    st.success(
-        "🎉 All annotatable passages in this view are done! "
-        + ("Try switching sector in the sidebar." if sector_filter != "All" else "")
-    )
-    st.stop()
-
-# Current passage
-idx = pending_all.index[0]
-row = df.loc[idx]
-
-# ── Annotation UI ──────────────────────────────────────────────────────────────
-st.markdown('<div class="content-card">', unsafe_allow_html=True)
-
-# Metadata
-st.markdown(f"""
-<div>
-    <span class="metadata-badge">🏢 {row.get('ticker', '')} ({row.get('company', '')})</span>
-    <span class="metadata-badge">📅 {row.get('year', '')}</span>
-    <span class="metadata-badge">[doc] {row.get('doc_type', '').replace('_',' ').title()}</span>
-    <span class="metadata-badge">📑 {row.get('section', '').replace('_', ' ').title()}</span>
-    <span class="metadata-badge">🏭 {row.get('sector', '')}</span>
-    <span class="metadata-badge">📏 {row.get('word_count', '')} words</span>
-    <span class="metadata-badge">⭐ Quality: {row.get('quality', '')}</span>
-</div>
-""", unsafe_allow_html=True)
-
-# Passage Text
-text = str(row.get("text", ""))
-st.markdown(f'<div class="passage-text">{text}</div>', unsafe_allow_html=True)
-st.markdown('</div>', unsafe_allow_html=True)
-
-# ── Annotation Form ────────────────────────────────────────────────────────────
-with st.form(key="annotation_form", clear_on_submit=True):
-    col1, col2 = st.columns(2)
-
-    with col1:
-        st.markdown('<span class="form-label">1. Overall Sentiment</span>', unsafe_allow_html=True)
-        sentiment = st.radio(
-            "What is the overall tone of this passage?",
-            options=["positive", "negative", "neutral"],
-            format_func=lambda x: x.capitalize(),
-            horizontal=True,
-            label_visibility="collapsed"
+    st.progress(done_view / max(total_view, 1))
+    
+    if pending_all.empty:
+        st.success(
+            "🎉 All annotatable passages in this view are done! "
+            + ("Try switching sector in the sidebar." if sector_filter != "All" else "")
         )
+        # We don't stop the app completely, just this tab
+    else:
+        # Current passage
+        idx = pending_all.index[0]
+        row = df.loc[idx]
+        is_ai_annotated = row.get("annotation_status") == "ai_annotated"
+        ai_prefix = "🤖 (AI Pre-filled) " if is_ai_annotated else ""
 
-        st.markdown('<span class="form-label" style="margin-top: 1rem;">2. Intensity</span>', unsafe_allow_html=True)
-        intensity = st.radio(
-            "How strong is the sentiment?",
-            options=["mild", "moderate", "strong"],
-            format_func=lambda x: x.capitalize(),
-            horizontal=True,
-            label_visibility="collapsed"
-        )
+        # ── Annotation UI ──────────────────────────────────────────────────────────────
+        st.markdown('<div class="content-card">', unsafe_allow_html=True)
+        
+        # Metadata
+        st.markdown(f"""
+        <div>
+            <span class="metadata-badge">🏢 {row.get('ticker', '')} ({row.get('company', '')})</span>
+            <span class="metadata-badge">📅 {row.get('year', '')}</span>
+            <span class="metadata-badge">[doc] {row.get('doc_type', '').replace('_',' ').title()}</span>
+            <span class="metadata-badge">📑 {row.get('section', '').replace('_', ' ').title()}</span>
+            <span class="metadata-badge">🏭 {row.get('sector', '')}</span>
+            <span class="metadata-badge">📏 {row.get('word_count', '')} words</span>
+            <span class="metadata-badge">⭐ Quality: {row.get('quality', '')}</span>
+            <span class="metadata-badge">📝 Status: {row.get('annotation_status', 'pending')}</span>
+        </div>
+        """, unsafe_allow_html=True)
+        
+        # Passage Text
+        text = str(row.get("text", ""))
+        st.markdown(f'<div class="passage-text">{text}</div>', unsafe_allow_html=True)
+        st.markdown('</div>', unsafe_allow_html=True)
 
-    with col2:
-        st.markdown('<span class="form-label">3. Forward Guidance</span>', unsafe_allow_html=True)
-        has_guidance_str = st.radio(
-            "Does this contain forward-looking statements?",
-            options=["no", "yes"],
-            format_func=lambda x: x.capitalize(),
-            horizontal=True,
-            label_visibility="collapsed"
-        )
-        has_guidance = has_guidance_str == "yes"
+        # ── Annotation Form ────────────────────────────────────────────────────────────
+        with st.form(key="annotation_form", clear_on_submit=True):
+            col1, col2 = st.columns(2)
+        
+            with col1:
+                st.markdown(f'<span class="form-label">1. Overall Sentiment {ai_prefix}</span>', unsafe_allow_html=True)
+                sentiment_options = ["positive", "negative", "neutral"]
+                default_sentiment = row.get("sentiment_label", "neutral") if is_ai_annotated else "neutral"
+                if default_sentiment not in sentiment_options: default_sentiment = "neutral"
+                sentiment = st.radio(
+                    "What is the overall tone of this passage?",
+                    options=sentiment_options,
+                    index=sentiment_options.index(default_sentiment),
+                    format_func=lambda x: x.capitalize(),
+                    horizontal=True,
+                    label_visibility="collapsed"
+                )
+        
+                st.markdown(f'<span class="form-label" style="margin-top: 1rem;">2. Intensity {ai_prefix}</span>', unsafe_allow_html=True)
+                intensity_options = ["mild", "moderate", "strong"]
+                default_intensity = row.get("sentiment_intensity", "moderate") if is_ai_annotated else "moderate"
+                if default_intensity not in intensity_options: default_intensity = "moderate"
+                intensity = st.radio(
+                    "How strong is the sentiment?",
+                    options=intensity_options,
+                    index=intensity_options.index(default_intensity),
+                    format_func=lambda x: x.capitalize(),
+                    horizontal=True,
+                    label_visibility="collapsed"
+                )
+        
+            with col2:
+                st.markdown(f'<span class="form-label">3. Forward Guidance {ai_prefix}</span>', unsafe_allow_html=True)
+                guidance_options = ["no", "yes"]
+                default_guidance = "yes" if str(row.get("has_guidance", "")).lower() == "true" else "no"
+                has_guidance_str = st.radio(
+                    "Does this contain forward-looking statements?",
+                    options=guidance_options,
+                    index=guidance_options.index(default_guidance) if is_ai_annotated else 0,
+                    format_func=lambda x: x.capitalize(),
+                    horizontal=True,
+                    label_visibility="collapsed"
+                )
+                has_guidance = has_guidance_str == "yes"
+        
+                guidance_type = None
+                guidance_span = None
+        
+                if has_guidance:
+                    st.markdown(f'<span class="form-label" style="margin-top: 1rem;">4. Guidance Type {ai_prefix}</span>', unsafe_allow_html=True)
+                    gtype_options = ["positive", "negative", "neutral", "conditional"]
+                    default_gtype = row.get("guidance_type", "neutral") if is_ai_annotated else "neutral"
+                    if default_gtype not in gtype_options: default_gtype = "neutral"
+                    guidance_type = st.selectbox(
+                        "What type of guidance is this?",
+                        options=gtype_options,
+                        index=gtype_options.index(default_gtype),
+                        format_func=lambda x: x.capitalize(),
+                        label_visibility="collapsed"
+                    )
+        
+                    st.markdown(f'<span class="form-label" style="margin-top: 1rem;">5. Key Guidance Sentence {ai_prefix}</span>', unsafe_allow_html=True)
+                    default_gspan = row.get("guidance_span", "") if is_ai_annotated else ""
+                    guidance_span = st.text_area("Paste the exact sentence", value=default_gspan, height=80, label_visibility="collapsed")
 
-        guidance_type = None
-        guidance_span = None
+            st.markdown('<span class="form-label" style="margin-top: 1rem;">6. Annotation Notes (Optional)</span>', unsafe_allow_html=True)
+            notes = st.text_input("Any extra context?", label_visibility="collapsed")
+        
+            st.markdown("<hr style='border-color: var(--border);'>", unsafe_allow_html=True)
+        
+            col_submit, col_skip, _ = st.columns([2, 1, 5])
+            with col_submit:
+                submitted = st.form_submit_button("[OK] Save & Next Passage", type="primary", use_container_width=True)
+            with col_skip:
+                skipped = st.form_submit_button("⏭ Skip", use_container_width=True)
+        
+            if submitted:
+                updates = {
+                    "sentiment_label": sentiment,
+                    "sentiment_intensity": intensity,
+                    "has_guidance": str(has_guidance),
+                    "guidance_type": guidance_type if guidance_type else "",
+                    "guidance_span": guidance_span if guidance_span else "",
+                    "annotation_notes": notes,
+                    "annotator": annotator,
+                    "annotation_status": "done",
+                    "annotated_at": datetime.now().isoformat()
+                }
+                save_annotation(idx, updates)
+                st.rerun()
+        
+            if skipped:
+                updates = {
+                    "annotation_status": "skipped",
+                    "annotator": annotator
+                }
+                save_annotation(idx, updates)
+                st.rerun()
 
-        if has_guidance:
-            st.markdown('<span class="form-label" style="margin-top: 1rem;">4. Guidance Type</span>', unsafe_allow_html=True)
-            guidance_type = st.selectbox(
-                "What type of guidance is this?",
-                options=["positive", "negative", "neutral", "conditional"],
-                format_func=lambda x: x.capitalize(),
-                label_visibility="collapsed"
-            )
-
-            st.markdown('<span class="form-label" style="margin-top: 1rem;">5. Key Guidance Sentence</span>', unsafe_allow_html=True)
-            guidance_span = st.text_area("Paste the exact sentence", height=80, label_visibility="collapsed")
-
-    st.markdown('<span class="form-label" style="margin-top: 1rem;">6. Annotation Notes (Optional)</span>', unsafe_allow_html=True)
-    notes = st.text_input("Any extra context?", label_visibility="collapsed")
-
-    st.markdown("<hr style='border-color: var(--border);'>", unsafe_allow_html=True)
-
-    col_submit, col_skip, _ = st.columns([2, 1, 5])
-    with col_submit:
-        submitted = st.form_submit_button("[OK] Save & Next Passage", type="primary", use_container_width=True)
-    with col_skip:
-        skipped = st.form_submit_button("⏭ Skip", use_container_width=True)
-
-    if submitted:
-        updates = {
-            "sentiment_label": sentiment,
-            "sentiment_intensity": intensity,
-            "has_guidance": str(has_guidance),
-            "guidance_type": guidance_type if guidance_type else "",
-            "guidance_span": guidance_span if guidance_span else "",
-            "annotation_notes": notes,
-            "annotator": annotator,
-            "annotation_status": "done",
-            "annotated_at": datetime.now().isoformat()
-        }
-        save_annotation(idx, updates)
-        st.rerun()
-
-    if skipped:
-        updates = {
-            "annotation_status": "skipped",
-            "annotator": annotator
-        }
-        save_annotation(idx, updates)
-        st.rerun()
+# ── Analytics Dashboard ────────────────────────────────────────────────────────
+with tab_dashboard:
+    st.markdown('<div class="content-card">', unsafe_allow_html=True)
+    st.markdown("### Market Sentiment Analytics")
+    st.markdown("Insights derived from all annotated passages in the dataset.")
+    
+    # Filter only 'done' passages
+    done_df = df[df["annotation_status"] == "done"].copy()
+    
+    if done_df.empty:
+        st.info("No annotated passages available yet. Complete some annotations to see the analytics!")
+    else:
+        # Key Metrics
+        m1, m2, m3 = st.columns(3)
+        m1.metric("Total Annotations", len(done_df))
+        positive_pct = len(done_df[done_df["sentiment_label"] == "positive"]) / len(done_df) * 100
+        m2.metric("Overall Positivity", f"{positive_pct:.1f}%")
+        guidance_pct = len(done_df[done_df["has_guidance"].str.lower() == "true"]) / len(done_df) * 100
+        m3.metric("Passages with Guidance", f"{guidance_pct:.1f}%")
+        
+        st.markdown("---")
+        
+        c1, c2 = st.columns(2)
+        
+        with c1:
+            # Overall Sentiment Pie Chart
+            sentiment_counts = done_df["sentiment_label"].value_counts().reset_index()
+            sentiment_counts.columns = ["Sentiment", "Count"]
+            color_map = {"positive": "#16a34a", "neutral": "#71717a", "negative": "#dc2626"}
+            fig1 = px.pie(sentiment_counts, values="Count", names="Sentiment", 
+                          title="Overall Sentiment Distribution",
+                          color="Sentiment", color_discrete_map=color_map,
+                          hole=0.4)
+            fig1.update_layout(margin=dict(t=40, b=0, l=0, r=0))
+            st.plotly_chart(fig1, use_container_width=True)
+            
+        with c2:
+            # Sentiment by Sector
+            sector_sentiment = done_df.groupby(["sector", "sentiment_label"]).size().reset_index(name="Count")
+            fig2 = px.bar(sector_sentiment, x="sector", y="Count", color="sentiment_label",
+                          title="Sentiment by Sector",
+                          color_discrete_map=color_map, barmode="stack")
+            fig2.update_layout(xaxis_title="", margin=dict(t=40, b=0, l=0, r=0))
+            st.plotly_chart(fig2, use_container_width=True)
+            
+        st.markdown("---")
+        
+        # Forward Guidance Chart
+        guidance_df = done_df[done_df["has_guidance"].str.lower() == "true"].copy()
+        if not guidance_df.empty:
+            g_sector = guidance_df.groupby(["sector", "guidance_type"]).size().reset_index(name="Count")
+            g_color_map = {"positive": "#16a34a", "neutral": "#71717a", "negative": "#dc2626", "conditional": "#2563eb"}
+            fig3 = px.bar(g_sector, x="sector", y="Count", color="guidance_type",
+                          title="Forward Guidance Breakdown by Sector",
+                          color_discrete_map=g_color_map, barmode="group")
+            fig3.update_layout(xaxis_title="")
+            st.plotly_chart(fig3, use_container_width=True)
+            
+            # Recent Guidance Dataframe
+            st.markdown("**Recent Forward-Looking Statements**")
+            recent_guidance = guidance_df[["company", "sector", "guidance_type", "guidance_span"]].dropna()
+            # Rename for display
+            recent_guidance.columns = ["Company", "Sector", "Type", "Statement"]
+            st.dataframe(recent_guidance.head(10), use_container_width=True, hide_index=True)
+            
+    st.markdown('</div>', unsafe_allow_html=True)
